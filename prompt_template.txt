@@ -1,0 +1,270 @@
+I have an abstract associated with a scientific dataset quoted here: 
+"<abstract>"
+
+I also have a list of topic categories, derived from the EDAM ontology:
+Agricultural science
+Allergy, clinical immunology and immunotherapeutics
+Anaesthesiology
+Analytical chemistry
+Anatomy
+Animal study
+Applied mathematics
+Biobank
+Biochemistry
+Biodiversity
+Bioengineering
+Bioimaging
+Bioinformatics
+Biological databases
+Biology
+Biomarkers
+Biomaterials
+Biomedical science
+Biomolecular simulation
+Biophysics
+Biotechnology
+Biotherapeutics
+Carbohydrates
+Cardiology
+Cell biology
+Cell culture collection
+ChIP-on-chip
+ChIP-seq
+Chemical biology
+Cheminformatics
+Chemistry
+Chemometrics
+Chromosome conformation capture
+Cladistics
+Clone library
+Comparative genomics
+Complementary medicine
+Compound libraries and screening
+Computational biology
+Computational chemistry
+Computer science
+Copy number variation
+Critical care medicine
+Cytogenetics
+Cytometry
+DNA
+DNA binding sites
+DNA mutation
+DNA packaging
+DNA polymorphism
+DNA replication and recombination
+Data acquisition
+Data architecture, analysis and design
+Data governance
+Data identity and mapping
+Data integration and warehousing
+Data mining
+Data quality management
+Data security
+Data submission, annotation and curation
+Data visualisation
+Database management
+Dentistry
+Dermatology
+Developmental biology
+Drug development
+Drug discovery
+Drug metabolism
+Ear, nose and throat medicine
+Echography
+Ecology
+Electron microscopy
+Embryology
+Endocrinology and metabolism
+Environmental science
+Enzymes
+Epigenetics
+Epigenomics
+Epistasis
+Evolutionary biology
+Exome sequencing
+Experimental design and studies
+Fluxomics
+Freshwater biology
+Function analysis
+Functional genomics
+Functional, regulatory and non-coding RNA
+GWAS study
+Gastroenterology
+Gender medicine
+Gene and protein families
+Gene expression
+Gene regulation
+Gene structure
+Gene transcripts
+Genetic engineering
+Genetic variation
+Genetics
+Genome resequencing
+Genomics
+Genotype and phenotype
+Genotyping experiment
+Geriatric medicine
+Gynaecology and obstetrics
+Haematology
+Hepatic and biliary medicine
+Human biology
+Human genetics
+Imaging
+Immunogenetics
+Immunoinformatics
+Immunology
+Immunomics
+Immunoprecipitation experiment
+Immunoproteins and antigens
+Infectious disease
+Informatics
+Laboratory animal science
+Laboratory information management
+Laboratory techniques
+Light microscopy
+Lipids
+Literature and language
+MRI
+Machine learning
+Mapping
+Marine biology
+Mathematics
+Medical biotechnology
+Medical imaging
+Medical informatics
+Medical toxicology
+Medicinal chemistry
+Medicine
+Medicines research and development
+Membrane and lipoproteins
+Metabolic engineering
+Metabolomics
+Metagenomic sequencing
+Metagenomics
+Metatranscriptomics
+Methylated DNA immunoprecipitation
+Microarray experiment
+Microbial collection
+Microbial ecology
+Microbiology
+Mobile genetic elements
+Model organisms
+Molecular biology
+Molecular dynamics
+Molecular evolution
+Molecular genetics
+Molecular interactions, pathways and networks
+Molecular medicine
+Molecular modelling
+Mouse clinic
+Musculoskeletal medicine
+NMR
+Natural language processing
+Neurobiology
+Neurology
+Neutron diffraction
+Nucleic acid sites, features and motifs
+Nucleic acid structure analysis
+Nucleic acids
+Nutritional science
+Omics
+Oncology
+Ontology and terminology
+Opthalmology
+PCR experiment
+Paediatrics
+Pain medicine
+Paleogenomics
+Parasitology
+Pathology
+Personalised medicine
+Pharmacogenomics
+Pharmacology
+Pharmacovigilance
+Phenomics
+Phylogenetics
+Phylogenomics
+Phylogeny
+Physics
+Physiology
+Plant biology
+Population genetics
+Population genomics
+Preclinical and clinical studies
+Probes and primers
+Protein binding sites
+Protein disordered structure
+Protein expression
+Protein folding, stability and design
+Protein folds and structural domains
+Protein interaction experiment
+Protein interactions
+Protein modifications
+Protein properties
+Protein secondary structure
+Protein sites, features and motifs
+Protein structural motifs and surfaces
+Protein structure analysis
+Protein targeting and localisation
+Protein variants
+Proteins
+Proteogenomics
+Proteomics
+Proteomics experiment
+Psychiatry
+Public health and epidemiology
+Pure mathematics
+Quality affairs
+Quantitative genetics
+RNA
+RNA immunoprecipitation
+RNA splicing
+RNA-Seq
+RNAi experiment
+Rare diseases
+Regenerative medicine
+Regulatory affairs
+Reproductive health
+Respiratory medicine
+Safety sciences
+Sample collections
+Sequence analysis
+Sequence assembly
+Sequence composition, complexity and repeats
+Sequence sites, features and motifs
+Sequencing
+Simulation experiment
+Small molecules
+Software engineering
+Statistics and probability
+Structural biology
+Structural genomics
+Structural variation
+Structure analysis
+Structure prediction
+Surgery
+Synthetic biology
+Synthetic chemistry
+Systems biology
+Systems medicine
+Taxonomy
+Tomography
+Toxicology
+Transcription factors and regulatory sites
+Transcriptomics
+Translational medicine
+Trauma medicine
+Tropical medicine
+Urology and nephrology
+Vaccinology
+Veterinary medicine
+Virology
+Whole genome sequencing
+Workflows
+X-ray diffraction
+Zoology
+
+Assign to the dataset <num_terms> most-relevant topic categories from the list above.  No explanation is needed. The suggested answers must exactly match one of the provided categories in the list above. Do not provide answers that do not match an entry in the list above, no matter how relevant it may be.
+
+Take a deep breath and answer to the best of your ability.
