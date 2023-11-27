@@ -1,33 +1,43 @@
 I have an abstract associated with a scientific dataset quoted here: 
 "<abstract>"
 
-I also have a list of topic categories, derived from the EDAM ontology:
+2D PAGE experiment
+Ab initio structure prediction
+Acoustics
 Agricultural science
-Allergy, clinical immunology and immunotherapeutics
+Alignment
+"Allergy, clinical immunology and immunotherapeutics"
 Anaesthesiology
 Analytical chemistry
 Anatomy
 Animal study
+Antimicrobial Resistance
 Applied mathematics
+Arabidopsis
 Biobank
 Biochemistry
 Biodiversity
 Bioengineering
 Bioimaging
 Bioinformatics
-Biological databases
+Biological system modelling
 Biology
 Biomarkers
 Biomaterials
 Biomedical science
 Biomolecular simulation
 Biophysics
+Biosciences
 Biotechnology
 Biotherapeutics
 Carbohydrates
+Carbon cycle
 Cardiology
+Cell and tissue culture
 Cell biology
 Cell culture collection
+Cell cycle
+Cellular process pathways
 ChIP-on-chip
 ChIP-seq
 Chemical biology
@@ -35,8 +45,11 @@ Cheminformatics
 Chemistry
 Chemometrics
 Chromosome conformation capture
+Chromosomes
 Cladistics
+Classification
 Clone library
+Coding RNA
 Comparative genomics
 Complementary medicine
 Compound libraries and screening
@@ -44,63 +57,99 @@ Computational biology
 Computational chemistry
 Computer science
 Copy number variation
+CpG island and isochores
 Critical care medicine
+Cryogenic electron microscopy
 Cytogenetics
 Cytometry
 DNA
 DNA binding sites
+DNA methylation
 DNA mutation
 DNA packaging
 DNA polymorphism
 DNA replication and recombination
+DNA-Seq
 Data acquisition
-Data architecture, analysis and design
+"Data architecture, analysis and design"
 Data governance
 Data identity and mapping
 Data integration and warehousing
+Data management
 Data mining
 Data quality management
+Data rescue
 Data security
-Data submission, annotation and curation
+"Data submission, annotation, and curation"
+Data types and objects
 Data visualisation
 Database management
 Dentistry
 Dermatology
 Developmental biology
+Disease (specific)
+Disease genes and proteins
+Disease pathways
+"Document, record and content management"
+Documentation and help
 Drug development
 Drug discovery
 Drug metabolism
-Ear, nose and throat medicine
+Drugs and target structures
+"Ear, nose and throat medicine"
 Echography
 Ecology
+Electrocardiography
+Electroencephalography
 Electron microscopy
 Embryology
 Endocrinology and metabolism
-Environmental science
+Environmental information processing pathways
+Environmental sciences
 Enzymes
 Epigenetics
 Epigenomics
 Epistasis
+Eukaryotes
 Evolutionary biology
 Exome sequencing
+Exons
 Experimental design and studies
+Expression signals
+FAIR data
+Fish
+Flies
 Fluxomics
 Freshwater biology
 Function analysis
 Functional genomics
-Functional, regulatory and non-coding RNA
+"Functional, regulatory and non-coding RNA"
+Fungi
+G protein-coupled receptors (GPCR)
 GWAS study
 Gastroenterology
 Gender medicine
 Gene and protein families
 Gene expression
+Gene expression and microarray
+Gene finding
 Gene regulation
+Gene regulatory networks
+Gene resources
 Gene structure
+Gene transcription
 Gene transcripts
+Genes and proteins resources
+Genetic codes and codon usage
 Genetic engineering
+Genetic information processing pathways
+Genetic mapping and linkage
+Genetic organisation
 Genetic variation
 Genetics
+Genome annotation
 Genome resequencing
+Genomic imprinting
 Genomics
 Genotype and phenotype
 Genotyping experiment
@@ -108,7 +157,10 @@ Geriatric medicine
 Gynaecology and obstetrics
 Haematology
 Hepatic and biliary medicine
+High-throughput sequencing
+Homology modelling
 Human biology
+Human disease
 Human genetics
 Imaging
 Immunogenetics
@@ -118,18 +170,29 @@ Immunomics
 Immunoprecipitation experiment
 Immunoproteins and antigens
 Infectious disease
+Infectious tropical disease
 Informatics
+Information retrieval
+Introns
+Invertebrates
 Laboratory animal science
 Laboratory information management
 Laboratory techniques
 Light microscopy
 Lipids
+Lipoproteins
+Literature analysis
 Literature and language
+Literature data resources
+Low complexity sequences
 MRI
 Machine learning
+Mammals
 Mapping
 Marine biology
+Mass spectrometry
 Mathematics
+Matrix/scaffold attachment sites
 Medical biotechnology
 Medical imaging
 Medical informatics
@@ -138,78 +201,165 @@ Medicinal chemistry
 Medicine
 Medicines research and development
 Membrane and lipoproteins
+Metabarcoding
+Metabolic disease
 Metabolic engineering
+Metabolic pathways
+Metabolites
 Metabolomics
 Metagenomic sequencing
 Metagenomics
 Metatranscriptomics
 Methylated DNA immunoprecipitation
+Mice or rats
 Microarray experiment
+Microarrays
 Microbial collection
 Microbial ecology
 Microbiology
+Microfluidics
+Microsatellites
+Mitochondria
 Mobile genetic elements
 Model organisms
 Molecular biology
+Molecular docking
 Molecular dynamics
 Molecular evolution
 Molecular genetics
-Molecular interactions, pathways and networks
+"Molecular interactions, pathways and networks"
 Molecular medicine
 Molecular modelling
+Molecules
 Mouse clinic
+Multiomics
 Musculoskeletal medicine
 NMR
 Natural language processing
 Neurobiology
 Neurology
 Neutron diffraction
-Nucleic acid sites, features and motifs
+Nomenclature
+Northern blot experiment
+Nucleic acid classification
+Nucleic acid design
+Nucleic acid feature detection
+Nucleic acid folding
+Nucleic acid repeats
+Nucleic acid restriction
+Nucleic acid sequence alignment
+Nucleic acid sequence analysis
+Nucleic acid sequences
+Nucleic acid sites and features
+"Nucleic acid sites, features and motifs"
+Nucleic acid structure
 Nucleic acid structure analysis
+Nucleic acid structure comparison
+Nucleic acid structure prediction
+Nucleic acid thermodynamics
 Nucleic acids
 Nutritional science
 Omics
 Oncology
+"Ontologies, nomenclature and classification"
 Ontology and terminology
-Opthalmology
+Open science
+Operon
+Ophthalmology
+Organelles
 PCR experiment
 Paediatrics
 Pain medicine
 Paleogenomics
 Parasitology
+Pathogens
 Pathology
+Peptides and amino acids
 Personalised medicine
 Pharmacogenomics
 Pharmacology
 Pharmacovigilance
 Phenomics
+Phosphorylation sites
 Phylogenetics
 Phylogenomics
 Phylogeny
+Phylogeny reconstruction
+Phylogeny visualisation
 Physics
 Physiology
 Plant biology
+PolyA signal or sites
 Population genetics
 Population genomics
 Preclinical and clinical studies
+Primer or probe design
+Primers
 Probes and primers
+Prokaryotes and Archaea
+Promoters
+Promoters
+Protein active sites
+Protein and peptide identification
 Protein binding sites
+Protein chemical modifications
+Protein classification
+Protein cleavage sites
+Protein cleavage sites and proteolysis
+Protein databases
+Protein design
 Protein disordered structure
+Protein domains
 Protein expression
-Protein folding, stability and design
+Protein families
+Protein feature detection
+Protein fold recognition
+"Protein folding, stability and design"
 Protein folds and structural domains
+Protein function prediction
+Protein hydropathy
 Protein interaction experiment
+Protein interaction networks
 Protein interactions
+Protein key folding sites
+Protein membrane regions
+Protein microarrays
 Protein modifications
+Protein post-translational modifications
 Protein properties
+Protein residue interactions
 Protein secondary structure
-Protein sites, features and motifs
+Protein secondary structure
+Protein secondary structure prediction
+Protein sequence alignment
+Protein sequence analysis
+Protein sequence repeats
+Protein sequences
+Protein signal peptides
+Protein sites and features
+"Protein sites, features and motifs"
 Protein structural motifs and surfaces
+Protein structure alignment
 Protein structure analysis
+Protein structure comparison
+Protein structure prediction
+Protein super-secondary structure
 Protein targeting and localisation
+Protein tertiary structure
+Protein tertiary structure prediction
+Protein topological domains
 Protein variants
+Protein-drug interactions
+Protein-ligand interactions
+Protein-ligand interactions
+Protein-nucleic acid binding sites
+Protein-nucleic acid interactions
+Protein-nucleic acid interactions
+Protein-protein interactions
+Protein-protein interactions
 Proteins
 Proteogenomics
+Proteome
 Proteomics
 Proteomics experiment
 Psychiatry
@@ -217,54 +367,108 @@ Public health and epidemiology
 Pure mathematics
 Quality affairs
 Quantitative genetics
+RFLP
 RNA
 RNA immunoprecipitation
 RNA splicing
+RNA structure
 RNA-Seq
+RNA-Seq alignment
 RNAi experiment
 Rare diseases
 Regenerative medicine
+Regulatory RNA
 Regulatory affairs
+Repeat sequences
 Reproductive health
 Respiratory medicine
+Restriction sites
+Ribosome Profiling
+Ribosomes
+Rice
+SNP
 Safety sciences
 Sample collections
+Scents
+Sequence alignment
 Sequence analysis
+Sequence annotation
 Sequence assembly
-Sequence composition, complexity and repeats
-Sequence sites, features and motifs
+Sequence classification
+Sequence clustering
+Sequence clusters and classification
+Sequence comparison
+"Sequence composition, complexity and repeats"
+Sequence database search
+Sequence databases
+Sequence editing
+Sequence feature detection
+Sequence motif or profile
+Sequence motifs
+Sequence profiles and HMMs
+Sequence search
+"Sequence sites, features and motifs"
+Sequence tagged sites
 Sequencing
+Signal or transit peptide
+Signaling pathways
 Simulation experiment
+Single-Cell Sequencing
 Small molecules
 Software engineering
+Specific protein resources
+Splice sites
 Statistics and probability
+Structural (3D) profiles
 Structural biology
 Structural genomics
 Structural variation
+Structure alignment
 Structure analysis
+Structure comparison
+Structure database search
+Structure databases
+Structure determination
 Structure prediction
+Study topic
 Surgery
 Synthetic biology
 Synthetic chemistry
 Systems biology
 Systems medicine
 Taxonomy
+Theoretical biology
+Threading
 Tomography
+Tool topic
+Topic
 Toxicology
+Toxins and targets
+Transcription
 Transcription factors and regulatory sites
 Transcriptomics
 Translational medicine
+Transmembrane protein prediction
 Trauma medicine
 Tropical medicine
+Two-dimensional gel electrophoresis
+Unicellular eukaryotes
 Urology and nephrology
+VNTR
 Vaccinology
+Vertebrates
 Veterinary medicine
 Virology
+Virtual PCR
 Whole genome sequencing
 Workflows
+Worms
 X-ray diffraction
+Yeast
 Zoology
+rRNA
+tRNA
 
-Assign to the dataset <num_terms> most-relevant topic categories from the list above.  No explanation is needed. The suggested answers must exactly match one of the provided categories in the list above. Do not provide answers that do not match an entry in the list above, no matter how relevant it may be.
+Assign to the dataset <num_terms> most-relevant topic categories from the list above.  No explanation is needed. The suggested answers must exactly match one of the provided categories in the EDAM list. Do not provide answers that do not match an entry in the list above, no matter how relevant it may be.
 
 Take a deep breath and answer to the best of your ability.
