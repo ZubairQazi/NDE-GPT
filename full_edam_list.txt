@@ -294,7 +294,7 @@ Sequence assembly report
 Image metadata
 RNA secondary structure analysis
 DNA substitution modelling
-Ontologies, nomenclature and classification
+"Ontologies, nomenclature and classification"
 Standardisation and normalisation
 Codon usage table processing
 Amino acid pair-wise contact potentials
@@ -383,7 +383,7 @@ Consensus-based sequence alignment
 Phylogenetic inference (parsimony methods)
 dhf
 Ensembl ID ('Macaca mulatta')
-Ensembl ID ("Ornithorhynchus anatinus")
+"Ensembl ID (""Ornithorhynchus anatinus\"")"
 CATH node ID (family)
 Tag-based peptide identification
 SQLite format
@@ -437,7 +437,7 @@ unambiguous pure dna
 Sequence feature name
 JCAMP-DX
 Pathway ID (Panther)
-Ear, nose and throat medicine
+"Ear, nose and throat medicine"
 Amino acid name (single letter)
 Ramachandran plot
 GeneIlluminator gene report format
@@ -591,7 +591,7 @@ protXML
 Gene3D ID
 PHYLIP format
 RNAi experiment
-Document, record and content management
+"Document, record and content management"
 ELAND format
 Protein aliphatic index calculation
 Virus annotation
@@ -646,7 +646,7 @@ Microarray raw data analysis
 Chemical similarity enrichment
 MSAML
 pptx
-Data architecture, analysis and design
+"Data architecture, analysis and design"
 BioModel mathematical model format
 STRING entry format (HTML)
 Locus ID (UTR)
@@ -697,7 +697,7 @@ MSDchem ligand dictionary entry format
 Ontology and terminology
 mira
 Haplotype mapping
-Protein folding, stability and design
+"Protein folding, stability and design"
 SNP calling
 PED
 Loop modelling
@@ -1102,7 +1102,7 @@ Structural variation detection
 Tool log
 Biomarkers
 Protein atom surface calculation
-Allergy, clinical immunology and immunotherapeutics
+"Allergy, clinical immunology and immunotherapeutics"
 GO-term enrichment data
 ChIP-on-chip
 Results sort order
@@ -1332,7 +1332,7 @@ Safety sciences
 ORF name
 Residue interaction calculation
 Sequence processing (protein)
-Sequence sites, features and motifs
+"Sequence sites, features and motifs"
 Surgery
 MaizeDB ID
 Microarrays
@@ -1815,7 +1815,7 @@ Sequence masking
 Virus identifier
 DSV
 ChEBI entry format
-Functional, regulatory and non-coding RNA
+"Functional, regulatory and non-coding RNA"
 Protein binding site signature
 Northern blot report
 3D profile-to-3D profile alignment (pairwise)
@@ -1877,7 +1877,7 @@ msf alignment format
 Sequence signature data
 Protein structure (all atoms)
 DRCAT resource
-Nucleic acid sites, features and motifs
+"Nucleic acid sites, features and motifs"
 Protein structure prediction
 Resource metadata
 Deletion detection
@@ -2009,7 +2009,7 @@ Small molecule data processing
 Protein optical density
 BDML
 phyloXML
-Sequence composition, complexity and repeats
+"Sequence composition, complexity and repeats"
 Sequence feature source
 Protein secondary structure analysis
 Locus ID (CGD)
@@ -2061,7 +2061,7 @@ Phylogenetic tree report (tree stratigraphic)
 Text mining report format
 Molecular dynamics
 fitch program
-Protein sites, features and motifs
+"Protein sites, features and motifs"
 SCOP node
 Data resource identifier
 Ensembl ID
@@ -2168,7 +2168,7 @@ SCOP fold
 PubChem ID
 Hidden Markov model
 Directory name
-Molecular interactions, pathways and networks
+"Molecular interactions, pathways and networks"
 Ensembl ID ('Cavia porcellus')
 Tool name (BLAST)
 Protein function prediction (from sequence)
@@ -2567,7 +2567,7 @@ Sequence cluster format
 Residue contact prediction
 Sequence identifier
 Monosaccharide accession
-Data submission, annotation, and curation
+"Data submission, annotation, and curation"
 GenBank-like format
 Pileup
 Protein-protein interactions
