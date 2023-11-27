@@ -4,11 +4,13 @@ Agricultural science
 Anaesthesiology
 Analytical chemistry
 Anatomy
+Animal study
 Antimicrobial Resistance
 Biobank
 Biochemistry
 Biodiversity
 Bioengineering
+Bioimaging
 Bioinformatics
 Biology
 Biomarkers
@@ -24,6 +26,8 @@ Carbon cycle
 Cardiology
 Cell biology
 Cell culture collection
+ChIP-on-chip
+ChIP-seq
 Chemical biology
 Cheminformatics
 Chemistry
@@ -38,6 +42,7 @@ Computational chemistry
 Computer science
 Copy number variation
 Critical care medicine
+Cryogenic electron microscopy
 Cytogenetics
 DNA
 DNA binding sites
@@ -65,7 +70,11 @@ Drug development
 Drug discovery
 Drug metabolism
 "Ear, nose and throat medicine"
+Echography
 Ecology
+Electrocardiography
+Electroencephalography
+Electron microscopy
 Embryology
 Endocrinology and metabolism
 Environmental sciences
@@ -74,6 +83,7 @@ Epigenetics
 Epigenomics
 Epistasis
 Evolutionary biology
+Exome sequencing
 FAIR data
 Fluxomics
 Freshwater biology
@@ -90,6 +100,7 @@ Gene transcripts
 Genetic engineering
 Genetic variation
 Genetics
+Genome resequencing
 Genomic imprinting
 Genomics
 Genotype and phenotype
@@ -108,11 +119,14 @@ Infectious disease
 Informatics
 Laboratory animal science
 Laboratory information management
+Light microscopy
 Lipids
+MRI
 Machine learning
 Mapping
 Marine biology
 Medical biotechnology
+Medical imaging
 Medical informatics
 Medical toxicology
 Medicinal chemistry
@@ -122,8 +136,10 @@ Membrane and lipoproteins
 Metabarcoding
 Metabolic engineering
 Metabolomics
+Metagenomic sequencing
 Metagenomics
 Metatranscriptomics
+Methylated DNA immunoprecipitation
 Microbial collection
 Microbial ecology
 Microbiology
@@ -140,8 +156,11 @@ Molecular modelling
 Mouse clinic
 Multiomics
 Musculoskeletal medicine
+NMR
+Natural language processing
 Neurobiology
 Neurology
+Neutron diffraction
 "Nucleic acid sites, features and motifs"
 Nucleic acid structure analysis
 Nucleic acids
@@ -169,6 +188,7 @@ Physiology
 Plant biology
 Population genetics
 Population genomics
+Preclinical and clinical studies
 Probes and primers
 Protein binding sites
 Protein disordered structure
@@ -192,7 +212,9 @@ Public health and epidemiology
 Quality affairs
 Quantitative genetics
 RNA
+RNA immunoprecipitation
 RNA splicing
+RNA-Seq
 Rare diseases
 Regenerative medicine
 Regulatory affairs
@@ -205,6 +227,7 @@ Sequence analysis
 Sequence assembly
 "Sequence composition, complexity and repeats"
 "Sequence sites, features and motifs"
+Single-Cell Sequencing
 Small molecules
 Software engineering
 Structural biology
@@ -218,6 +241,7 @@ Synthetic chemistry
 Systems biology
 Systems medicine
 Taxonomy
+Tomography
 Toxicology
 Transcription factors and regulatory sites
 Transcriptomics
@@ -228,5 +252,7 @@ Urology and nephrology
 Vaccinology
 Veterinary medicine
 Virology
+Whole genome sequencing
 Workflows
+X-ray diffraction
 Zoology
