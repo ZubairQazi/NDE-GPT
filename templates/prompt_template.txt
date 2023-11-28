@@ -3,6 +3,6 @@ I have an abstract associated with a scientific dataset quoted here:
 
 <topics>
 
-Assign to the dataset <num_terms> most-relevant topic categories from the list above.  No explanation is needed. The suggested answers must exactly match one of the provided categories in the EDAM list. Do not provide answers that do not match an entry in the list above, no matter how relevant it may be.
+Assign to the dataset <num_terms> most-relevant topic categories from the list above.  No explanation is needed. The suggested answers must exactly match one of the provided categories in the list. Do not provide answers that do not match an entry in the list above, no matter how relevant it may be. Format your answer as a comma-separated list.
 
 Take a deep breath and answer to the best of your ability.
