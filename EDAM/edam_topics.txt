@@ -10,7 +10,6 @@ Biobank
 Biochemistry
 Biodiversity
 Bioengineering
-Bioimaging
 Bioinformatics
 Biology
 Biomarkers
@@ -26,8 +25,6 @@ Carbon cycle
 Cardiology
 Cell biology
 Cell culture collection
-ChIP-on-chip
-ChIP-seq
 Chemical biology
 Cheminformatics
 Chemistry
@@ -70,7 +67,6 @@ Drug development
 Drug discovery
 Drug metabolism
 "Ear, nose and throat medicine"
-Echography
 Ecology
 Electrocardiography
 Electroencephalography
@@ -83,7 +79,6 @@ Epigenetics
 Epigenomics
 Epistasis
 Evolutionary biology
-Exome sequencing
 FAIR data
 Fluxomics
 Freshwater biology
@@ -100,7 +95,6 @@ Gene transcripts
 Genetic engineering
 Genetic variation
 Genetics
-Genome resequencing
 Genomic imprinting
 Genomics
 Genotype and phenotype
@@ -119,14 +113,11 @@ Infectious disease
 Informatics
 Laboratory animal science
 Laboratory information management
-Light microscopy
 Lipids
-MRI
 Machine learning
 Mapping
 Marine biology
 Medical biotechnology
-Medical imaging
 Medical informatics
 Medical toxicology
 Medicinal chemistry
@@ -136,10 +127,8 @@ Membrane and lipoproteins
 Metabarcoding
 Metabolic engineering
 Metabolomics
-Metagenomic sequencing
 Metagenomics
 Metatranscriptomics
-Methylated DNA immunoprecipitation
 Microbial collection
 Microbial ecology
 Microbiology
@@ -212,9 +201,7 @@ Public health and epidemiology
 Quality affairs
 Quantitative genetics
 RNA
-RNA immunoprecipitation
 RNA splicing
-RNA-Seq
 Rare diseases
 Regenerative medicine
 Regulatory affairs
@@ -227,7 +214,6 @@ Sequence analysis
 Sequence assembly
 "Sequence composition, complexity and repeats"
 "Sequence sites, features and motifs"
-Single-Cell Sequencing
 Small molecules
 Software engineering
 Structural biology
@@ -241,7 +227,6 @@ Synthetic chemistry
 Systems biology
 Systems medicine
 Taxonomy
-Tomography
 Toxicology
 Transcription factors and regulatory sites
 Transcriptomics
@@ -252,7 +237,6 @@ Urology and nephrology
 Vaccinology
 Veterinary medicine
 Virology
-Whole genome sequencing
 Workflows
 X-ray diffraction
 Zoology
