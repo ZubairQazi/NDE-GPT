@@ -1,0 +1,9 @@
+An abstract associated with a scientific dataset is quoted below:
+
+"<abstract>"
+
+Select the <num_terms> most-relevant topic categories from the list below. Provide your answers as a comma-separated list. Ensure your answers exactly match one of the provided categories below. Do not include categories that are not listed no matter how relevant they may be.
+
+<topics>
+
+Please refrain from providing explanations. Take a moment and answer to the best of your ability.
