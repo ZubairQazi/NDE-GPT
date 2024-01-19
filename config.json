@@ -1,5 +1,6 @@
 {
     "api_keys": {
-      "openai": "YOUR_OPENAI_API_KEY"
+      "openai": "YOUR_OPENAI_API_KEY",
+      "huggingface": "YOUR_HUGGINGFACE_API_KEY"
     }
 }
