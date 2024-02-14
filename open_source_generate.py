@@ -1,7 +1,5 @@
 import argparse
-import ast
-import contextlib
-import io
+import csv
 import json
 import logging
 import os
@@ -11,13 +9,10 @@ import string
 import pandas as pd
 import torch
 from bs4 import BeautifulSoup
-from torch.utils.data import DataLoader, RandomSampler, SequentialSampler, TensorDataset
-from tqdm import tqdm
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
     BitsAndBytesConfig,
-    LlamaForCausalLM,
 )
 
 from utils.test_functions import get_model_outputs
@@ -28,16 +23,19 @@ parser = argparse.ArgumentParser(
     description="Gather output data from an open source model"
 )
 parser.add_argument(
+    "-s",
     "--sample",
     action="store_true",
     help="Process a single text sample",
 )
 parser.add_argument(
+    "-d",
     "--dataset",
     type=str,
     help="Process a dataset, must provide a path",
 )
 parser.add_argument(
+    "-m",
     "--model-path",
     type=str,
     help="Path to a stored model directory (expected to contain 'model/' and 'tokenizer/' folders). Leave blank and use --hf-path for non-local huggingface models",
@@ -45,9 +43,11 @@ parser.add_argument(
 parser.add_argument(
     "--storage-path",
     type=str,
+    default="/nvme/models",
     help="Path to the model storage directory",
 )
 parser.add_argument(
+    "-o",
     "--output-path",
     type=str,
     help="Path for output file. Leave blank for default output file path (default: outputs/<random_ascii>.csv)",
@@ -80,7 +80,7 @@ template = template.replace("<topics>", formatted_topics)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 if args.model_path:
-    logging.info(f"Loading tokenizer and model from disk: {args.model_path}")
+    logging.info(f"\nLoading tokenizer and model from disk: {args.model_path}")
     tokenizer = AutoTokenizer.from_pretrained(f"{args.model_path}/tokenizer")
     model = AutoModelForCausalLM.from_pretrained(
         f"{args.model_path}/model",
@@ -88,9 +88,10 @@ if args.model_path:
         load_in_4bit=True,
         bnb_4bit_compute_dtype=torch.float16,
     )
+    model_name = os.path.basename(args.model_path)
 else:
     # mistralai/Mixtral-8x7B-Instruct-v0.1
-    logging.info("Grabbing huggingface token from config")
+    logging.info("\nGrabbing huggingface token from config")
     with open("config.json", "r") as config_file:
         config = json.load(config_file)
         hf_token = config["api_keys"]["huggingface"]
@@ -141,20 +142,25 @@ elif args.dataset:
     dataset = pd.read_csv(args.dataset)
 
     text_column = input(
-        f"Enter the column corresponding to text data ({','.join(dataset.columns)}): "
+        f"\nEnter the column corresponding to text data ({','.join(dataset.columns)}): "
     )
     truth_column = input(
         f"Enter the column corresponding to ground truth, or empty for None ({','.join(dataset.columns)}): "
+    )
+    identifier_column = input(
+        f"Enter the column corresponding to an identifier ({','.join(dataset.columns)}): "
     )
 
     dataset[text_column] = dataset[text_column].apply(
         lambda text: BeautifulSoup(text, "html.parser").get_text()
     )
-    dataset[truth_column] = dataset[truth_column].apply(
-        lambda text: BeautifulSoup(text, "html.parser").get_text()
-    )
+    if truth_column:
+        dataset[truth_column] = dataset[truth_column].apply(
+            lambda text: BeautifulSoup(text, "html.parser").get_text()
+        ).apply(lambda labels: set(map(str.strip, next(csv.reader([labels])))))
 
-    outputs = get_model_outputs(
+    logging.info("\nGenerating model outputs")
+    predictions = get_model_outputs(
         data=dataset,
         template=template,
         tokenizer=tokenizer,
@@ -170,9 +176,32 @@ elif args.dataset:
             random.choices(string.ascii_lowercase + string.digits, k=8)
         )
         output_path = f"outputs/{random_name}.csv"
-        logging.warning(f"Using '{output_path}'. This may overwrite previous results.")
+        logging.warning(f"\nUsing '{output_path}'. This may overwrite previous results.")
+    else:
+        output_path = args.output_path
+    logging.info(f"Saving model outputs to {output_path}")
+    output_df = pd.DataFrame(
+        zip(
+            dataset[identifier_column],
+            dataset[text_column],
+            [model_name] * len(dataset),
+            predictions,
+        ),
+        columns=[identifier_column, text_column, "Model", "Predictions"],
+    )
+    if truth_column:
+        output_df["Ground Truth"] = dataset[truth_column]
 
-    dataset = pd.read_csv(input("Enter dataset path (CSV): "))
+    output_df["Filtered Predictions"] = (
+        output_df["Predictions"]
+        .apply(lambda preds: set(map(str.strip, next(csv.reader([preds])))))
+        .apply(
+            lambda preds: ", ".join(
+                [pred for pred in preds if pred in full_edam_topics]
+            )
+        )
+    )
+    output_df.to_csv(output_path, index=False)
 
 else:
     print("Invalid choice. Please choose either 1 or 2.")
