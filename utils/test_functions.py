@@ -15,10 +15,10 @@ def get_model_outputs(
     outputs = []
     for _, row in tqdm(data.iterrows(), total=data.shape[0]):
         abstract = row[text_column]
-        ground_truth = row[truth_column]
 
         prompt = template.replace("<abstract>", abstract)
         if truth_column:
+            ground_truth = row[truth_column]
             prompt = prompt.replace("<num_terms>", str(len(ground_truth)))
         else:
             prompt = prompt.replace("<num_terms>", str(num_outputs))
