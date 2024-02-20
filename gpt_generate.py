@@ -39,31 +39,50 @@ dataset = pd.read_csv(input("Enter dataset path (CSV): "))
 async def dispatch_openai_requests(
     messages_list: list[list[dict[str, Any]]],
     model: str,
+    max_tokens=2200,
 ) -> list[str]:
     """Dispatches requests to OpenAI API asynchronously.
 
     Args:
         messages_list: List of messages to be sent to OpenAI ChatCompletion API.
         model: OpenAI model to use.
-        temperature: Temperature to use for the model.
         max_tokens: Maximum number of tokens to generate.
-        top_p: Top p to use for the model.
 
     Returns:
         List of responses from OpenAI API.
     """
     client = AsyncOpenAI(api_key=openai_api_key)
-    responses = [
-        await client.chat.completions.create(
-            model="gpt-3.5-turbo",
+
+    async def get_response(message):
+        response = await client.chat.completions.create(
+            model=model,
             messages=message,
-            max_tokens=2200,
+            max_tokens=max_tokens,
             timeout=120,
         )
-        for message in messages_list
-    ]
+        return response.choices[0].message.content
 
-    return responses
+    response_aggregate, responses = [], []
+    for i, message in enumerate(messages_list):
+        response = await get_response(message)
+        responses.append(response)
+        response_aggregate.append(response)
+
+        # Save every 10 responses
+        if (i + 1) % 10 == 0:
+            logging.info(f"Saving responses {i-9} to {i}...")
+            with open("outputs/responses.txt", "a") as f:
+                for response in responses:
+                    f.write(response + "\n")
+            responses = []  # Clear the list of responses
+
+    # Save any remaining responses
+    if responses:
+        with open("outputs/responses.txt", "a") as f:
+            for response in responses:
+                f.write(response + "\n")
+
+    return response_aggregate
 
 
 try:
@@ -99,7 +118,8 @@ try:
     for idx, row in dataset.iterrows():
         text = row[text_column]
 
-        prompt = template.replace("<abstract>", text)
+        prompt = template.replace("<title>", row[identifier_column])
+        prompt = prompt.replace("<abstract>", text)
         prompt = prompt.replace("<num_terms>", "3")
 
         prompts.append([{"role": "user", "content": prompt}])
@@ -108,12 +128,15 @@ try:
     predictions = asyncio.run(
         dispatch_openai_requests(
             messages_list=prompts,
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-0125",
         )
     )
 
-    # for i, x in enumerate(predictions):
-    #     print(f"Response {i+1}: {x.choices[0].message.content}")
+    # Strip extra starting/ending quotes from predictions output
+    predictions = [
+        response.strip('"') if response.count('"') == 2 else response
+        for response in predictions
+    ]
 
     # Save results to a CSV file
     output_df = pd.DataFrame(
@@ -121,7 +144,7 @@ try:
             dataset[identifier_column],
             dataset[text_column],
             ["gpt-3.5-turbo"] * len(dataset),
-            [x.choices[0].message.content for x in predictions],
+            predictions,
         ),
         columns=[identifier_column, text_column, "Model", "Predictions"],
     )
