@@ -32,7 +32,7 @@ if output_path == "":
     output_path = f"outputs/{random_name}.csv"
     logging.warning(f"Using '{output_path}'. This may overwrite previous results.")
 
-dataset = pd.read_csv(input("Enter dataset path (CSV): "))
+dataset = pd.read_csv(input("Enter dataset path (CSV): "), lineterminator="\n")
 
 
 # Originally sourced from https://gist.github.com/neubig/80de662fb3e225c18172ec218be4917a
@@ -72,8 +72,8 @@ async def dispatch_openai_requests(
         if (i + 1) % 10 == 0:
             logging.info(f"Saving responses {i-9} to {i}...")
             with open("outputs/responses.txt", "a") as f:
-                for response in responses:
-                    f.write(response + "\n")
+                for resp in responses:
+                    f.write(resp + "\n")
             responses = []  # Clear the list of responses
 
     # Save any remaining responses
@@ -91,18 +91,11 @@ try:
         f"Enter the column corresponding to text data ({','.join(dataset.columns)}): "
     )
     identifier_column = input(
-        f"Enter the column corresponding to identifiers ({','.join(dataset.columns)}): "
+        f"Enter the column corresponding to an identifier/title ({','.join(dataset.columns)}): "
     )
     if text_column not in dataset.columns:
         logging.error(f"Text column {text_column} not found in dataset.")
         sys.exit()
-
-    dataset[text_column] = dataset[text_column].apply(
-        lambda text: BeautifulSoup(text, "html.parser").get_text()
-    )
-    dataset[identifier_column] = dataset[identifier_column].apply(
-        lambda text: BeautifulSoup(text, "html.parser").get_text()
-    )
 
     logging.info("Loading and constructing templates...")
     with open("templates/prompt_template.txt", "r") as template_file:
@@ -157,7 +150,7 @@ try:
             )
         )
     )
-    output_df.to_csv(output_path, index=False)
+    output_df.to_csv(output_path, lineterminator="\n", index=False)
 
 except SystemExit:
     print("Saving results and gracefully exiting.")
