@@ -17,6 +17,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 from langchain.schema.messages import HumanMessage, SystemMessage
 from openai import AsyncOpenAI
+from tenacity import retry, stop_after_attempt, wait_random_exponential
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO)
@@ -39,7 +40,7 @@ dataset = pd.read_csv(input("Enter dataset path (CSV): "), lineterminator="\n")
 async def dispatch_openai_requests(
     messages_list: list[list[dict[str, Any]]],
     model: str,
-    max_tokens=2200,
+    max_tokens=256,
 ) -> list[str]:
     """Dispatches requests to OpenAI API asynchronously.
 
@@ -53,6 +54,7 @@ async def dispatch_openai_requests(
     """
     client = AsyncOpenAI(api_key=openai_api_key)
 
+    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
     async def get_response(message):
         response = await client.chat.completions.create(
             model=model,
@@ -141,6 +143,8 @@ try:
         ),
         columns=[identifier_column, text_column, "Model", "Predictions"],
     )
+
+    # Might flag some false positives, but it's better than nothing
     output_df["Filtered Predictions"] = (
         output_df["Predictions"]
         .apply(lambda preds: set(map(str.strip, next(csv.reader([preds])))))
