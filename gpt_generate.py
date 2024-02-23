@@ -144,16 +144,6 @@ try:
         columns=[identifier_column, text_column, "Model", "Predictions"],
     )
 
-    # Might flag some false positives, but it's better than nothing
-    output_df["Filtered Predictions"] = (
-        output_df["Predictions"]
-        .apply(lambda preds: set(map(str.strip, next(csv.reader([preds])))))
-        .apply(
-            lambda preds: ", ".join(
-                [pred for pred in preds if pred in full_edam_topics]
-            )
-        )
-    )
     output_df.to_csv(output_path, lineterminator="\n", index=False)
 
 except SystemExit:
