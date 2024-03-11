@@ -1,0 +1,293 @@
+
+RESULTS FOR: datasets/nde_prod/Dryad Digital Repository.csv
+Biochemistry	Compound libraries and screening	Microbiology
+Biochemistry	Microbiology	Drug discovery
+Parasitology	Zoology	Drug discovery
+Antimicrobial Resistance   Microbiology   Small molecules
+Infectious disease	Microbiology	Drug discovery
+Biochemistry	Molecular biology	Cell biology
+Infectious disease	Population genetics	Drug discovery
+Infectious disease	Population genetics	Pharmacology
+Antimicrobial Resistance	Iinfectious disease	Medicines research and development
+Cell biology\tDrug discovery\tVirology
+Virology  	Tropical medicine  	Cell biology
+Biochemistry	Molecular biology	Biotechnology
+Antimicrobial Resistance	Drug discovery	Microbiology
+Antimicrobial Resistance	Microbiology	Drug discovery
+Cell biology\tNeurobiology\tDrug discovery
+"Infectious disease"	"Microbiology"	"Drug discovery"
+"Drug discovery"	"Virology"	"Molecular biology"
+Infectious disease	Virology	Compound libraries and screening
+Microbiology\tDrug discovery\tImmunology
+Cell biology	Immunology	Biochemistry
+Antimicrobial Resistance   Microbiology   Drug discovery
+Compound libraries and screening	Microbiology	Immunology
+Animal study	Medicines research and development	Parasitology
+Infectious disease	Microbiology	Drug discovery
+Cell biology\tParasitology\tDrug discovery
+Cell biology   Biotechnology   Infectious disease
+Parasitology	Zoology	Pharmacology
+Microbiology	Molecular biology	Drug discovery
+Cell biology  	Bioinformatics  	Microbiology
+Cell biology	Drug discovery	Parasitology
+Microbiology\tDrug discovery\tInfectious disease
+Parasitology	Population genetics	Drug discovery
+Antimicrobial Resistance    Computational biology     Drug discovery
+Drug discovery   Computational biology   Microbiology
+Antimicrobial Resistance	Molecular biology	Parasitology
+Antimicrobial Resistance	Molecular biology	Drug discovery
+Antimicrobial Resistance	Cell biology	Microbiology
+Parasitology	Tropical medicine	Drug discovery
+"Drug discovery"	"Immunology"	"Cell biology"
+Parasitology	Molecular biology	Drug discovery
+"High-throughput screening"   "Drug discovery"   "Reproductive health"
+Compound libraries and screening	Microbiology	Drug discovery
+Cell biology	Microbiology	Immunology
+Infectious disease\tParasitology\tDrug discovery
+Biotechnology	Medicines research and development	Pathology
+Antimicrobial Resistance	Zoology	Microbiology
+Biochemistry	Microbiology	Drug development
+Biochemistry	Molecular biology	Parasitology
+Antimicrobial Resistance	Zoology	Drug discovery
+Biochemistry	Molecular biology	Drug discovery
+Cell biology\tDrug discovery\tBiotechnology
+Cell biology  	Molecular biology  	Toxicology
+Parasitology	Molecular biology	Drug discovery
+Antimicrobial Resistance  	Microbiology  	Drug discovery
+Antimicrobial Resistance	Microbiology	Bioinformatics
+Drug discovery	Compound libraries and screening	Parasitology
+Biochemistry	Medicines research and development	Biotechnology
+Biochemistry	Microbiology	Drug discovery
+Drug development\tDrug discovery\tParasitology
+Antimicrobial Resistance	Microbiology	Drug discovery
+Antimicrobial Resistance	Population genomics	Biology
+Microbiology	Molecular biology	Antimicrobial Resistance
+Antimicrobial Resistance	Taxonomy	Microbiology
+Infectious disease	Microbiology	Drug discovery
+Infectious disease\t
+Drug discovery\t
+Immunology
+Antimicrobial Resistance	Public health and epidemiology	Infectious disease
+Compound libraries and screening	Microbial ecology	Antimicrobial Resistance
+Compound libraries and screening	Molecular biology	Biotechnology
+Antimicrobial Resistance	Cytogenetics	Parasitology
+Parasitology	Zoology	Drug discovery
+Antimicrobial Resistance	Compound libraries and screening	Drug discovery
+Biotechnology	Molecular biology	Drug discovery
+Cell biology\tDrug discovery\tImmunology
+Antimicrobial Resistance	Immunology	Infectious disease
+Antimicrobial Resistance	Compound libraries and screening	ImmunoInformatics
+Drug development	Pharmacology	Microbiology
+Antimicrobial Resistance	Public health and epidemiology	Microbiology
+Antimicrobial Resistance	Iinfectious disease	Drug discovery
+Compound libraries and screening	Taxonomy	Toxicology
+Cell biology	Drug development	Immunology
+Compound libraries and screening	Purification and separation	Biochemistry
+Toxicology	Molecular biology	Cell biology
+Biochemistry	Molecular biology	Neurobiology
+Cell biology    Drug discovery   Diabetes
+Antimicrobial Resistance	Taxonomy	Microbiology
+Antimicrobial Resistance	Drug discovery	Molecular biology
+Bioinformatics	Molecular biology	Cancer
+Compound libraries and screening	Enzymes	Drug discovery
+Biochemistry	Epidemiology	Infectious disease
+Biochemistry	Molecular interactions, pathways and networks	Infectious disease
+Biochemistry\tDrug discovery\tVirology
+Antimicrobial Resistance	Conputational biology	Drug discovery
+Biochemistry	Molecular interactions, pathways and networks	Drug discovery
+Virology	Drug discovery	Cell biology
+Antimicrobial Resistance	Drug discovery	Infectious disease
+Biochemistry\tDrug discovery\tBiotechnology
+Cell biology	Tropical medicine	Virology
+Biochemistry	Molecular biology	Immunology
+Biochemistry	Molecular biology	Virology
+Compound libraries and screening    Computational biology    Virology
+"Infectious disease"	"Drug discovery"	"Virology"
+Biochemistry\tDrug discovery\tEnzymes
+Cell biology	Drug discovery	Microbiology
+Biochemistry	Molecular biology	Drug discovery
+Drug discovery   Molecular biology    Virology
+Virology    Immunology    Drug discovery
+Biotechnology   Computational biology   Drug discovery
+Drug discovery\tVirology\tHigh throughput screening
+Biochemistry\tBiomedical science\tDrug discovery
+Biochemistry	Molecular interactions, pathways and networks	Proteomics
+Antimicrobial Resistance	Microbiology	Drug development
+Biochemistry	Molecular biology	Biotechnology
+Infectious disease	Population genomics	Drug discovery
+Virology   Toxicology   Drug discovery
+Antimicrobial Resistance	Drug discovery	Virology
+Compound libraries and screening	Drug discovery	Enzymes
+Biochemistry	Compound libraries and screening	Infectious disease
+Infectious disease	Molecular biology	Drug discovery
+Cell biology	Drug discovery	Infectious disease
+Cell biology	Compound libraries and screening	Toxicology
+Biotechnology	Medicines research and development	Drug discovery
+Antimicrobial Resistance	Tropical medicine	Microbiology
+Antimicrobial Resistance\tDrug discovery\tVirology
+Immunology	Vaccinology	Data submission, annotation, and curation
+Antimicrobial Resistance   Bioinformatics   Microbiology
+Antimicrobial Resistance	Freshwater biology	Immunology
+Biochemistry	Molecular biology	Genetics
+Biochemistry	Molecular biology	Drug discovery
+Biochemistry    Biomarkers  Drug discovery
+Biochemistry	Chemoinformatics	Drug discovery
+Analytical chemistry	Medicinal chemistry	Biochemistry
+Biochemistry	Molecular biology	Pharmacology
+Biochemistry\tBiotechnology\tDrug development
+Biochemistry\tBiotechnology\tDrug discovery
+Biochemistry\tCell biology\tDrug discovery
+Biochemistry	Molecular biology	Drug discovery
+Microbiology	Microbial ecology	Drug discovery
+Biochemistry	Molecular biology	Drug discovery
+Biochemistry	Molecular biology	Drug discovery
+\RESULTS FOR: datasets/nde_prod/Data Discovery Engine.csv
+Microbiology  	"Infectious disease"  	"Sample collections"
+Animal study	Molecular biology	Transcriptomics
+"Infectious disease"	"Immunology"	"Genomics"
+Evolutionary biology	Microbial ecology	Microbiology
+"Antimicrobial Resistance"   "Biology"   "Microbiology"
+Cell biology   Genetics   Infectious disease
+Metabolomics\tMicrobiology\tRP-C18
+Microbiology   Systems biology   Antimicrobial Resistance
+Bioinformatics   	Proteins   	Protein interactions
+Genomics  	Data submission, annotation, and curation  	Computational biology
+Cell biology   Proteomics   Virology
+Proteomics    Cell biology    Virology
+Metabolomics	Microbiology	Biomarkers
+Transcription factors and regulatory sites	Transcriptomics	Drug discovery
+Immunology	Respiratory medicine	Infectious disease
+Metabolomics	Microbiology	Systems biology
+Infectious disease	Microbiology	Transcriptomics
+Cell biology\tVirology\tBiochemistry
+Transcriptomics\tImmunology\tMicrobiology
+Metabolomics   Systems biology   Drug discovery
+Proteomics  	Mouse clinic  	Infectious disease
+Genetics   Virology   Transcriptomics
+Bioinformatics   	Data integration and warehousing   	Data submission, annotation, and curation
+Genomics   Host-pathogen interactions   Infectious disease
+Transcriptomics     Biomarkers     Proteomics
+"Infectious disease"	"Microbiology"	"Genomics"
+Antimicrobial Resistance   	Microbiology   RNA
+Cell biology   Computational biology   Metabolomics
+Bioinformatics	Molecular biology	Genetics
+Cell biology\tGene expression\tImmunology
+Metabolomics	Omics	Systems biology
+Microbiology	Molecular biology	Drug discovery
+Data management	Data integration and warehousing	Data visualisation
+Infectious disease	Tropical medicine	Public health and epidemiology
+Omics	Metabolomics	Data architecture, analysis and design
+Genomics	Molecular biology	Immunology
+Bioinformatics   	Virology	Transcriptomics
+Transcriptomics   Virology   Infectious disease
+Animal study   Metabolomics   Infectious disease
+Proteomics    	Neurobiology    	Infectious disease
+Metabolomics    Bioinformatics    Antimicrobial Resistance
+Gene expression, Immunology, Infectious disease
+Immunology\tInfectious disease\tMolecular biology
+Metabolomics   Microbiology   Antibiotic Resistance
+Cell biology  	Data integration and warehousing  	Drug discovery
+Cell biology   Transcriptomics   Immunology
+Cell biology   Biochemistry   Proteomics
+Transcriptomics   Genetics    Infectious disease
+Cell biology	Transcriptomics	Immunology
+"Microbiology"	"Immunology"	"Oncology"
+Bioinformatics	Metabolomics	Systems biology
+Virology   Transcriptomics   Infectious disease
+Antimicrobial Resistance    Genetics    Infectious disease
+Cell culture, Metabolomics, Oncology
+Proteomics	Phylogeny	Transcriptomics
+Immunology	Proteomics	Infectious disease
+Cell culture collection   Biochemistry    Infectious disease
+Virology   Transcriptomics   Cell biology
+Antimicrobial Resistance  	Microbiology  	Genetics
+Transcriptomics   Molecular biology   Infectious disease
+Microbiology    Infectious disease    Hematology
+Evolutionary biology	Immunology	Microbiology
+Transcriptomics    Microbiology    Virology
+Metabolomics   	Biomarkers	Data integration and warehousing
+Microbiology   Genetics   Oncology
+Bioinformatics   Computational biology   Data submission, annotation, and curation
+Animal study	Iinfectious disease	Metabolomics
+Cell culture collection   Proteomics   Infectious disease
+Genetics	Microbiology	Transcriptomics
+Transcriptomics   	Virology   	Hepatic and biliary medicine
+Metagenomics	Microbiology	Infectious disease
+Antimicrobial Resistance    Microbiology    Drug discovery
+Cell culture, Infectious disease, Metabolomics
+Cell biology   Proteomics   Infectious disease
+Animal study	Metabolomics	Infectious disease
+Antimicrobial Resistance	Probiotics	Microbiology
+Microbiology   Metagenomics   Infectious disease
+Cell culture
+Biochemistry
+Lipids
+Virology	Data analysis	Infectious disease
+Gene expression
+Immunology
+Infectious disease
+Microbial ecology    Microbiology    Infectious disease
+Functional genomics    Infectious disease    Metabolomics
+Cell biology\tMetabolomics\tInfectious disease
+Antimicrobial Resistance   Microbiology   Genetics
+RNA, Antimicrobial Resistance, Microbiology
+Gene expression     Microbiology      Transcriptomics
+Gene expression, Genetics, Infectious disease
+Genomics    Virology    Infectious disease
+Infectious disease	Metabolomics	Biology
+Virology    Host-Pathogen Interaction    Translational medicine
+Microbiology \t Transcriptomics \t RNA
+RNA   Bioinformatics   Molecular biology
+Genomics	Genetic variation	Microbiology
+Metabolomics   Microbiology   Biochemistry
+Data submission, annotation, and curation    Data governance    Data integration and warehousing
+Microbiology	Metagenomics	Health science
+Bioinformatics   	Data submission, annotation, and curation	   	Data governance
+Cell biology\tComputational biology\tTranscriptomics
+"Gastroenterology"   "Microbial ecology"   "Infectious disease"
+Microbiology	Metagenomics	Gastroenterology
+Cell biology   Biomedical science   Infectious disease
+Cell biology\tGenomics\tInfectious disease
+Microbiology	Medical biotechnology	Infectious disease
+Bioinformatics	Metagenomics	"Infectious disease"
+Virology   Transcriptomics   Infectious disease
+Virology   Preclinical and clinical studies   Infectious disease
+"Microbiology"
+"Infectious disease"
+"Microbiota"
+Transcriptomics   Genetics   Infectious disease
+Cell biology   Transcriptomics   Infectious disease
+Cell culture
+Proteomics
+Infectious disease
+Parasitology	Zoology	Animal Study
+Cell culture collection    Computational biology    Lipids
+Bioinformatics, Genomics, Infectious disease
+Infectious disease	Metabolomics	Molecular biology
+Infectious disease \t Genetics \t Medicine
+Cell culture collection       Genetics        Infectious disease
+Antimicrobial Resistance	Microbiology	Biological science
+Bioinformatics	Medicine	Data submission, annotation, and curation
+Metabolomics   Immunology   Antimicrobial Resistance
+Immunology	Tropical medicine	Infectious disease
+Metabolomics	OMICS	Data integration and warehousing
+Antimicrobial Resistance	Microbiology	Transcriptomics
+Transcriptomics 	Virology 	Infectious disease
+Virology   Transcriptomics   Infectious disease
+Microbiology	Mouse clinic	Infectious disease
+Genomics	Transcriptomics	Infectious disease
+"Immunology"	"Genetics"	"Infectious disease"
+Animal study	Metabolomics	Infectious disease
+Infectious disease	Virology	Public health and epidemiology
+"Infectious disease"	"Transcriptomics"	"Public health and epidemiology"
+Cell culture, Infectious disease, Lipids
+Infectious disease\tFunctional genomics\tGenomics
+Infectious disease    Clinical medicine    Biochemistry
+Microbiology	Drug discovery	Gastroenterology
+Transcription factors and regulatory sites	Transcriptomics	Molecular biology
+Cell biology	Transcriptomics	Genetics
+Cell biology  	Virology  	Proteomics
+Transcriptomics   Microbiology    Drug development
+Microbiology   Antimicrobial Resistance   Molecular biology
+Genomics	Laboratory information management	Transcriptomics
+
