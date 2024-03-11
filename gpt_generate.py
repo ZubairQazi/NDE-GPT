@@ -3,12 +3,16 @@ import asyncio
 import csv
 import json
 import logging
+import os
 import pickle
 import random
 import string
 import sys
+import time
 from typing import Any
 
+import backoff
+import httpx
 import openai
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -17,7 +21,12 @@ from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 from langchain.schema.messages import HumanMessage, SystemMessage
 from openai import AsyncOpenAI
-from tenacity import retry, stop_after_attempt, wait_random_exponential
+from tenacity import (
+    retry,
+    retry_if_exception_type,
+    stop_after_attempt,
+    wait_random_exponential,
+)
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO)
@@ -27,13 +36,41 @@ with open("config.json", "r") as config_file:
 
 openai_api_key = config["api_keys"]["openai"]
 
-output_path = input("Enter file path for model output (empty for default): ")
+dataset_path = input("Enter dataset path (CSV): ")
+dataset = pd.read_csv(dataset_path, lineterminator="\n")
+logging.info(f"Loaded dataset with {len(dataset)} rows.")
+
+output_path = input("Enter output file path with file extension (empty for default): ")
 if output_path == "":
     random_name = "".join(random.choices(string.ascii_lowercase + string.digits, k=8))
     output_path = f"outputs/{random_name}.csv"
-    logging.warning(f"Using '{output_path}'. This may overwrite previous results.")
+logging.warning(f"Using '{output_path}'. This may overwrite previous results.")
 
-dataset = pd.read_csv(input("Enter dataset path (CSV): "), lineterminator="\n")
+backup_path = input("Enter backup file path with file extension (empty for default): ")
+if backup_path == "":
+    backup_path = "outputs/backup_responses.txt"
+logging.info(f"Using '{backup_path}' as backup file. Append mode will be used.")
+
+# Get the number of lines in the backup file if it exists. If the file is empty set to default starting row (0)
+output = []
+if os.path.exists(backup_path):
+    with open(backup_path, "r") as f:
+        output = f.readlines()
+        num_lines = len(output)
+        if num_lines > 2:
+            dataset = dataset.iloc[num_lines - 2 :]
+        else:
+            num_lines = 0
+        logging.info(
+            f"Backup file '{backup_path}' already exists and contains {num_lines} lines. Starting from row {num_lines-2}."
+        )
+else:
+    # Check if backup_path directory exists, create it if it doesn't
+    backup_dir = os.path.dirname(backup_path)
+    if not os.path.exists(backup_dir):
+        os.makedirs(backup_dir)
+    with open(backup_path, "a") as f:
+        f.write(f"\RESULTS FOR: {dataset_path}\n")
 
 
 # Originally sourced from https://gist.github.com/neubig/80de662fb3e225c18172ec218be4917a
@@ -54,15 +91,23 @@ async def dispatch_openai_requests(
     """
     client = AsyncOpenAI(api_key=openai_api_key)
 
-    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+    @retry(
+        stop=stop_after_attempt(5),
+        wait=wait_random_exponential(multiplier=1, min=4, max=10),
+        retry=retry_if_exception_type(Exception),
+    )
     async def get_response(message):
-        response = await client.chat.completions.create(
-            model=model,
-            messages=message,
-            max_tokens=max_tokens,
-            timeout=120,
-        )
-        return response.choices[0].message.content
+        try:
+            response = await client.chat.completions.create(
+                model=model,
+                messages=message,
+                max_tokens=max_tokens,
+                timeout=120,
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            print(f"Error: {e}. Retrying...")
+            raise
 
     response_aggregate, responses = [], []
     for i, message in enumerate(messages_list):
@@ -72,15 +117,15 @@ async def dispatch_openai_requests(
 
         # Save every 10 responses
         if (i + 1) % 10 == 0:
-            logging.info(f"Saving responses {i-9} to {i}...")
-            with open("outputs/responses.txt", "a") as f:
+            logging.info(f"Saving responses {i + num_lines-9} to {i + num_lines}...")
+            with open(backup_path, "a") as f:
                 for resp in responses:
                     f.write(resp + "\n")
             responses = []  # Clear the list of responses
 
     # Save any remaining responses
     if responses:
-        with open("outputs/responses.txt", "a") as f:
+        with open(backup_path, "a") as f:
             for response in responses:
                 f.write(response + "\n")
 
@@ -90,10 +135,10 @@ async def dispatch_openai_requests(
 try:
     ## Build prompts and feed to GPT
     text_column = input(
-        f"Enter the column corresponding to text data ({','.join(dataset.columns)}): "
+        f"Enter the column corresponding to text data ({', '.join(dataset.columns)}): "
     )
     identifier_column = input(
-        f"Enter the column corresponding to an identifier/title ({','.join(dataset.columns)}): "
+        f"Enter the column corresponding to an identifier/title ({', '.join(dataset.columns)}): "
     )
     if text_column not in dataset.columns:
         logging.error(f"Text column {text_column} not found in dataset.")
@@ -108,12 +153,17 @@ try:
     formatted_topics = "\n".join(full_edam_topics)
     template = template.replace("<topics>", formatted_topics)
 
+    dataset[text_column] = dataset[text_column].fillna("").astype(str)
+    dataset[identifier_column] = dataset[identifier_column].fillna("").astype(str)
+
     logging.info("Building prompts from dataset...")
     prompts = []
     for idx, row in dataset.iterrows():
-        text = row[text_column]
 
-        prompt = template.replace("<title>", row[identifier_column])
+        text = row[text_column] if row[text_column] != "" else "No Description"
+        title = row[identifier_column] if row[identifier_column] != "" else "No Title"
+
+        prompt = template.replace("<title>", title)
         prompt = prompt.replace("<abstract>", text)
         prompt = prompt.replace("<num_terms>", "3")
 
@@ -132,6 +182,8 @@ try:
         response.strip('"') if response.count('"') == 2 else response
         for response in predictions
     ]
+
+    predictions = output + predictions
 
     # Save results to a CSV file
     output_df = pd.DataFrame(
