@@ -15,6 +15,7 @@ import backoff
 import httpx
 import openai
 import pandas as pd
+import tiktoken
 from bs4 import BeautifulSoup
 from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
@@ -52,13 +53,13 @@ if backup_path == "":
 logging.info(f"Using '{backup_path}' as backup file. Append mode will be used.")
 
 # Get the number of lines in the backup file if it exists. If the file is empty set to default starting row (0)
-output = []
+output, starting_index = [], 0
 if os.path.exists(backup_path):
     with open(backup_path, "r") as f:
-        output = f.readlines()
-        num_lines = len(output)
+        output = f.readlines()[1:]
+        num_lines = len(output) + 1
         if num_lines > 2:
-            dataset = dataset.iloc[num_lines - 2 :]
+            starting_index = num_lines - 2
         else:
             num_lines = 0
         logging.info(
@@ -70,14 +71,34 @@ else:
     if not os.path.exists(backup_dir):
         os.makedirs(backup_dir)
     with open(backup_path, "a") as f:
-        f.write(f"\RESULTS FOR: {dataset_path}\n")
+        f.write(f"RESULTS FOR: {dataset_path}\n")
+    num_lines = 0
+
+client = openai.OpenAI(api_key=openai_api_key)
 
 
 # Originally sourced from https://gist.github.com/neubig/80de662fb3e225c18172ec218be4917a
-async def dispatch_openai_requests(
+@retry(
+    wait=wait_random_exponential(multiplier=2, min=3, max=60),
+    stop=stop_after_attempt(6),
+)
+def get_response(message, model="gpt-3.5-turbo-0125", max_tokens=25):
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=message,
+            max_tokens=max_tokens,
+            timeout=120,
+        )
+        return response.choices[0].message.content
+    except openai.RateLimitError as e:
+        print(f"Rate limit exceeded: {e}. Retrying...")
+        raise
+
+
+def dispatch_openai_requests(
     messages_list: list[list[dict[str, Any]]],
-    model: str,
-    max_tokens=256,
+    model: str = "gpt-3.5-turbo-0125",
 ) -> list[str]:
     """Dispatches requests to OpenAI API asynchronously.
 
@@ -89,29 +110,39 @@ async def dispatch_openai_requests(
     Returns:
         List of responses from OpenAI API.
     """
-    client = AsyncOpenAI(api_key=openai_api_key)
 
-    @retry(
-        stop=stop_after_attempt(5),
-        wait=wait_random_exponential(multiplier=1, min=4, max=10),
-        retry=retry_if_exception_type(Exception),
-    )
-    async def get_response(message):
-        try:
-            response = await client.chat.completions.create(
-                model=model,
-                messages=message,
-                max_tokens=max_tokens,
-                timeout=120,
-            )
-            return response.choices[0].message.content
-        except Exception as e:
-            print(f"Error: {e}. Retrying...")
-            raise
+    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+
+    total_tokens = 0
+    total_requests = 0
+    start_time = time.time()
+
+    max_tokens_per_minute = 80000
+    max_requests_per_minute = 3500
 
     response_aggregate, responses = [], []
     for i, message in enumerate(messages_list):
-        response = await get_response(message)
+
+        tokens = encoding.encode(message[0]["content"])
+        num_tokens = len(tokens)
+        if (
+            total_tokens + num_tokens > max_tokens_per_minute
+            or total_requests >= max_requests_per_minute
+        ):
+            sleep_time = 60 - (time.time() - start_time)
+            if sleep_time > 0:
+                logging.info(
+                    f"Reached token or rate limit. Sleeping for {sleep_time} seconds..."
+                )
+                time.sleep(sleep_time)
+            total_tokens = 0
+            total_requests = 0
+            start_time = time.time()
+
+        total_tokens += num_tokens
+        total_requests += 1
+
+        response = get_response(message)
         responses.append(response)
         response_aggregate.append(response)
 
@@ -126,6 +157,9 @@ async def dispatch_openai_requests(
     # Save any remaining responses
     if responses:
         with open(backup_path, "a") as f:
+            logging.info(
+                f"Saving remaining responses {i + num_lines-len(responses)} to {i + num_lines}..."
+            )
             for response in responses:
                 f.write(response + "\n")
 
@@ -134,15 +168,21 @@ async def dispatch_openai_requests(
 
 try:
     ## Build prompts and feed to GPT
-    text_column = input(
-        f"Enter the column corresponding to text data ({', '.join(dataset.columns)}): "
-    )
-    identifier_column = input(
-        f"Enter the column corresponding to an identifier/title ({', '.join(dataset.columns)}): "
-    )
-    if text_column not in dataset.columns:
-        logging.error(f"Text column {text_column} not found in dataset.")
-        sys.exit()
+
+    if "Name" in dataset.columns and "Description" in dataset.columns:
+        text_column = "Description"
+        identifier_column = "Name"
+
+    else:
+        text_column = input(
+            f"Enter the column corresponding to text data ({', '.join(dataset.columns)}): "
+        )
+        identifier_column = input(
+            f"Enter the column corresponding to an identifier/title ({', '.join(dataset.columns)}): "
+        )
+        if text_column not in dataset.columns:
+            logging.error(f"Text column {text_column} not found in dataset.")
+            sys.exit()
 
     logging.info("Loading and constructing templates...")
     with open("templates/prompt_template.txt", "r") as template_file:
@@ -158,7 +198,7 @@ try:
 
     logging.info("Building prompts from dataset...")
     prompts = []
-    for idx, row in dataset.iterrows():
+    for idx, row in dataset.iloc[starting_index:].iterrows():
 
         text = row[text_column] if row[text_column] != "" else "No Description"
         title = row[identifier_column] if row[identifier_column] != "" else "No Title"
@@ -170,20 +210,18 @@ try:
         prompts.append([{"role": "user", "content": prompt}])
 
     logging.info("Querying GPT...")
-    predictions = asyncio.run(
-        dispatch_openai_requests(
-            messages_list=prompts,
-            model="gpt-3.5-turbo-0125",
-        )
+    predictions = dispatch_openai_requests(
+        messages_list=prompts,
     )
+
+    # Concatenate the backup responses with the new predictions
+    predictions = output + predictions
 
     # Strip extra starting/ending quotes from predictions output
     predictions = [
         response.strip('"') if response.count('"') == 2 else response
         for response in predictions
     ]
-
-    predictions = output + predictions
 
     # Save results to a CSV file
     output_df = pd.DataFrame(
@@ -196,10 +234,15 @@ try:
         columns=[identifier_column, text_column, "Model", "Predictions"],
     )
 
+    logging.info(f"Saving {len(output_df)} results to '{output_path}'...")
     output_df.to_csv(output_path, lineterminator="\n", index=False)
 
 except SystemExit:
-    print("Saving results and gracefully exiting.")
-    # TODO: Save results
+    print("Caught system exit. Saving results and gracefully exiting.")
+    with open(output_path, "wb") as f:
+        pickle.dump(predictions, f)
+
+except Exception:
+    print("Caught an exception. Saving results and gracefully exiting.")
     with open(output_path, "wb") as f:
         pickle.dump(predictions, f)
