@@ -49,7 +49,9 @@ logging.warning(f"Using '{output_path}'. This may overwrite previous results.")
 
 backup_path = input("Enter backup file path with file extension (empty for default): ")
 if backup_path == "":
-    backup_path = "outputs/backup_responses.txt"
+    base_name = os.path.basename(dataset_path)
+    file_name_without_extension = os.path.splitext(base_name)[0]
+    backup_path = f"outputs/backups/{file_name_without_extension}_backup.txt"
 logging.info(f"Using '{backup_path}' as backup file. Append mode will be used.")
 
 # Get the number of lines in the backup file if it exists. If the file is empty set to default starting row (0)
@@ -74,7 +76,7 @@ else:
         f.write(f"RESULTS FOR: {dataset_path}\n")
     num_lines = 0
 
-client = openai.OpenAI(api_key=openai_api_key)
+client = AsyncOpenAI(api_key=openai_api_key)
 
 
 # Originally sourced from https://gist.github.com/neubig/80de662fb3e225c18172ec218be4917a
@@ -82,9 +84,9 @@ client = openai.OpenAI(api_key=openai_api_key)
     wait=wait_random_exponential(multiplier=2, min=3, max=60),
     stop=stop_after_attempt(6),
 )
-def get_response(message, model="gpt-3.5-turbo-0125", max_tokens=25):
+async def get_response(message, model="gpt-3.5-turbo-0125", max_tokens=25):
     try:
-        response = client.chat.completions.create(
+        response = await client.chat.completions.create(
             model=model,
             messages=message,
             max_tokens=max_tokens,
@@ -96,7 +98,7 @@ def get_response(message, model="gpt-3.5-turbo-0125", max_tokens=25):
         raise
 
 
-def dispatch_openai_requests(
+async def dispatch_openai_requests(
     messages_list: list[list[dict[str, Any]]],
     model: str = "gpt-3.5-turbo-0125",
 ) -> list[str]:
@@ -142,7 +144,7 @@ def dispatch_openai_requests(
         total_tokens += num_tokens
         total_requests += 1
 
-        response = get_response(message)
+        response = await get_response(message)
         responses.append(response)
         response_aggregate.append(response)
 
@@ -151,7 +153,7 @@ def dispatch_openai_requests(
             logging.info(f"Saving responses {i + num_lines-9} to {i + num_lines}...")
             with open(backup_path, "a") as f:
                 for resp in responses:
-                    f.write(resp + "\n")
+                    f.write(resp.replace("\n", "\t") + "\n")
             responses = []  # Clear the list of responses
 
     # Save any remaining responses
@@ -161,7 +163,7 @@ def dispatch_openai_requests(
                 f"Saving remaining responses {i + num_lines-len(responses)} to {i + num_lines}..."
             )
             for response in responses:
-                f.write(response + "\n")
+                f.write(response.replace("\n", "\t") + "\n")
 
     return response_aggregate
 
@@ -210,8 +212,10 @@ try:
         prompts.append([{"role": "user", "content": prompt}])
 
     logging.info("Querying GPT...")
-    predictions = dispatch_openai_requests(
-        messages_list=prompts,
+    predictions = asyncio.run(
+        dispatch_openai_requests(
+            messages_list=prompts,
+        )
     )
 
     # Concatenate the backup responses with the new predictions
