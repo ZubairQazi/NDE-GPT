@@ -261,6 +261,7 @@ tenacity==8.2.3
 terminado==0.17.1
 text2term==4.1.1
 threadpoolctl==3.2.0
+tiktoken==0.6.0
 tinycss2==1.2.1
 tokenizers==0.15.0
 toml==0.10.2
