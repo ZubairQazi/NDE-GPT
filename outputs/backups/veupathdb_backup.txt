@@ -1,0 +1,3058 @@
+RESULTS FOR: datasets/nde_prod/VEuPathDB.csv
+Genomics	Plant biology	Biology
+Parasitology	Zoology	Environmental sciences
+DNA, Gene expression, Transcriptomics
+Infectious disease	Tropical medicine	Microbiology
+Environmental sciences	Zoology	Microbial collection
+Ecology   	Ecology	    Microbiology
+Ecology	Tropical medicine	Microbiology
+Transcriptomics	Experimental design	Data architecture, analysis and design
+Entomology    Zoology    Environmental sciences
+Genomics   	Transcription factors and regulatory sites  	Transcriptomics
+Population genetics	Population genomics	Infectious disease
+Genetics	Molecular biology	Microbiology
+Genomics  	Cell biology  	Molecular biology
+Genomics   Microbiology   Parasitology
+Anatomy	Molecular biology	Animal study
+Transcriptomics   Plant biology   Biotechnology
+Comparative genomics    Genetics    Genomics
+Genomics   Bioinformatics   Biology
+Genomics	Parasitology	Molecular biology
+Transcriptomics	Gene expression	Animal study
+Environmental sciences  	Microbiology	 Zoology
+Genetics	Population genetics	Infectious disease
+Genomics    Molecular biology    Microbiology
+Transcriptomics\tGenetics\tMolecular biology
+Comparative genomics  	Genomics	Biology
+Microbiology	Molecular biology	Immunology
+Ecology	Tropical medicine	Entomology
+Genomics	Microbiology	Molecular biology
+Immunology   Microbiology   Infectious disease
+Genomics   Computational biology	Genetics
+Genetics	Population genetics	Bioinformatics
+Genetics	Microbiology	Infectious disease
+Bioinformatics	Taxonomy	Transcriptomics
+Environmental sciences  Biology  Genetics
+Genomics	Comparative genomics	Parasitology
+Animal study  	Biology  	Transcriptomics
+Genomics   Genetics    Microbiology
+Infectious disease	Microbiology	Genetics
+Transcriptomics     Bioinformatics    Molecular biology
+Environmental sciences	Population genetics	Parasitology
+Parasitology	Animal study	Biology
+Bioinformatics	Taxonomy	Parasitology
+Microbiology	Parasitology	Reproductive health
+Transcriptomics    Microbiology   Infectious disease
+"Infectious disease"   "Environmental sciences" "Comparative genomics"
+Transcriptomics	Animal study	Biology
+Proteomics    Parasitology    Microbiology
+Environmental sciences   Microbiology   Infectious disease
+Environmental sciences   Entomology   Infectious disease
+Infectious disease	Population genetics	Molecular biology
+Genetics	Population genetics	Parasitology
+Genomics	Microbiology	Molecular biology
+Vector control
+Insecticide resistance
+Parasitology
+Environmental sciences\tMicrobiology\tInfectious disease
+Cell biology   Bioinformatics   Proteomics
+Bioinformatics	Microbiology	Sequence analysis
+Genomics  	Anatomy  	Sequence analysis
+Genetics	Immunology	Microbiology
+Environmental sciences     |     Biology     |     Entomology
+Bioinformatics	Molecular biology	Biology
+Bioinformatics	Molecular biology	Genetics
+Genomics	Microbiology	Biology
+Animal study    Transcriptomics    Ecology
+Ecology	Iinfectious disease	Georeferencing
+Genetics	Genomics	Microbiology
+Genomics  	Genetics  	Microbiology
+Genomics	Genetics	Biology
+Transcriptomics     Parasitology     Infectious disease
+Environmental sciences   Infectious disease   Zoology
+Functional genomics	genomics	compound libraries and screening
+Transcriptomics    Genetics    Microbiology
+Genomics	Annotation	Microbiology
+Genomics    Molecular biology    Parasitology
+Genetics	Genomics	Sequence analysis
+Genomics	Microbiology	Bioinformatics
+Genomics	Genetics	Biology
+Genomics    Bioinformatics    Genetics
+Infectious disease\tTranscriptomics\tMicrobiology
+Transcriptomics  	Infectious disease  	Biology
+Genomics	Biology	Microbial ecology
+Environmental sciences   Zoology   Infectious disease
+Transcriptomics
+Microbiology
+Infectious disease
+Genetics	Molecular biology	Pharmacology
+Infectious disease	Public health and epidemiology	Vector biology
+Genetics	Molecular biology	Microbiology
+Infectious disease	Tropical medicine	Genetics
+Genomics   Molecular biology  Microbiology
+Genomics\tBiology\tMicrobiology
+Environmental sciences	I
+Infectious disease	I
+Public health and epidemiology.
+Biochemistry   Computational biology   Genetics
+Bioinformatics	Microbiology	Proteomics
+Genomics	Annotation	Microbiology
+Transcriptomics\tCell biology\tParasitology
+Infectious disease	Zoology	Genetics
+Cell biology	Transcriptomics	Biology
+Infectious disease	Zoology	RNA
+Infectious disease	Zoology	Agricultural science
+"Infectious disease"   "Parasitology"    "Public health and epidemiology"
+Genomics	Genetics	Parasitology
+Infectious disease	Tropical medicine	Entomology
+Transcriptomics	RNA	Molecular biology
+Plant biology\tTranscriptomics\tMicrobiology
+Bioinformatics	Molecular biology	Genomics
+Bioinformatics	Molecular biology	Enzymes
+Genomics    Computational biology    Bioinformatics
+Environmental sciences   Ecology   Zoology
+Genomics	Cell biology	Biotechnology
+Environmental sciences   Geography   Infectious disease
+Genomics	Phylogenetics	Parasitology
+Genomics	Population genetics	Sequence analysis
+Genomics  	Biology	Molecular biology
+Infectious disease	Medical biotechnology	Public health and epidemiology
+Transcriptomics	Animal study	Biology
+Environmental sciences   Ecology	Zoology
+Genetics	Environmental sciences	Infectious disease
+Genomics  	Biology  	Parasitology
+Infectious disease	Ecology	Entomology
+"Infectious disease"   "Ecology"   "Virology"
+Ecology	Zoology	Environmental sciences
+Transcriptomics   Zoology   Genetics
+Proteomics   Molecular biology   Infectious disease
+Genomics	Annotation	Microbiology
+Genomics	Sequence analysis	Microbiology
+Parasitology  	Animal study	Biology
+Proteomics   Parasitology    Bioinformatics
+Comparative genomics\tGenetics\tGenomics
+Infectious disease	Iimmunology	Microbiology
+Transcriptomics   Microbiology   Parasitology
+Gene expression, Cell biology, Molecular biology
+Environmental sciences	Zoology	Public health and epidemiology
+Infectious disease	I"m"munology	Genetics
+Genomics	Taxonomy	Microbiology
+Ecology	Microbiology	Pathology
+Biochemistry  	Proteomics  	Parasitology
+Transcriptomics   RNA   Infectious disease
+Environmental sciences   Infectious disease   Zoology
+Genetics	Genomics	Biology
+Parasitology	Zoology	Biology
+Transcription factors and regulatory sites   Transcription factors    Transcriptomics
+Genomics	Epigenetics	Evolutionary biology
+Animal study
+Transcriptomics
+Infectious disease
+Genomics   Molecular biology   Parasitology
+"Immunology"	"Infectious disease"	"Proteomics"
+Genomics    Molecular biology    Bioinformatics
+Bioinformatics Molecular biology Genomics
+Genomics	Molecular biology	Parasitology
+Genomics   Annotation   Infectious disease
+Genomics     Microbiology     Infectious disease
+Genomics   DNA   Genetics
+Gene expression, Developmental biology, Genetics
+Genetics	Genomics	Molecular biology
+Cell biology	Transcriptomics	Gene expression
+Genomics	RNA	Infectious disease
+Genetics	Informatics	Microbiology
+Gene expression
+Microbiology
+Biochemistry
+Parasitology	Molecular biology	Genomics
+Environmental sciences   Microbiology   Entomology 
+Comparative genomics	Genomics	Parasitology
+Transcriptomics	RNA	Molecular biology
+Biochemistry	Proteomics	Molecular biology
+Gene expression, Genetics, Reproductive health
+"Infectious disease"	"Veterinary medicine"	"Biology"
+Environmental sciences   Microbiology   Infectious disease
+Cell biology	Tropical medicine	Infectious disease
+Genetics   Genomics   Infectious disease
+Genomics	Gene regulation	Pathology
+Environmental sciences  	Microbiology  	Infectious disease
+Anatomy   RNA    Animal study
+Transcriptomics	Tropical medicine	Molecular biology
+Genomics\tParasitology\tMolecular biology
+Genomics   Microbiology   Bioinformatics
+Entomology	Zoology	Parasitology
+Environmental sciences  	Entomology  	Infectious disease
+"Infectious disease\tMicrobiology\tParasitology"
+Transcriptomics  	Molecular biology	Personalised medicine
+Developmental biology   Transcriptomics   Biology
+Infectious disease	Population genetics	Zoology
+Genomics	Annotation	Data integration and warehousing
+Genomics	Sequence analysis	Sequence assembly
+Genetics	Gene structure	Molecular biology
+Genomics	Parasitology	Sequence analysis
+Animal study  	Bioinformatics    Proteomics
+Biochemistry	Epigenetics	Immunology
+Public health and epidemiology	Laboratory animal science	Microbial ecology
+"Infectious disease"	"Environmental sciences"	"Geography"
+Transcriptomics    Genetics    Molecular biology
+Ecology	Population genetics	Microbiology
+"Infectious disease"	"Genetics"	"Transcriptomics"
+"Infectious disease"	"Immunology"	"Biomedical science"
+Transcriptomics   	Microbiology   	Infectious disease
+Transcriptomics   Genetics   Molecular biology
+Genomics	Molecular biology	Microbiology
+Environmental sciences    Veterinary medicine    Zoology
+Comparative genomics     Genetics     Parasitology
+Bioinformatics	Genetics	Cell biology
+Environmental sciences	Medical informatics	Public health and epidemiology
+Environmental sciences    Epidemiology    Parasitology
+Genomics	Microbiology	Biology
+Genomics 	Annotation 	Sequence analysis
+Genomics   Computational biology   Molecular biology
+Proteomics    Microbiology    Parasitology
+Genomics	Parasitology	Sequence analysis
+Genomics   Molecular biology   Bioinformatics
+Parasitology	Microbial ecology	Proteomics
+Proteogenomics  	Bioinformatics	Biology	Microbiology
+Environmental sciences	Zoology	Infectious disease
+Developmental biology   Transcriptomics   Genetics
+Environmental sciences    Ecology    Entomology
+Cell biology   	Biology   	Immunology
+Public health and epidemiology    Infectious disease    Zoology
+Toxicology   	Parasitology   	Environmental sciences
+Environmental sciences    Zoology    Infectious disease
+Biochemistry  	Gene regulation	 	Proteomics
+Animal study   Genomics   Infectious disease
+Infectious disease	Medicine	Public health and epidemiology
+Bioinformatics	Molecular biology	Genetics
+Genetics	Computational biology	Sequence analysis
+Biochemistry	Molecular biology	Genetics
+Genomics	Taxonomy	Plant biology
+Genetics	Sequencing	Parasitology
+Infectious disease	Medical biotechnology	Environmental sciences
+Environmental sciences	Pharmacology	Genetics
+Genetics	Genomics	Biology
+Environmental sciences   Parasitology   Public health and epidemiology
+Proteomics  	Microbiology  	Parasitology
+Environmental sciences    Infectious disease    Microbiology
+Environmental sciences	Zoology	Ecology
+Genomics   Molecular biology   Microbiology
+Transcriptomics    RNA    Parasitology
+Comparative genomics, Infectious disease, Parasitology
+Parasitology	Zoology	Public health and epidemiology
+Genomics	Annotation	Microbiology
+Infectious disease	Genetics	Biochemistry
+Genomics    DNA    Parasitology
+Plant biology   RNA   Transcriptomics
+Genomics	Genetics	Microbiology
+Transcriptomics   Gene expression   Developmental biology
+Environmental sciences	Population genetics	Tropical medicine
+Proteomics	Cell biology	Microbiology
+Environmental sciences   Zoology   Infectious disease
+Animal study	Molecular biology	Genomics
+Genetics	Molecular biology	Microbiology
+Genomics	Annotation	Microbiology
+Environmental sciences   Genetics   Microbiology
+Transcriptomics   Toxicology   Zoology
+Genomics   Molecular biology   Microbiology
+Parasitology	Microbiology	Mapping
+Transcriptomics   Microbiology   Animal study
+Entomology	Microbial ecology	Ecology
+Genetics    Computational biology    Molecular biology
+Proteomics    	Membrane and lipoproteins    	Infectious disease
+Genomics	Plant biology	Biology
+Environmental sciences   Public health and epidemiology   Zoology
+Bioinformatics	Genomics	Transcriptomics
+Transcriptomics     Genetics     Entomology
+Genetics	Population genetics	Functional genomics
+Environmental sciences	Data mining	Parasitology
+Transcriptomics  	Molecular biology  	Microbiology
+Biochemistry	Molecular biology	Genomics
+Transcriptomics   Computational biology   Microbiology
+Genomics   	Biology   	Microbiology
+Proteomics   Microbiology   Infectious disease
+Biology   Proteomics    Parasitology
+Parasitology	Molecular biology	Transcriptomics
+Transcriptomics\tParasitology\tMolecular biology
+Proteomics	Cell biology	Genetics
+Genomics   Computational biology    Molecular biology
+Biochemistry  	Cell biology  	Proteomics
+Transcriptomics   Parasitology   Infectious disease
+Biochemistry	Molecular biology	Genomics
+Genetics	Population genetics	Evolutionary biology
+Genetics	Transcriptomics	Animal study
+Parasitology   Environmental sciences   Infectious disease
+Environmental sciences	Zoology	Genetics
+Proteomics\tCell biology\tInfectious disease
+Bioinformatics	Molecular biology	Genomics
+Genomics	Computational biology	Biology
+Genomics	Microbiology	Molecular biology
+Genomics	Taxonomy	Parasitology
+Mapping   Genetics   Ecology
+Genomics	Parasitology	Biology
+Parasitology  Genomics  Infectious disease
+Infectious disease	Urology and nephrology	Zoology
+Genomics	Sequence analysis	Biology
+Genetics    Molecular biology    Infectious disease
+Microbiology	Population genomics	Genetics
+Transcriptomics 	Biology	Genomics
+Environmental sciences   Zoology   Infectious disease
+Transcriptomics   RNA   Genetics
+Environmental sciences  	Infectious disease  	Biology
+Infectious disease	Population genetics	Parasitology
+Transcriptomics   Zoology   Comparative genomics
+Infectious disease	Molecular biology	Transcriptomics
+Genetics	Gene regulation	Genomics
+Transcriptomics	RNA	Microbiology
+Environmental sciences	Zoology	Public health and epidemiology
+Transcriptomics     Genetics     Comparative genomics
+Bioinformatics	Molecular biology	Genomics
+Public health and epidemiology	Population genetics	Infectious disease
+Genomics   	Parasitology   	Sequence analysis
+Environmental sciences	Entomology	Parasitology
+Bioinformatics	Molecular biology	Genomics
+Parasitology	Zoology	Infectious disease
+Genetics	Molecular biology	Parasitology
+Environmental sciences   Microbiology   Public health and epidemiology
+Cell biology  	Virology  	Genomics
+Genetics	Microbiology	Molecular biology
+Cell biology   Transcriptomics   Molecular biology
+Environmental sciences   Data management   Public health and epidemiology
+Bioinformatics  	Genetics  	Microbiology
+Epigenetics    Transcriptomics    Parasitology
+Genomics	Parasitology	Sequence analysis
+Genomics   Computational biology	Data submission, annotation, and curation
+Public health and epidemiology   Environmental sciences   Infectious disease
+Biology	Molecular biology	Genomics
+Genomics	Genome annotation	Parasitology
+Transcriptomics	Animal study	Genomics
+Transcriptomics  	Animal study  	Infectious disease
+Genomics	Parasitology	Biology
+Bioinformatics	Molecular biology	Transcriptomics
+Genetics	Population genetics	Phylogenetics
+Transcriptomics	Anatomy	Animal study
+Public health and epidemiology    Environmental sciences    Infectious disease
+Infectious disease	Population genomics	Tropical medicine
+Bioinformatics\tBiology\tGenetics
+Genomics   Data submission, annotation, and curation   Infectious disease
+Genomics	Sequence analysis	Biology
+Parasitology	Microbiology	Immunology
+Bioinformatics 	Genomics	Molecular biology
+Bioinformatics	Molecular biology	Parasitology
+Genomics   	Biology   	Parasitology
+Parasitology	Zoology	Environmental sciences
+Environmental sciences   Infectious disease   Zoology
+Genomics\tBioinformatics\tParasitology
+Genomics
+Parasitology
+Sequence analysis
+Environmental sciences    Public health and epidemiology    Zoology
+Transcriptomics    Genetics    Molecular biology
+Parasitology    Immunology   Genetics
+Environmental sciences	Zoology	Public health and epidemiology
+Bioinformatics	Molecular biology	Genomics
+Genomics\tMolecular biology\tPlant biology
+Environmental sciences	Matting	Microbiology
+Transcriptomics  	Data acquisition  	Environmental sciences
+Genomics    Sequence analysis    Parasitology
+Environmental sciences	Mapping	Infectious disease
+Proteomics   	Cell biology   	Biology
+Genetic engineering	Genomics	Parasitology
+Parasitology	Molecular genetics	Genomics
+Genetics	Genomics	Animal study
+Infectious disease	Public health and epidemiology	Microbiology
+Genetics	Genomics	Biology
+Genomics  	Biology  	Microbiology
+Genomics\t
+Parasitology\t
+Sequence analysis
+Genomics	Genetics	Parasitology
+Parasitology	Population genetics	"Infectious disease"
+Genetics   Molecular biology   Plant biology
+Environmental sciences	Zoology	Public health and epidemiology
+Immunology	Microbiology	Infectious disease
+Genomics\tMicrobiology\tBioinformatics
+Bioinformatics	Genomics	Gene expression
+Comparative genomics	Genetics	Sequence analysis
+Entomology  	Microbiology	Ecology
+Parasitology	Molecular biology	Proteomics
+Infectious disease	Population genetics	Medical biotechnology
+Transcriptomics	Plant biology	Genomics
+Genetics	Microbial ecology	Immunology
+Bioinformatics	Molecular biology	Proteomics
+Transcriptomics    Parasitology    Molecular biology
+Genetics	Population genetics	Ecology
+Genomics	Microbiology	Biology
+Proteomics   Biomolecular simulation   Parasitology
+Parasitology	Population genetics	Environmental sciences
+Genomics    Molecular genetics    Molecular biology
+Environmental sciences	Public health and epidemiology	Zoology
+Parasitology	Taxonomy	Public health and epidemiology
+Genomics   	Biology   	Sequence analysis
+Animal study	Zoology	Parasitology
+Environmental sciences   Epidemiology   Zoology
+Proteomics	Evolutionary biology	Parasitology
+Genomics	Molecular biology	Bioinformatics
+Transcriptomics 	Cell biology	Molecular biology
+Environmental sciences  	Microbiology  	Infectious disease
+Genomics	Cryptosporidium parvum
+Infectious disease	Cryptosporidium parvum
+Biochemistry	Cell biology	Proteomics
+Parasitology  	Pathology  	Transcriptomics
+Genomics	Microbiology	Biology
+Genomics	Annotation	Biology
+Bioinformatics	Molecular biology	Data visualisation
+Bioinformatics	Molecular biology	Genomics
+Transcriptomics    RNA    Infectious disease
+Environmental sciences   Epidemiology   Zoology
+Genomics    DNA    Parasitology
+Animal study
+Proteomics
+Genomics
+Genomics	Copy number variation	Sample collections
+Cell biology	Immunology	Infectious disease
+Biochemistry	Proteins	Molecular biology
+Environmental sciences   Entomology   Microbiology
+Biology\tGenomics\tParasitology
+Transcriptomics	Comparative genomics	Parasitology
+Gene expression, Genetics, Molecular biology
+Genomics	Sequence analysis	Annotation
+Transcriptomics  	Genomics	Gene expression
+Genomics   Biomarkers   Animal study
+Infectious disease	Public health and epidemiology	Environmental sciences
+Genomics    Molecular biology    Microbiology
+Genomics  	Transcriptomics  	Parasitology
+Transcriptomics   Microbiology   Parasitology
+Infectious disease     Transcriptomics     Microbiology
+Epigenetics	Evolutionary biology	Genomics
+Parasitology	Microbiology	Cell biology
+Proteomics  	Microbiology  	Parasitology
+Genomics  	Biology  	Microbiology
+Bioinformatics	Genomics	Transcriptomics
+Animal study	  Transcriptomics   Genetics
+Transcriptomics   RNA   Infectious disease
+Genomics  	Bioinformatics  	Microbiology
+Genomics	Genetics	Microbiology
+Environmental sciences  	Biology  	Biotechnology
+Genetics	Drug development	Entomology
+Genomics\tParasitology\tSequence analysis
+Entomology	Agricultural science	Genetics
+Bioinformatics	Molecular biology	Infectious disease
+Genomics    Parasitology    Sequence analysis
+Transcriptomics	Genetics	Microbiology
+Genomics    Parasitology    Molecular biology
+Gene expression	Genomics	Infectious disease
+Bioinformatics	Molecular biology	Microbiology
+Microbiology	Plant biology	Infectious disease
+Environmental sciences  	Genetics  	Infectious disease
+Genomics  	Biology  	Genetics
+Genomics	Biology	Evolutionary biology
+Genetics    Genomics    Molecular biology
+Genomics	Parasitology	Molecular biology
+Genomics\tMicrobiology\tMolecular biology
+Genomics	Genome sequencing	Parasitology
+Genomics  	Biology	Microbiology
+Genetics    Genomics    Genome sequencing
+Genomics 	Genetics 	Microbiology
+Genetics	Cell biology	Microbiology
+Infectious disease   Microbiology   Proteomics
+Transcriptomics	Zoology	Infectious disease
+Entomology	Vector control	Resistance
+Animal study   Transcriptomics   Parasitology
+Transcriptomics   Genetics   Molecular biology
+Transcriptomics  	Animal study  	Biology
+Transcriptomics	Cell biology	Genetics
+Infectious disease	Zoology	Environmental sciences
+Environmental sciences   Microbiology   Public health and epidemiology
+Transcriptomics	Rat primary brain cells transcriptome during infection with T. gondii
+Infectious disease	Rat
+Genomics	Genetics	Microbiology
+Transcriptomics     Genetics     Infectious disease
+Parasitology	Genomics	Proteomics
+Infectious disease   Computational biology   Microbiology
+Infectious disease	Population genetics	Parasitology
+Immunology   Infectious disease   Genetics
+Genomics  	Biology  	Bioinformatics
+Transcriptomics   Biomarkers   Developmental biology
+Animal study  	Biology  	Immunology
+Biochemistry	Molecular biology	Comparative genomics
+Genomics	Molecular biology	Microbial ecology
+Genetics  	Bioinformatics  	Transcriptomics
+Developmental biology    Transcriptomics    Insect study
+Infectious disease	Tropical medicine	Microbiology
+Genomics	Genome sequencing	Anatomy
+Environmental sciences    Public health and epidemiology    Zoology
+Parasitology	I
+Genetics	I
+Gene expression	I
+Biodiversity	Molecular biology	DNA
+Parasitology	Zoology	Genomics
+Genomics	Phytophthora capsici	Annotation
+Comparative genomics    Transcriptomics   Infectious disease
+Transcriptomics	Zoology	Infectious disease
+Entomology	Tropical medicine	Metabolic mechanisms
+Genomics	Phylogenetics	Microbiology
+Environmental sciences\tMosquito surveillance\tMapping
+Transcriptomics     Biology     Environmental sciences
+Bioinformatics	Molecular biology	Genetics
+Bioinformatics	Transcriptomics	Phylogenomics
+Genomics	Parasitology	Microbiology
+Genetics	Population genetics	Microbiology
+Transcriptomics   Parasitology   Genetics
+Genomics	Population genomics	Parasitology
+Genomics	Parasitology	Biology
+Bioinformatics	Computational biology	Sequence analysis
+Genomics	Microbiology	Parasitology
+Parasitology    Transcriptomics    Genetics
+Environmental sciences        Microbiology        Infectious disease
+Public health and epidemiology
+Infectious disease
+Vector-borne diseases
+Genetics	Molecular biology	Entomology
+Public health and epidemiology   Data integration and warehousing   Infectious disease
+Immunology	Taxonomy	Microbiology
+Genomics\tBioinformatics\tMolecular biology
+Genetics	Tropical medicine	Parasitology
+Environmental sciences   Microbiology   Public health and epidemiology
+Genomics   Molecular biology   Microbiology
+Genomics	Sequence analysis	Biology
+Infectious disease	Zoology	Parasitology
+Environmental sciences	Entomology	Public health and epidemiology
+Genomics    Molecular biology    Parasitology
+"Proteomics"	"Parasitology"	"Life cycle"
+Bioinformatics	Genomics	Transcriptomics
+Microbiology	Tropical medicine	Infectious disease
+Genomics	Parasitology	Sequence analysis
+Transcriptomics   RNA   Parasitology
+Genomics	Genetics	Parasitology
+Entomology	Zoology	Public health and epidemiology
+Developmental biology   RNA   Aedes aegypti
+Transcriptomics   Genetics   Molecular biology
+Environmental sciences  	Ecology  	Infectious disease
+Bioinformatics   Genetics   Microbiology
+Environmental sciences	Genetics	Microbiology
+Infectious disease	Population genomics	Biotechnology
+Genomics   DNA   Microbiology
+Genomics   Bioinformatics	Microbiology
+Bioinformatics	Biology	Genomics
+Genomics   Computational biology    Molecular biology
+Comparative genomics   RNA   Microbiology
+Genomics	Genetic engineering	Parasitology
+Genomics	Taxonomy	Microbiology
+Biochemistry	Molecular biology	Parasitology
+Genetics   Proteomics   Molecular biology
+Cell biology   RNA   Infectious disease
+Transcriptomics	Parasitology	Microbiology
+Genomics	Annotation	Microbiology
+Genomics	Biology	Sequence analysis
+Transcriptomics	Parasitology	Molecular biology
+Environmental sciences    Infectious disease    Vector-borne diseases
+Genomics    Molecular biology    Parasitology
+Genomics	Parasitology	Ecology
+Bioinformatics  	Genomics	Genetics
+Infectious disease	Population genetics	Genetics.
+Genetics	Microbiology	Transcription factors and regulatory sites
+Parasitology	Microbiology	Transcriptomics
+Genomics	Taxonomy	Parasitology
+Genetics	Genomics	Molecular biology
+Biochemistry	Molecular biology	Genetics
+Epigenomics    Bioinformatics    Biology
+Genetics	Population genetics	Infectious disease
+Gene expression, Molecular biology, Reproductive health
+Animal study	Parasitology	RNA
+Bioinformatics	Molecular biology	Molecular genetics
+Bioinformatics	Molecular biology	Genomics
+Bioinformatics   Computational biology   Transcriptomics
+Transcriptomics   Cell biology   Veterinary medicine
+Transcriptomics	Tropical medicine	Microbiology
+Infectious disease	Population genetics	Molecular biology
+Genomics	Genetics	Molecular biology
+Transcriptomics   Bioinformatics   Biochemistry
+Parasitology	Medical biotechnology	Environmental sciences
+Genetics	Ecology	Parasitology
+Transcriptomics  	Agricultural science  	Biology
+Environmental sciences  	Public health and epidemiology  	Zoology
+Gene expression    Transcriptomics    Immunology
+Transcriptomics	Human biology	Parasitology
+Genetics	Molecular biology	Parasitology
+Transcriptomics	Molecular biology	Genomics
+Transcriptomics	RNA	Stranded RNA-Seq at two different conditions
+Genetics	Microbiology	Genomics
+Infectious disease	Population genetics	Parasitology
+Genomics	Sequence analysis	Annotation
+Genomics    Bioinformatics    Biology
+Genomics	Annotation	Biology
+Parasitology	Proteomics	Genomics
+Transcriptomics	genomics	Genetics
+Biochemistry	Personalised medicine	Parasitology
+Transcriptomics	Tropical medicine	Immunology
+Genomics   Molecular biology   Microbiology
+Evolutionary biology	Genetics	Transcriptomics
+Genomics	Genome sequencing	Annotation
+Genomics	Computational biology	Microbiology
+Genetics	Population genetics	Ecology
+Genomics   Microbiology   Parasitology
+Proteomics	Parasitology	Infectious disease
+Transcriptomics  	Gene expression	Genetics
+Transcriptomics\tGenetics\tMicrobiology
+Transcriptomics    Parasitology    Molecular biology
+Anatomy    Animal study    Genetics
+Bioinformatics	Molecular biology	Gene expression
+Genomics	Annotation	Biology
+Infectious disease   Transcriptomics   Genetics
+Genomics\tParasitology\tSequence analysis
+Developmental biology   Transcriptomics   Insect study
+Genomics	Annotation	Biology
+Genetics	Molecular biology	Genomics
+Genomics    Molecular biology    Genetics
+Environmental sciences   Ecology   Zoology
+Animal study    Genomics    Parasitology
+Genomics   	Biology   	Microbiology
+Infectious disease	Microbiology	Parasitology
+Transcriptomics\tRNA\tParasitology
+Genetics	Microbiology	Genomics
+Genomics	Microbiology	Molecular biology
+Environmental sciences   Epidemiology   Parasitology
+Genomics	Tropical medicine	Microbiology
+Bioinformatics    Computational biology    Genetics
+Genetics	Genomics	Sequence analysis
+Genomics	Genetics	Biology
+Transcriptomics	Taxonomy	Microbiology
+Environmental sciences	Zoology	Infectious disease
+Transcriptomics\tGenetics\tInfectious disease
+Bioinformatics	Microbiology	Proteomics
+Transcriptomics  	Gastroenterology  	Animal study
+Genomics  Annotation  Molecular biology
+Genomics\tBioinformatics\tParasitology
+Transcriptomics   Molecular biology   Genetics
+Genomics\tDNA\tAnnotation
+Genomics   	Parasitology   	Biology
+Genetics	Microbiology	Evolutionary biology
+Genomics	Microbiology	Bioinformatics
+Transcriptomics	Zoology	Molecular biology
+Parasitology	Zoology	Infectious disease
+Genomics	Annotation	Biology
+Environmental sciences
+Entomology
+Mapping
+Environmental sciences  	Microbiology  	Entomology
+Genomics	Sequence analysis	Annotation
+Bioinformatics	Proteomics	Microbiology
+Genetic variation, Evolutionary biology, Infectious disease
+Environmental sciences   Vector surveillance   Biology
+Gene expression
+Parasitology
+Infectious disease
+Transcriptomics	Mouse clinic	Infectious disease
+Genetics	Microbiology	Infectious disease
+Environmental sciences	Microbiology	Zoology
+Bioinformatics	Molecular biology	Genetics
+Transcriptomics    Genetics    Infectious disease
+Genomics	Plant biology	Data submission, annotation, and curation
+Environmental sciences	Tropical medicine	Molecular biology
+Environmental sciences	Zoology	Public health and epidemiology
+Chemical biology   Cheminformatics   Chemistry
+Infectious disease	Environmental sciences	Microbiology
+Infectious disease	Population genetics	Zoology
+Bioinformatics   Proteomics   Parasitology
+Proteomics	RNA	Infectious disease
+Bioinformatics	Taxonomy	Ontology and terminology
+Transcriptomics   Genetics   Parasitology
+Genomics   Biomarkers   Parasitology
+Bioinformatics	Genomics	Transcriptomics
+Genetics	Evolutionary biology	Parasitology
+Transcriptomics   Parasitology   Infectious disease
+Genomics  	Microbiology  	Biology
+Infectious disease	Tropical medicine	Parasitology
+Environmental sciences  	Data mining  	Ecology
+Genomics   Genetics   Biology
+Genetics	Genomic variation	Genomics
+"Infectious disease	Tropical medicine	Entomology"
+Proteomics	Epigenetics	Parasitology
+Transcriptomics<TAB>Biology<TAB>Molecular biology
+Genetics  	Genomics  	Parasitology
+Genomics	Genetics	Parasitology
+Genomics  	Microbiology	Genetics
+Public health and epidemiology   Infectious disease   Environmental sciences
+Biotechnology	Gene regulation	Molecular biology
+Transcriptomics	Genomics	Infectious disease
+Environmental sciences	Zoology	Agricultural science
+Mapping
+Proteomics
+Genetics
+Genetics	Entomology	Molecular biology
+Genetics	Environmental sciences	Molecular biology
+Genetics	Gene expression	Next Generation Sequencing Technology
+Transcriptomics	Toxicology	Biology
+Mapping  	Biology  	Genetics
+Genomics   Parasitology   Genetics
+Infectious disease	Medical toxicology	Parasitology
+Infectious disease	Molecular biology	Ecology
+Environmental sciences	Zoology	Public health and epidemiology
+Sequence analysis\tGenomics\tData submission, annotation, and curation
+Genomics
+Parasitology
+Bioinformatics
+Parasitology, Proteomics, Microbiology
+Environmental sciences   Entomology   Parasitology
+Environmental sciences	Zoology	Parasitology
+Animal study   Genetics   Microbiology
+Environmental sciences\tMicrobiology\tVector-borne diseases
+Genomics   	Annotation   	Genetic variation
+Parasitology	Microbiology	Environmental sciences
+Transcriptomics    Parasitology    Molecular biology
+Genomics   Molecular biology   Microbiology
+Environmental sciences	Zoology	Public health and epidemiology
+Genomics	Genetics	Parasitology
+Parasitology   Computational biology   Genetics
+Genomics	Transcriptomics	Probes and primers
+Genetics	Gene regulation	Transcriptomics
+Genomics   Molecular biology   Bioinformatics
+Transcriptomics	Tropical medicine	Parasitology
+Transcriptomics\tAnimal study\tInfectious disease
+Genomics	Biology	Microbiology
+Genetics	Genomics	Microbiology
+Parasitology	Zoology	Biology
+Transcriptomics\tParasitology\tGenomics
+Plant biology   RNA   Agricultural science
+Genetics	Population genomics	Genomics
+Parasitology   Comparative genomics   Zoology
+Molecular biology	Microbial collection	Infectious disease
+Cell biology    Virology    Transcriptomics
+Genomics\tGenetics\tBioinformatics
+Environmental sciences  	Microbiology  	Parasitology
+Environmental sciences  	Ecology  	Infectious disease
+Genetics	Genomics	"Infectious disease"
+Genomics	Genetics	Microbiology
+Genetics  	Biology  	Cell biology
+Transcription factors and regulatory sites    Transcriptomics    Molecular biology
+Bioinformatics	Cellular biology	Molecular biology
+Parasitology	Molecular biology	Immunology
+Gene expression, Infectious disease, Parasitology
+Proteins	Population genetics	Microbiology
+Parasitology	Molecular biology	Proteomics
+Transcriptomics	Zoology	Biology
+Environmental sciences   Data integration and warehousing    Zoology
+Bioinformatics	RNA	Genomics
+Environmental sciences    Infectious disease    Genetics
+Genomics  	Proteomics  	Microbiology
+Genomics   Bioinformatics   Microbiology
+Bioinformatics	Genomics	Taxonomy
+Transcriptomics   Parasitology   Cell biology
+Environmental sciences  	Genomics	Biosciences
+Transcriptomics\tCell biology\tData submission, annotation, and curation
+Proteomics	Population genetics	Microbiology
+Developmental biology     Embryology     Gene expression
+Genomics	Parasitology	Microbiology
+Bioinformatics  	Genomics	Annotation
+Genomics   Parasitology   Molecular biology
+Environmental sciences	Medicine	Public health and epidemiology
+Genomics	Sequence assembly	Computational biology
+Genomics   Annotation   Parasitology
+Genetics    Molecular biology    Parasitology
+Genomics   Bioinformatics   Parasitology
+Infectious disease	Microbiology	Environmental sciences
+Genomics 	Genome annotations 	Microbiology
+Parasitology   Genomics   Sequence analysis
+Genetics	Microbiology	Transcriptomics
+Proteomics	Parasitology	Biology
+Environmental sciences   Public health and epidemiology   Zoology
+Environmental sciences  	Epidemiology  	Vector biology
+Parasitology	Microbiology	Genetics
+Genetics    Genomics    Sequence analysis
+Genomics	Annotation	Microbiology
+Microbiology	Medicine	Ecology
+Genomics   Biomarkers   Molecular biology
+Genomics	Annotation	Microbiology
+Transcriptomics   Parasitology   Genetics
+Genomics   Microbiology   Parasitology
+Environmental sciences
+Microbiology
+Infectious disease
+Genomics   Annotation   DNA
+Genomics   Transcriptomics   Parasitology
+Genomics	Sequence analysis	Parasitology
+Environmental Sciences	Zoology	Microbiology
+Genomics  	Microbiology	Parasitology
+Transcriptomics   	Microbiology   	Environmental sciences
+Animal study    Genetics    Molecular biology
+Genetics    Molecular biology    Parasitology
+Transcriptomics	Time series analysis	Data acquisition
+Entomology   Environmental sciences   Infectious disease
+Genomics	Copy number variation	Sequence analysis
+Transcriptomics	Taxonomy	Microbiology
+Transcriptomics   Computational biology    Biological science
+Proteomics  	Cell biology  	Biology
+Proteomics     Infectious disease     Genetics
+Genomics    Transcriptomics    Animal study
+Transcriptomics  	Biology  	Animal study
+Infectious disease	Public health and epidemiology	Entomology
+Cell biology    Proteomics    Membrane and lipoproteins
+Entomology	Zoology	Genetics
+Genotype and phenotype	Parasitology	"Infectious disease"
+Parasitology	Zoology	Agricultural science
+Transcriptomics	Cell biology	Molecular biology
+Genetics	Microbiology	Genomics
+Genomics	Microbiology	Parasitology
+Genomics	Molecular biology	Parasitology
+Parasitology	Zoology	Infectious disease
+Gene expression, Genetics, Parasitology
+Environmental sciences  	Ecology  	Infectious disease
+Transcriptomics   Microbiology   Animal study
+Environmental sciences   Microbiology   Public health and epidemiology
+Genomics\tMicrobiology\tParasitology
+Environmental sciences   Microbiology   Infectious disease
+Gene expression   Embryology   Animal study
+Transcriptomics\tMicrobiology\tInfectious disease
+Transcriptomics	Ribosome Profiling	Gene expression
+Bioinformatics  	Genetics  	Molecular biology
+Genomics	Molecular biology	Parasitology
+Genomics\tMolecular biology\tBioinformatics
+Genomics	Parasitology	Microbiology
+Transcriptomics	Cell biology	Genomics
+Genomics    Parasitology	Biology
+Bioinformatics	Biology	Genetics
+Genetics	Parasitology	Microbiology
+Genomics	Microbiology	Parasitology
+Environmental sciences   Ecology	Medical informatics
+Environmental sciences   Microbiology   Infectious disease
+Gene expression
+Microarray
+Drug resistance
+Genomics	Tropical medicine	Parasitology
+Environmental sciences    Ecology    Zoology
+Genetics	Genomics	Sequence analysis
+RNA, Genetics, Microbiology
+Transcriptomics     Biomarkers     Animal Study
+Environmental sciences   	Data acquisition   	Vector-borne diseases
+Public health and epidemiology        Zoology        Infectious disease
+Environmental sciences	Zoology	Parasitology
+Cell biology	Molecular biology	Parasitology
+Infectious disease	Medical informatics	Public health and epidemiology
+Genomics	Annotation	Biology
+Microbiology	Transcriptomics	"Infectious disease"
+Genetic variation\tGenetics\tInfectious disease
+Entomology	Zoology	Public health and epidemiology
+Biochemistry	Biology	Parasitology
+Genomics\tBioinformatics\tBiology
+Transcriptomics	Zoology	Molecular biology
+Genetics	Genomics	Microbiology
+Genomics	Sequence analysis	Biology
+Bioinformatics	Molecular genetics	Genomics
+RNA	splicing	Ribosome Profiling	seqeuence analysis
+Transcriptomics	Immunology	Microbiology
+Bioinformatics	Taxonomy	Parasitology
+Bioinformatics	Genomics	Sequence analysis
+Environmental sciences   Genetics    Toxicology
+Immunology	RNA	Cell biology
+DNA, Genetics, Microbiology
+Proteomics    Mitochondria    Parasitology
+Genetics	Population genetics	Molecular biology
+Infectious disease	RNA	Transcriptomics
+Genomics	Annotation	Pathology
+Microbiology	Medicine	Public health and epidemiology
+Genomics	Parasitology	Microbiology
+Transcriptomics    Genetics    Infectious disease
+Transcriptomics   Genetics   Molecular biology
+Genetic variation
+Insecticide resistance
+Molecular biology
+Genomics   Evolutionary biology   Infectious disease
+Infectious disease	Public health and epidemiology	Entomology
+Transcriptomics     Microbiology     Infectious disease
+Transcription factors and regulatory sites	Tropical medicine	Immunology
+Genomics	Microbiology	Biology
+Proteomics
+Cell biology
+Parasitology
+"Proteomics"	"Microbiology"	"Parasitology"
+Transcriptomics    Immunology    Infectious disease
+Infectious disease   Transcriptomics   Zoology
+Infectious disease	Tropical medicine	Public health and epidemiology
+Biochemistry   Genomics   Proteomics
+Genetics	Genomics	Parasitology
+Microbiology   DNA   Genetics
+Population genetics  	Biodiversity	Genetics
+Environmental sciences	Parasitology	Public health and epidemiology
+Bioinformatics	Molecular interactions, pathways and networks	RNA
+Environmental sciences   Infectious disease   Public health and epidemiology
+Genetics   Genomics   Computational biology
+Genetics	Genomics	Parasitology
+Parasitology   Microbiology   Genetics
+Proteomics	Cell biology	Microbiology
+Microbiology   Genetics   Infectious disease
+Transcriptomics   Computational biology   Genetics
+Biology	Environmental sciences	Transcriptomics
+Parasitology 	Transcriptomics	Microbiology
+Parasitology	Microbiology	Proteomics
+Bioinformatics	Molecular biology	Genetics
+Genomics   Annotation   Biology
+Genomics\tParasitology\tMicrobiology
+Bioinformatics	RNA	Gene expression
+Animal study   Biotechnology   Transcriptomics
+Infectious disease	Public health and epidemiology	Molecular biology
+Genomics   Genome sequencing   Annotation
+Parasitology	Zoology	Genetics
+Epidemiology	Population genetics	Infectious disease
+Cell biology	Molecular biology	Immunology
+Genetics	Computational biology	Microbiology
+Genomics	Sequence analysis	Parasitology
+Genomics  	Biology  	Microbiology  
+Transcriptomics, Genetics, Microbiology
+Parasitology	Zoology	Environmental sciences
+Environmental sciences	Microbiology	Vectorology
+Comparative genomics\tTranscriptomics\tInfectious disease
+Biotechnology	Molecular biology	Parasitology
+Gene expression, Molecular biology, Parasitology
+Genomics  	Molecular biology  	Parasitology
+Genomics  	Biology  	Parasitology
+Genomics  	Biology	Microbiology
+Genomics	Genome sequencing	Microbiology
+Environmental sciences  	Ecology  	Entomology
+DNA, Ecology, Entomology
+Environmental sciences	Ecology	Zoology
+Genomics   DNA   Genetics
+Genomics	Molecular biology	Parasitology
+Infectious disease	Medical informatics	Public health and epidemiology
+Transcriptomics   Computational biology   Genetics
+Genomics\tParasitology\tGenetics
+Parasitology	Transcriptomics	Genomics
+Proteomics  	Biology  	Parasitology
+Entomology	Zoology	Public health and epidemiology
+Genomics	Genetics	Freshwater biology
+Genomics  	Environmental sciences  	"Infectious disease"
+Genomics    Molecular biology    Bioinformatics
+Cell biology	Parasitology	Infectious disease
+Gene expression
+Molecular biology
+Parasitology
+Transcriptomics
+Microbiology
+Immunology
+Comparative genomics	Microbiology	Genomics
+Genomics   Molecular biology   Sequence analysis
+Transcriptomics   	Proteomics   	Molecular biology
+Infectious disease	Tropical medicine	Vector biology
+Biochemistry	Molecular biology	Proteomics
+Entomology  	Biochemistry  	Environmental sciences
+Proteomics	Cell biology	Microbiology
+Computational biology	Computational chemistry	Data mining
+Entomology	Medical informatics	Public health and epidemiology
+Genomics	Sequence analysis	Parasitology
+Transcriptomics	Comparative genomics	Infectious disease
+Microbiology\tGene expression\tParasitology
+Genetics\tMicrobiology\tPlant biology
+Environmental sciences   Microbiology   Infectious disease
+Environmental sciences	Zoology	Microbiology
+Parasitology	Microbiology	Genetics
+Bioinformatics	Probes and primers	Genomics
+Proteomics  	Parasitology  	Molecular biology
+Ecology	Iinfectious disease	Public health and epidemiology
+Genomics    Computational biology    Molecular biology
+Infectious disease	Tropical medicine	Mapping
+Genomics    Molecular biology    Parasitology
+Transcriptomics 	Genetics 	Parasitology
+Genetics	Molecular biology	Genomics
+Genetics	Gene expression	DNA
+Bioinformatics	Genomics	"Gene expression"
+Transcriptomics	Plant biology	Infectious disease
+Public health and epidemiology	Zoology	Parasitology
+Genomics   	Biology   	Sequence analysis
+Bioinformatics	RNA	Biology
+Bioinformatics   Computational biology	Genetics
+Transcriptomics
+Microbiology
+Plant biology
+Genetics	Environmental sciences	Infectious disease
+Biology  	RNA  	Parasitology
+Transcriptomics  	Cell biology	Molecular biology
+Genomic variation, Genomics, Infectious disease
+Genomics  	Microbiology  	Parasitology
+Infectious disease	Microbiology	Genetics
+Bioinformatics	Molecular biology	Genomics
+Genetics   Microbiology   Parasitology
+Genomics   	Parasitology   	Sequence analysis
+Genomics   Parasitology   Transcriptomics
+Genomics	Molecular biology	Sequence analysis
+Transcriptomics    Genetics    Parasitology
+Cell biology  	Molecular biology  	Immunology  
+Environmental sciences  	Data mining  	Microbiology
+Genomics	Biology	Parasitology
+Genomics	CNV	Genetic variation
+Parasitology    Bioinformatics   Genetics
+Parasitology	Zoology	Transcriptomics
+Cell culture collection	Biology	Biotechnology
+Genomics   Bioinformatics   Biology
+Genomics	Sequence analysis	Data submission, annotation, and curation
+Genetics	Sequence analysis	Biology
+Genomics  	Microbiology	  Parasitology
+Genomics  	Genetics	Biology
+Ecology	Population genetics	Parasitology
+Transcriptomics    RNA    Parasitology
+Plant biology    Transcriptomics    Molecular biology
+"Infectious disease
+Entomology
+Public health and epidemiology"
+Genetics	Genomics	Medical toxicology
+Environmental sciences    Public health and epidemiology     Data acquisition
+Genomics	Sequence analysis	Annotation
+Environmental sciences   Biology   Zoology
+Genetics\tGenomics\tSequence analysis
+Genomics   	Biology   	Sequence analysis
+Genomics	Parasitology	Sequence analysis
+Biotechnology	Biology	Genetics
+Genomics    Biomarkers    Bioinformatics
+Transcriptomics    Microbiology    Infectious disease
+Genetics     Reproductive health     Transcriptomics
+Genetics	Sequence analysis	Genomics
+Biochemistry	Molecular biology	Enzymes
+Environmental sciences   Geographic information system   Entomology
+Genomics	Annotation	Biology
+Transcriptomics	Zoology	Agricultural science
+Genomics    Proteomics    Parasitology
+Genomics	Parasitology	Molecular biology
+Genomics	I	Parasitology	I	Phylogenetics
+Genetics	Microbiology	Bioinformatics
+Transcriptomics    Parasitology    Infectious disease
+Genetics	Molecular biology	Parasitology
+Environmental sciences	Zoology	Data acquisition
+Parasitology	Zoology	Infectious disease
+Environmental sciences   Ecology   Infectious disease
+Genomics	Parasitology	Molecular biology
+Biodiversity  	Ecology	Zoology
+Infectious disease	Zoology	Public health and epidemiology
+Genomics	Microbiology	Molecular biology
+Infectious disease	Zoology	Genetics
+Infectious disease	Population genetics	Molecular biology
+Genetics	Microbiology	Evolutionary biology
+Infectious disease	Population genetics	Entomology
+Environmental sciences    Microbiology    Public health and epidemiology
+Infectious disease	RNA	Transcriptomics
+"Infectious disease"	"Parasitology"	"Vector biology"
+Transcriptomics   Genetics   Infectious disease
+Proteomics	Cell biology	Microbiology
+Immunology	Animal study	Vaccinology
+Gene expression, Transcription factors and regulatory sites, Parasitology
+Bioinformatics	RNA	Transcriptomics
+Transcriptomics    Molecular biology    Microbiology
+Genomics	Synthetic biology	Molecular biology
+Immunology	Microbiology	Infectious disease
+Environmental sciences    Epidemiology    Public health and epidemiology
+Environmental sciences	Population genetics	Infectious disease
+Environmental sciences   Zoology   Public health and epidemiology
+Genetics	Genomics	Evolutionary biology
+Transcriptomics	Gene expression	Biology
+Environmental sciences   Microbiology   Parasitology
+"Infectious disease"   "Parasitology"   "Public health and epidemiology"
+Genomics	Genetics	Parasitology
+Environmental sciences    Infectious disease     Zoology
+Environmental sciences    Molecular biology    Infectious disease
+Genomics   Parasitology   Sequence analysis
+Cell biology	Gene expression	Parasitology
+Biology	Molecular biology	Genetics
+Genomics   	Biology	Genetics
+"Infectious disease"    "Human biology"    "Immunology"
+Environmental sciences     Microbiology     Public health and epidemiology
+Genetics   Genomics   Microbiology
+Environmental sciences	Entomology	Infectious disease
+Animal study	Tropical medicine	Parasitology
+Genomics	Microbiology	Biological science
+Genetics	Genomics	Biology
+Transcriptomics	Animal study	Genomics
+Environmental sciences   	Data acquisition   	Data governance
+Infectious disease	Population genetics	Medical toxicology
+Microbiology   Genetics   Bioinformatics
+Parasitology	Environmental sciences	Infectious disease
+Environmental sciences	Ecology	Public health and epidemiology
+Bioinformatics	Phylogenomics	Transcriptomics
+Genomics   DNA   Parasitology
+Transcriptomics  	Anatomy	Gene expression
+Transcriptomics	Immunology	Parasitology
+Infectious disease	Population genetics	Ecology
+Environmental sciences   Public health and epidemiology   Zoology
+Environmental sciences   Ecology   Microbiology
+Genomics	Parasitology	Molecular biology
+Comparative genomics  	Genetics  	Population genomics
+Genomics   	Microbiology   	Sequence analysis
+Genomics	Microbiology	Bioinformatics
+Genomics 	DNA  	Molecular biology
+Biology	Molecular biology	Genetics
+Environmental sciences\tInfectious disease\tPublic health and epidemiology
+Transcriptomics   Parasitology   Infectious disease
+Animal study  	Biochemistry  	Proteomics
+Genomics   Bioinformatics   Biology
+Parasitology	Proteomics	Antimicrobial Resistance
+Infectious disease	Zoology	Environmental sciences
+Public health and epidemiology  	Parasitology  	Infectious disease
+Environmental sciences	Zoology	Public health and epidemiology
+Genomics	Sequence analysis	Annotation
+Environmental sciences\tInfectious disease\tMosquito surveillance
+Environmental sciences   Geography   Infectious disease
+Transcriptomics    Zoology    Gender medicine
+Genomics   Parasitology   Bioinformatics
+Genomics    Sequence assembly   Annotation
+Genomics   	Comparative genomics	Genetics
+Transcriptomics   Genetics   Zoology
+Bioinformatics	Molecular biology	Genomics
+Genomics	Annotation	Microbiology
+Genetics	Genomics	Antimicrobial Resistance
+Bioinformatics	Phylogenomics	Transcriptomics
+Cell biology\tGene expression\tMolecular biology
+Proteomics    Biochemistry    Parasitology
+Genomics	Biomarkers	Infectious disease
+Environmental sciences    Veterinary medicine    Zoology
+Animal study	Zoology	Molecular biology
+Transcriptomics	RNA	Infectious disease
+Transcriptomics    Genetics    Microbiology
+Environmental sciences  Microbiology  Infectious disease
+Environmental sciences    Immunology    Infectious disease
+Public health and epidemiology	I	Environmental sciences	I	Infectious disease
+Genetics	Molecular biology	Vector control and transmission blocking strategies
+Environmental sciences	Genetics	Microbiology
+Animal study
+Infectious disease
+Parasitology
+Genomics	Sequence analysis	Annotation
+Environmental sciences	Zoology	Infectious disease
+Entomology	Microbiology	Pathology
+Transcriptomics	Parasitology	Biology
+Transcriptomics	Animal Study	Genetics
+Genomics   	Biology    	Parasitology
+Bioinformatics	RNA	Functional genomics
+Genetics	Population genetics
+Infectious disease	Virology
+Bioinformatics	Sequence analysis
+Proteomics\tMicrobiology\tParasitology
+Genetics	Transcriptomics	Biology
+Genomics	Sequence analysis	Annotation
+Genetics	Gene expression	Immunology
+Transcription factors and regulatory sites    RNA    Transcriptomics
+Parasitology     Transcriptomics     Developmental biology
+Proteomics   Computational biology   Microbiology
+Environmental sciences	Computational biology	Animal study
+Infectious disease	Public health and epidemiology	Entomology
+Genetics   Genomics   Sequence analysis
+Transcription factors and regulatory sites  	Transcriptomics  	Biology
+Genomics  	Biology  	Sequence analysis
+Genomics	Molecular biology	Parasitology
+Comparative genomics	Parasitology	Genomics
+Environmental sciences  	Microbiology  	Vector control
+Genetics\tEntomology\tBioinformatics
+Parasitology	Molecular biology	Proteomics
+Genomics   Microbiology   Parasitology
+Proteomics	Parasitology	Cell biology
+Public health and epidemiology    Epidemiological investigations   Infectious disease
+Environmental sciences   Genetics   Infectious disease
+Genetics	Genomics	Parasitology
+Genomics 	Biology	Genetics
+Genetics	Gene expression	Transcriptomics
+Environmental sciences	Zoology	Public health and epidemiology
+Infectious disease	Laboratory animal science	Environmental sciences
+Bioinformatics	Genetics	RNA
+Genomics	Population genomics	Phylogenetics
+Proteomics 	Biology	Biomolecules
+Transcriptomics	RNA	Genetics
+Genomics	Computational biology	Microbiology
+Environmental sciences	Population genetics	Vector biology
+Genetics	Genomics	Functional genomics
+"Infectious disease"    "Vector biology"   "Epidemiology"
+Environmental sciences  	Ecology  	Infectious disease
+Cell biology  	Parasitology  	Infectious disease
+Bioinformatics    Genomics    Genetics
+Environmental sciences	Zoology	Medical toxicology
+Genomics	Microbiology	Infectious disease
+Transcriptomics    Developmental biology    Parasitology
+Genomics	Genetic variation	Biology
+Infectious disease	Tropical medicine	Vector-borne diseases
+Genetics	Transcriptomics	Parasitology
+Genomics   	Biology    	Parasitology
+Developmental biology  	Gene expression  	Transcriptomics
+Transcriptomics    Microbiology    Infectious disease
+Environmental sciences  	Microbiology  	Pharmacology
+Transcriptomics     Molecular biology     Infectious disease
+Environmental sciences    Infectious disease    Public health and epidemiology
+Genomics	Genetic variation	Sequence analysis
+Bioinformatics	Molecular biology	Genomics
+Genetics	Anatomy	Sequence analysis
+Animal study
+Microbiology
+Gene expression
+Gene expression	Reproductive health	Zoology
+Genomics\tBiology\tBioinformatics
+Public health and epidemiology	Data acquisition	Data integration and warehousing
+Animal study  	Immunology  	Microbiology
+Transcriptomics\tGenetics\tMicrobiology
+Genetics	Genomics	Environmental sciences
+Bioinformatics   Genetics   Molecular biology
+Bioinformatics	Genetics	Genomics
+Environmental sciences    Epidemiology    Public health and epidemiology
+Transcriptomics   Microbiology   Genetics
+Transcriptomics   Molecular biology   Genetics
+Mapping, Transcriptomics, Genetics
+Genetics	Genomics	Microbiology
+Bioinformatics   Genetics   Microbiology
+Cell biology	Genetics	Molecular biology
+Genetics	Computational biology	Biotechnology
+Animal study  	Biology  	Genomics
+Genomics	Microbiology	Biology
+Genomics	Molecular biology	Biology
+Developmental biology   Transcriptomics   Anopheles.
+Transcriptomics	Taxonomy	Zoology
+Genomics    Molecular biology    Bioinformatics
+Genomics	Parasitology	Sequence analysis
+Cell biology\tGenomics\tTranscriptomics
+Genomics	Annotation	Biology
+Animal study   Bioinformatics   Genetics
+Genetics    Microbiology    Antimicrobial Resistance
+Genomics	Annotation	Parasitology
+Genetics	RNA	Transcriptomics
+Genomics	Genome assembly	Data management
+Genomics
+Annotation
+Biology
+Biochemistry	Molecular biology	Genomics
+Genetics	Microbiology	Parasitology
+Infectious disease	Population genetics	Public health and epidemiology
+Animal study   Genomics   Molecular biology
+Environmental sciences    Entomology    Zoology
+Genomics	Microbiology	Parasitology
+Cell biology	Proteins	Subcellular localization
+Genomics        Molecular biology        Microbiology
+Transcriptomics   	Virology   	Infectious disease
+Genetics    Genomics    Molecular biology
+Parasitology	Proteomics	Biochemistry
+Genes structure
+Bioinformatics
+Molecular biology
+Animal study   Immunology   Infectious disease
+Environmental sciences  	|  	Vector surveillance  	|  	Infectious disease
+Environmental sciences     Infectious disease     Public health and epidemiology
+Bioinformatics	Transcriptomics	Genomics
+Genetics	RNA	Transcriptomics
+Entomology 	|	Infectious disease 	|	Environmental sciences
+Environmental sciences\tInfectious disease\tEntomology
+Genomics\tDNA\tInfectious disease
+Environmental sciences   Zoology	Entomology
+Genetic variation, Infectious disease, Population genetics
+Genomics	Genome sequencing	Genome annotation
+Transcriptomics	Human genetics	Gene expression
+Population genetics    Genomics    Infectious disease
+Genomics	Microbiology	Biology
+Genetics	Molecular biology	Molecular genetics
+Genomics    Microbiology    Bioinformatics
+Genomics	Population genetics	Parasitology
+Transcriptomics    Molecular biology    Microbiology
+Genomics	Genetics	Microbiology
+Animal study    Transcriptomics    Genetics
+Genetics   Genomics   Molecular biology
+Cell biology    RNA    Infectious disease
+Botany	Plant biology	Transcriptomics
+Transcriptomics	Computational biology	Microbiology
+Population genetics\tEvolutionary biology\tInfectious disease
+Genomics   Transcriptomics   Infectious disease
+Genomics	Parasitology	Microbiology
+Developmental biology   Transcriptomics   Zoology
+Cell biology\tProteomics\tMicrobiology
+Biodiversity	Metabarcoding	Genomics
+Bioinformatics	Microbiology	Genomics
+Animal study\tGenetics\tMicrobiology
+Environmental sciences  	Microbiology	Ecology
+Genomics	Biology	Parasitology
+Genomics\tGenetic variation\tInfectious disease
+Public health and epidemiology  	Data acquisition  	Data integration and warehousing
+Genomics    DNA    Parasitology
+Biotechnology	Molecular biology	Parasitology
+Genetics	Population genetics	Vector biology
+Transcriptomics   Comparative genomics   Molecular biology
+Genomics	Genome sequencing	Annotation
+Genomics   	Biology   	Sequence analysis
+Genomics	Parasitology	Biology
+Genomics	Annotation	Plant biology
+Comparative genomics	Microbiology	Genetics
+Environmental sciences	public health and epidemiology	Infectious disease
+Transcriptomics	Animal study	Infectious disease
+Genomics  	Data submission, annotation, and curation  	Microbiology
+Transcriptomics   Biology   RNA
+Cell biology   Computational biology   Transcriptomics
+Genomics	Genetics	Microbiology
+Transcriptomics   Comparative genomics   Infectious disease
+Transcriptomics  	Parasitology	Microbiology
+Genomics   Genetics   Biology
+Environmental sciences		Parasitology		Infectious disease
+Genomics\tMicrobiology\tSequence analysis
+Environmental sciences  	Entomology  	Infectious disease
+Gene expression, Genetics, Microbiology
+Animal study    Computational biology    Transcriptomics
+Transcriptomics 	Molecular biology	Genetics
+Genetics	Population genetics	Parasitology
+Genetics	Genomics	Infectious disease
+Genetics	Population genetics	Medical biotechnology
+Genomics	Plant biology	Data submission, annotation, and curation
+Genomics\tParasitology\tSequence analysis
+Genomics	Taxonomy	Biology
+Entomology	Life sciences	Ecology
+Public health and epidemiology	Tropical medicine	Parasitology
+Transcriptomics   Microbiology   Fungal infection
+Infectious disease	Genetics	Microbiology
+Transcriptomics	genomics	Biology
+Parasitology   Proteomics   Cell biology
+Genomics   Molecular biology     Microbiology
+Proteomics   Genetics   Parasitology
+Genetics	Population genetics	Biology
+Environmental sciences    Public health and epidemiology   Zoology
+Genetics	Genomics	Biology
+Ecology	Medical informatics	Public health and epidemiology
+Environmental sciences	Zoology	Infectious disease
+Infectious disease	Public health and epidemiology	Medical informatics
+"Infectious disease"	"Environmental sciences"	"Public health and epidemiology"
+Genomics	Parasitology	Microbiology
+Genetics	Molecular biology	Parasitology
+Environmental sciences     Data management     Zoology
+Genomics   Bioinformatics   Genetic variation
+Transcriptomics    Parasitology    Animal study
+Immunology	Genetics	Microbiology
+Genomics    Parasitology    Molecular biology
+Genomics\tEpigenetics\tParasitology
+Environmental sciences	Ecology	Infectious disease
+Transcriptomics    Genetics    Microbiology
+"Infectious disease"	"Parasitology"	"Public health and epidemiology"
+Genetics	Genomics	Ecology
+Gene expression, Genetics, Transcriptomics
+Environmental sciences  	Entomology  	Epidemiology
+Genetics	Epigenetics	Infectious disease
+Environmental sciences    Infectious disease    Public health and epidemiology
+Environmental sciences	Zoology	Infectious disease
+Genomics\tBioinformatics\tBiology
+Environmental sciences  	Entomology  	Infectious disease
+Transcriptomics   	Genomics   	Parasitology
+Genetics	Molecular biology	Parasitology
+Proteomics, Parasitology, Molecular biology
+Genomics    Microbiology    Molecular biology
+Environmental sciences\tInfectious disease\tVector surveillance
+Transcriptomics\tInfectious disease\tMicrobiology
+Genomics	Annotation	Microbiology
+Genetics	Developmental biology	Parasitology
+Environmental sciences  	Genomics  	Infectious disease
+Environmental sciences	Entomology	Infectious disease
+Public health and epidemiology    Infectious disease    Veterinary medicine
+Genetics	Genomics	Microbiology
+Transcriptomics	Developmental biology	Plant biology
+Genomics  	Genome sequence analysis  	Annotation
+Animal study  	Biology    	Genetics
+Animal study   Genomics   Microbiology
+Environmental sciences	Zoology	Public health and epidemiology
+Transcriptomics   RNA   Genetics
+Genetics	Population genomics	Genomics
+Transcriptomics	Parasitology	Molecular biology
+Gene expression, Gene regulation, Anatomy
+Transcriptomics   Genetics   Genomics
+Transcriptomics    Virology    Environmental sciences
+Environmental sciences   Parasitology   Public health and epidemiology
+Transcriptomics	Genetics	Molecular biology
+Genomics   Computational biology   Microbiology
+Genomics	Taxonomy	Biology
+Infectious disease	Tropical medicine	Microbiology
+Cell biology	Genetics	Molecular biology
+Transcriptomics	Animal study	Gastroenterology
+Transcriptomics\tGenomics\tParasitology
+Genetics	Laboratory animal science	Microbiology
+Genetics   RNA   Transcriptomics
+Genomics	Annotation	Molecular biology
+Genomics  	DNA  	Genetics
+Parasitology	Zoology	Public health and epidemiology
+Genetics	Molecular biology	Entomology
+Entomology	Zoology	Public health and epidemiology
+Genomics	Microbiology	Bioinformatics
+Genetics	Genomics	Parasitology
+Biochemistry	Genomics	Metabolomics
+Genetics	Genomics	Parasitology
+Environmental sciences  	Microbiology  	Infectious disease
+Comparative genomics	Genomics	Genetic variation
+Parasitology	Transcriptomics	Molecular biology
+Developmental biology\tMolecular biology\tGenetics
+Genomics	Annotation	Biology
+Infectious disease	Molecular biology	Proteomics
+Gene expression, Transcriptomics, Genetics
+Cell biology     Proteomics     Parasitology
+Infectious disease   Genomics   Parasitology
+Entomology	Parasitology	Resistance science
+Genomics	Microbiology	Ecology
+Genomics	Microbiology	Molecular biology
+Environmental sciences	Entomology	Public health and epidemiology
+Genomics\tBioinformatics\tMicrobiology
+Transcriptomics    RNA    Parasitology
+Cell biology	Taxonomy	Microbiology
+"Infectious disease	Tropical medicine	Vector biology"
+Genomics	Taxonomy	Microbiology
+Infectious disease	Population genetics	Parasitology
+Genomics   Bioinformatics   Molecular biology
+Environmental sciences	Taxonomy	Zoology
+Transcriptomics  	Data mining  	Cheminformatics
+Ecology	Molecular biology	Environmental sciences
+Ecology	I
+Genetics	I
+Entomology	I
+Genomics	Genetics	Microbiology
+Biochemistry\tCell biology\tInfectious disease
+Genomics  	Gene regulation  	Sequence analysis
+Genetics   Genomics   Molecular biology
+Infectious disease	Population genetics	Virology
+Biochemistry    Proteomics    Molecular biology
+Parasitology	Public health and epidemiology	Genetics
+Transcriptomics   RNA   Cell biology
+Parasitology	Zoology	Sequence analysis
+Genetics	Molecular biology	Genomics
+Genomics	Data integration and warehousing	Sequence analysis
+Genetics	Computational biology	Biology
+Environmental sciences	Public health and epidemiology	Vector-borne diseases
+Genetics   Evolutionary biology   Infectious disease
+Genetics	Gene expression	Microbiology
+Genomics	Microbiology	Molecular biology
+Genomics	Parasitology	Molecular biology
+Genetics	Genomics	Immunology
+Ecology	Zoology	Infectious disease
+Environmental sciences	Zoology	Public health and epidemiology
+Genomics  	Biology	Genetics
+Environmental sciences  	Public health and epidemiology  	Infectious disease
+Bioinformatics   Biomolecular simulation   Genetics
+Genomics	Annotation	Biology
+Genetics	Biology	Microbiology
+Genomics	Parasitology	Sequence analysis
+Environmental sciences  	Medical biotechnology  	Entomology
+Entomology	Clinical genetics	Infectious disease
+Transcriptomics  	Biology  	Reproductive health
+Transcriptomics	  RNA	  Parasitology
+Genomics   	Genetics   	Sequence analysis
+Proteomics	Parasitology	Microbiology
+Genomics	Computational biology	Infectious disease
+Transcriptomics       Parasitology    Gene expression
+Genomics	Molecular biology	Parasitology
+Transcriptomics	Cell biology	Genetics
+Genomics	Plant biology	Biology
+Genomics   Parasitology   Sequencing
+Infectious disease	Gene regulation	Microbiology
+Transcriptomics  	Anatomy  	Animal study
+Transcriptomics	RNA	Parasitology
+Genomics   	Biology    	Parasitology
+Genomics   	Paleogenomics   	Parasitology
+Genomics	Parasitology	Infectious disease
+Genomics\tMicrobiology\tSequence analysis
+Parasitology	Molecular biology	Proteomics
+Bioinformatics	Genomics	Transcriptomics
+Transcriptomics   Veterinary medicine   Infectious disease
+Transcriptomics	RNA	Molecular biology
+Mapping     Transcriptomics     Gene expression
+Genomics	Microbiology	Biology
+Infectious disease	Population genetics	Ecology
+Genomics   	Data submission, annotation, and curation   	DNA
+Genomics	Genetics	Parasitology
+Genetics    Microbiology    Infectious disease
+Transcriptomics    Genetics    Parasitology
+Epigenetics	Molecular biology	Biochemistry
+Genomics   Bioinformatics   Biology
+Transcriptomics   Computational biology   Genetics
+Genomics	Annotation	Microbiology
+Bioinformatics	Comparative genomics	Genetics
+Genetic variation   Genomics   DNA
+Bioinformatics	Molecular biology	Parasitology
+Genomics	Microbiology	Biology
+Transcriptomics   	Circadian rhythms    	Temperature	control
+Parasitology   Entomology   Infectious disease
+Transcriptomics    Genetics    Biotechnology
+Comparative genomics   Genomics   Parasitology
+Genomics	Parasitology	Microbiology
+Genomics    Microbiology    Parasitology
+Genomics   	Biology   	Bioinformatics
+Genomics	Genome Annotation	Molecular Biology
+Environmental sciences     Microbiology     Public health and epidemiology
+Genetics   Molecular biology   Transcriptomics
+Environmental sciences   Infectious disease   Veterinary medicine
+Genomics	Microbiology	Parasitology
+Transcriptomics	Taxonomy	Animal study
+Genetics	Gene expression	Parasitology
+"Infectious disease"	"Genetics"	"Molecular biology"
+Transcriptomics    Microbiology    Plant biology
+Genomics	Annotation	Molecular biology
+Genomics  	Data mining  	Epigenetics
+Genomics   DNA   Annotation
+Transcriptomics\tMicrobiology\tEnvironmental sciences
+Genomics\tDNA\tSequence analysis
+Environmental sciences	Tropical medicine	Infectious disease
+Genomics\tMolecular biology\tParasitology
+Bioinformatics    Computational biology    Biology
+Parasitology	RNA	Transcriptomics
+Genetics	Molecular biology	Transcriptomics
+Genomics	Parasitology	Molecular biology
+Parasitology 	Immunology	 Molecular biology
+Transcriptomics   Parasitology   RNA
+Public health and epidemiology	Population genetics	Infectious disease
+Genetic variation   Genomics   Parasitology
+Genomics   Molecular biology   Infectious disease
+Genomics   	Molecular biology	Biotechnology
+Population genetics   Genetics   Infectious disease
+Genomics   	Biology   	Sequence analysis
+Genomics	Parasitology	Microbial ecology
+Population genetics    Genetics    Infectious disease
+Environmental sciences	Microbiology	Parasitology
+Public health and epidemiology	Tropical medicine	Infectious disease
+Environmental sciences   Microbiology   Public health and epidemiology
+Genomics	Microbiology	Molecular biology
+Genomics    Parasitology    Sequencing
+"Infectious disease	Uganda	Mosquito surveillance"
+Genomics	Genome sequencing	Gene regulation
+Infectious disease	Irbase	Mapping
+Transcriptomics   Parasitology   Molecular biology
+Gene expression, Genetics, Molecular biology
+Environmental Sciences	Population Genetics	Molecular Biology
+Genomics\tParasitology\tMicrobiology
+Parasitology	Medical toxicology	Environmental sciences
+Genetics	Microbiology	Environmental sciences
+Genetics   Genomics    Parasitology
+Transcriptomics   Genetics   Zoology
+"Infectious disease"	"Public health and epidemiology"	"Virology"
+Proteomics	Cell biology	Microbiology
+Parasitology   Pathology   Infectious disease
+Genomics    Parasitology    Sequence analysis
+Entomology	Environmental sciences	Infectious disease
+Transcriptomics	Tropical medicine	Microbiology
+Transcriptomics\tParasitology\tGenomics
+Comparative genomics     Infectious disease   Genetics
+Parasitology    Environmental sciences    Genetics
+Gene expression, Genetics, Transcriptomics
+Proteomics     Data integration and warehousing     Bioinformatics
+Parasitology   Proteomics   Infectious disease
+Proteomics	Parasitology	Mouse clinic
+Environmental sciences	Zoology	Entomology
+Bioinformatics   Gene expression   Genetics
+Epigenetics  	Genetics  	Parasitology
+Gene expression   Genetics   Molecular biology
+Bioinformatics	Molecular biology	Transcriptomics
+Transcriptomics	Cell biology	Infectious disease
+Animal study	Comparative genomics	Parasitology
+Genomics	Microbiology	Bioinformatics
+Biochemistry	Molecular biology	Proteomics
+Genomics   Genetics    Molecular biology
+Bioinformatics	Molecular biology	Genetics
+Bioinformatics   Genomics   Proteomics
+Genetics	Developmental biology	Microbiology
+Genetics    Genomics    Molecular biology
+DNA	Sample collections	Molecular biology
+Parasitology  	Animal study  	Genetics  
+Genomics   	Data submission, annotation, and curation   	Biology
+Genomics   Molecular biology   Data submission, annotation, and curation
+Parasitology	Zoology	Immunology
+Transcriptomics\tInfectious disease\tGenetics
+Environmental sciences   Public health and epidemiology   Zoology
+Genomics	Molecular biology	Transcriptomics
+Biochemistry\tBiology\tProteomics
+Ecology	Zoology	Parasitology
+Transcriptomics    Microbiology    Immunology
+Genomics    Computational biology    Molecular genetics
+Animal study   Transcriptomics   Infectious disease
+Genetics	Microbiology	Biology
+Parasitology	Genomics	Transcriptomics
+Genomics	Annotation	Parasitology
+Environmental sciences	Entomology	Mapping
+Environmental sciences	Parasitology	Ecology
+Transcriptomics	Zoology	Genetics
+Genomics	Parasitology	Biology
+Transcriptomics	Tropical medicine	Genetics
+Transcriptomics	Data mining	Genomics
+Genetics	Vector biology	Parasitology
+Biochemistry   Proteomics   Parasitology
+Genomics	Genetics	Biology
+Biochemistry	Microbiology	Proteomics
+Transcriptomics   Genetics   Microbiology
+Genomics	Annotation	Microbiology
+Bioinformatics   Proteomics   Parasitology
+Biochemistry	Proteomics	Molecular biology
+Infectious disease	Population genetics	Parasitology
+Transcriptomics	Zoology	Microbiology
+Public health and epidemiology    Environmental sciences    Zoology
+"Infectious disease"	"Drug development"	"Biochemistry"
+Genomics	Plant biology	Biology
+Bioinformatics	Molecular biology	Infectious disease
+Bioinformatics 	DNA 	Genetics
+Transcriptomics	Next Generation Sequencing	Zoology
+Transcriptomics\tMicrobiology\tInfectious disease
+Infectious disease	Zoology	Molecular biology
+Genetics   Genomics   Microbiology
+Environmental sciences  	Entomology  	"Infectious disease"
+Proteomics	Cell biology	Microbiology
+Genomics	Annotation	Biology
+Population genetics\tGenomics\tTranscriptomics
+Transcriptomics   Parasitology   Animal study
+Genomics	Annotation	Biology
+Genomics	Genetics	Annotation and curation
+Genetics	Genomics	Data integration and warehousing
+Genomics	Genetic variation	Drug development
+Genomics  	Biology  	Microbiology
+Transcriptomics	Zoology	Microbiology
+Infectious disease	Population genetics	Ecology
+Environmental sciences	Genomics	Microbiology
+Proteomics   Zoology   Parasitology
+RNA	splicing	Genomics
+Infectious disease    Transcriptomics   Parasitology
+Transcriptomics    Genetics    Bioinformatics
+Transcriptomics	Microbial ecology	Infectious disease
+Sequence analysis     Structural variation     Genetics
+Genetics\tMicrobiology\tPlant biology
+Genomics   Sequence analysis   Parasitology
+Parasitology  	Biology  	Proteomics
+Parasitology   Epidemiology   Infectious disease
+Parasitology	Zoology	Environmental sciences
+Proteomics     Genetics     Parasitology
+Parasitology	Zoology	Public health and epidemiology
+Proteins	Ribosome Profiling	Molecular biology
+Immunology	Environmental sciences	Infectious disease
+Environmental sciences\tMicrobiology\tInfectious disease
+Environmental sciences\tMicrobiology\tZoology
+Proteomics   Biochemistry   Parasitology
+Genomics   Computational biology   Microbiology
+Environmental sciences	Zoology	Public health and epidemiology
+Genetics	Genomics	Microbiology
+Genomics	Molecular biology	Cell biology
+Transcriptomics	Comparative genomics	Biology
+Comparative genomics   	Infectious disease   Zoology
+Environmental sciences    Ecology    Genetics
+Genomics\tBioinformatics\tMolecular biology
+Transcriptomics\tGenomics\tParasitology
+Gene expression, Genetics, Parasitology
+Genomics   Computational biology   Parasitology
+Biochemistry	Molecular biology	Parasitology
+Genetics	Molecular biology	Genomics
+Genomics	Annotation	Biology
+Environmental sciences   Entomology   Public health and epidemiology
+Animal study
+Genomics
+Infectious disease
+Biology	Functional genomics	Immunology
+Genomics  	Microbiology  	Parasitology
+Genomics   Molecular biology   Microbiology
+Parasitology	Proteomics	Infectious disease
+Environmental sciences	Zoology	Public health and epidemiology
+Transcriptomics   Genetics   Parasitology
+Gene expression, Genetics, Reproductive health
+Environmental sciences	Public health and epidemiology	Infectious disease
+Biodiversity	Molecular biology	Genetics
+Genomics    DNA    Genome Sequence and Annotation
+Transcriptomics    Parasitology    Infectious disease
+Genomics	Population genetics	Parasitology
+Genomics\tMicrobiology\tBioinformatics
+Genetics\tGenomics\tSequence assembly
+Bioinformatics	Evolutionary biology	Molecular biology
+Transcriptomics   RNA   Antisense transcription
+Genomics  	Bioinformatics  	Parasitology
+Comparative genomics   Genomics   Infectious disease
+Genomics  	Biology	Molecular biology
+Genomics	Genetics	Molecular biology
+Genetics	Taxonomy	Molecular biology
+Genomics   Molecular biology   Parasitology
+Infectious disease   Genetics   Genomics
+Transcriptomics    Computational biology    Neuroscience
+Genomics	Parasitology	Biology
+Bioinformatics	Computational biology	Data submission, annotation, and curation
+Genetics\tEvolutionary biology\tEntomology
+Transcriptomics	Microbiology	Parasitology
+Entomology	Zoology	Microbial ecology
+Parasitology	Medicine	Public health and epidemiology
+Genomics\tParasitology\tGenetics
+Transcriptomics\tGene expression\tBiology
+Genomics\tMicrobiology\tGenetic variation
+Developmental biology   Transcriptomics   Parasitology
+Genomics   Molecular biology   Microbiology
+Genomics	Annotation	Biology
+Bioinformatics  	Biochemistry  	Proteomics
+Transcriptomics	genetics	genomics
+Bioinformatics	Molecular biology	Genomics
+Genomics	Annotation	Parasitology
+Infectious disease	Zoology	Molecular biology
+Transcriptomics	RNA	Microbiology
+Entomology	Medical informatics	Public health and epidemiology
+Genomics	Genetics	Parasitology
+Transcriptomics	Cell biology	Genomics
+Environmental sciences
+Microbiology
+Parasitology
+Environmental sciences	Mapping	Microbiology
+Genomics	Animal study	Biology
+Genomics	Parasitology	Microbiology
+Genetics	Molecular biology	Genomics
+Bioinformatics   Computational biology   Genetics
+Genomics	Genome annotation	Molecular biology
+Environmental sciences   Public health and epidemiology   Vector surveillance
+RNA, Parasitology, Genomics
+Animal study\tProteomics\tInfectious disease
+Genomics  	Microbiology  	Biology
+Genomics	Annotation	Biology
+Genomics	Parasitology	Biology
+Infectious disease	Pathology	Transcriptomics
+Infectious disease	Public health and epidemiology	Parasitology
+Genomics	Genome sequence analysis	Sequence analysis
+Environmental sciences	I
+Infectious disease
+Veterinary medicine
+Bioinformatics	Molecular biology	Genomics
+Genetics  	Data acquisition  	Ecology
+Genetics	Functional genomics	Biotechnology
+RNA splicing   Computational biology   Bioinformatics
+Genomics	Genetics	Parasitology
+Bioinformatics	RNA	Genomics
+Environmental sciences    Veterinary medicine	Zoology
+Genetics	Pharmacology	Molecular biology
+Environmental sciences	Tropical medicine	Infectious disease
+Transcriptomics	Data acquisition	Biology
+Genomics	Annotation	Biology
+Genomics   Microbiology   Molecular biology
+Environmental sciences	parasitology	Wildlife biology
+Genetics	Molecular biology	Biosciences
+Gene expression
+Anatomy
+Biology
+Genomics   Parasitology   Genetics
+Genomics   Bioinformatics   Molecular biology
+Environmental sciences    Infectious disease    Parasitology
+Environmental sciences    Ecology    Zoology
+Infectious disease	Population genetics	Environmental sciences
+Transcriptomics    Infectious disease    Animal study
+Genomics	Annotation	Microbiology
+Microbiology   Environmental sciences   Bioinformatics
+Comparative genomics     Biomarkers     Proteomics
+Transcriptomics    Genetics    Molecular biology
+Environmental sciences   Public health and epidemiology   Infectious disease
+Bioinformatics	Cell biology	Genetics
+Transcriptomics	Parasitology	Infectious disease
+Genetics	Molecular biology	Gene expression
+Environmental sciences	Population genetics	Public health and epidemiology
+Genomics	Annotation	Biology
+Infectious disease	Public health and epidemiology	Entomology
+Transcriptomics\tParasitology\tGenomics
+Genetics	Computational biology	Microbiology
+Genomics	Parasitology	Microbiology
+Genomics   Molecular biology   Parasitology
+Genomics	Genetics	Parasitology
+Environmental sciences	Zoology	Ecology
+Ecology	Zoology	Public health and epidemiology
+Genetics	Cell biology	Molecular biology
+Proteomics	Cell biology	Biology
+Parasitology	Population genetics	Ecology
+Bioinformatics\tBiology\tPhylogenomics
+Transcriptomics   Parasitology   Bioinformatics
+Entomology\tParasitology\tTropical medicine
+Genomics	Genetics	Biology
+Microbiology	Molecular biology	Proteomics
+Proteomics   Parasitology   Molecular biology
+Public health and epidemiology  	Data acquisition  	Mapping
+Genomics	Annotation	Microbiology
+Proteomics   	Biology   	Parasitology
+Immunology\tInfectious disease\tTranscriptomics
+Proteomics\tCell biology\tMicrobiology
+Bioinformatics	Probes and primers	Sequence analysis
+Genetics	Gene expression	Mouse clinic
+Transcriptomics	RNA	Microbial collection
+Environmental sciences     Epidemiology     Entomology
+Parasitology	Zoology	Ecology
+Environmental sciences	Laboratory animal science	Infectious disease
+Infectious disease	Tropical medicine	Microbial ecology
+Bioinformatics\tGenomics\tTranscriptomics
+Genomics\tDNA\tMicrobiology
+Parasitology	Proteomics	Genomics
+Environmental sciences	Parasitology	Public health and epidemiology
+Genetics	Genomics	Microbiology
+Ecology	Environmental sciences	Infectious disease
+Genomics	Population genetics	Microbiology
+Ecology	Zoology	Environmental sciences
+Transcriptomics  	Plant biology  	Microbiology
+Transcriptomics     Genomics     Molecular biology
+Genomics	Parasitology	Biology
+Genomics	Genetics	Microbiology
+Environmental sciences   Ecology   Zoology
+Bioinformatics	Microbiology	Gene expression
+Genetics	Ecology	Immunology
+Parasitology	Mapping	Infectious disease
+Biotechnology    Genetics     RNA
+Cell biology    Genomics    Bioinformatics
+Transcriptomics	Cell biology	Infectious disease
+Genomics   	Bioinformatics   	Microbiology
+Genomics	Microbiology	Infectious disease
+Infectious disease	Tropical medicine	Public health and epidemiology
+Transcriptomics  	Animal study  	Biology
+Genetics    Genomics    Molecular biology
+Animal study   Immunology   Transcriptomics
+Transcriptomics	Zoology	Microbiology
+Genomics   Microbiology   Genetics
+Biology	Genetics	Microbiology
+Epigenetics	Mapping	Microbiology
+Transcriptomics   Molecular biology   Hypoxia
+Environmental sciences   Public health and epidemiology   Vector-borne diseases
+Genetics	Molecular biology	"Infectious disease"
+Genomics  	Data submission, annotation, and curation  	Microbiology
+Environmental sciences	Zoology	Microbiology
+Epigenomics	Tropical medicine	Parasitology
+Genetics	Genomics	Microbiology
+Comparative genomics	Molecular biology	Genetics
+Environmental sciences
+Microbiology
+Infectious disease
+Parasitology	Zoology	Molecular biology
+Genomics    Molecular biology    Bioinformatics
+Proteomics  	Biology  	Parasitology
+Genomics	Genetics	Biology
+Parasitology	Pharmacology	Toxicology
+Transcriptomics	Parasitology	Infectious disease
+Genomics    Molecular biology    Genetics
+Genomics  	Data submission, annotation, and curation  	Parasitology
+Environmental sciences   Infectious disease    Zoology
+Genomics  	Plant biology  	Biology
+Transcriptomics     Parasitology     RNA
+Genomics	Taxonomy	Parasitology
+Infectious disease	Tropical medicine	Insecticide resistance
+Bioinformatics   Genetics   Proteomics
+Transcriptomics   Genetics   Microbiology
+Genomics  	Parasitology	Sequence analysis
+Genomics  	Biology  	Sequence analysis
+Bioinformatics	Molecular biology	Proteomics
+Genomics   Molecular biology   Parasitology
+Genetics    Bioinformatics    Data submission, annotation, and curation
+Genomics   Bioinformatics   Biology
+Transcriptomics    Parasitology    Veterinary medicine
+Proteomics  	Biology	Genetics
+Transcriptomics   RNA   Parasitology
+Transcriptomics	Tropical medicine	Parasitology
+Genomics    Microbiology    Infectious disease
+Bioinformatics	Molecular biology	Genetics
+"Infectious disease	Environmental sciences	Molecular biology"
+Animal study   GenomeSequence    Biology
+Environmental sciences  	Vector-borne diseases	Ecology
+Environmental sciences    Veterinary medicine    Public health and epidemiology
+Genomics	DNA	Genetics
+Genetics	Molecular biology	Pharmacology
+Infectious disease	Public health and epidemiology	Medicines research and development
+Genetics	Population genetics	Infectious disease
+Environmental sciences\tPublic health and epidemiology\tEntomology
+Bioinformatics	Biology	Genomics
+Genomics	Molecular biology	Biology
+Transcriptomics	Cell biology	Genetics
+Genomics\tBioinformatics\tMolecular biology
+Genomics	Genetics	Molecular biology
+Genomics	Biology	Molecular biology
+Genomics	Sequence analysis	Biology
+Genomics    Transcriptomics    Parasitology
+Genomics	Plant biology	Microbiology
+Animal study   Biomarkers   Proteomics
+Freshwater biology   Genetics   Molecular biology
+Parasitology	Transcriptomics	Biology
+Animal study	Molecular biology	Biology
+Transcriptomics   Bioinformatics	Microbiology
+Entomology   Genetics   Infectious disease
+Genomics	Parasitology	Sequence analysis
+Infectious disease	Population genetics	Molecular biology
+Genomics	Annotation	Biology
+Genomics    Microbiology    Sequencing
+Genomics   Computational biology   Parasitology
+Transcriptomics	Tropical medicine	"Infectious disease"
+Transcriptomics  	Molecular biology  	Parasitology
+Transcriptomics   Biomarkers   Genetics
+Transcriptomics   Biomolecular simulation   Bioinformatics
+Genomics	Annotation	Biology
+Genetics	Genomics	Microbiology
+Environmental sciences	Taxonomy	Public health and epidemiology
+Sequence analysis    Genomics    Computational biology
+Biochemistry   Proteomics   Biology
+Genetics    Microbiology    Infectious disease
+Biology\tBiochemistry\tProteins
+Environmental sciences  	Disease  	Microbiology
+Transcriptomics  	Animal study  	Genetics
+Genomics  	Microbiology  	Sequence analysis
+Transcriptomics   Genetic variation   Drug discovery
+Genetics	Environmental sciences	Microbiology
+Environmental sciences  	Public health and epidemiology  	Zoology
+Genomics	Taxonomy	Microbial collection
+Cell biology	Parasitology	Immunology
+Environmental sciences	Zoology	Public health and epidemiology
+Transcriptomics, Genetics, Molecular biology
+Biodiversity  	Genetics  	Parasitology
+Comparative genomics	Molecular biology	Microbiology
+Transcription factors and regulatory sites    Transcriptomics    Infectious disease
+Transcriptomics
+Infectious disease
+Cell biology
+"Genetics"	"Immunology"	"Disease"
+Animal study	Genetics	Microbiology
+Genetics	Parasitology	Biology
+Genomics  	Microbiology  	Parasitology
+Infectious disease    Genomics    Bioinformatics
+Bioinformatics	Database management	Molecular interactions, pathways and networks
+Comparative genomics	Genetics	Genomics
+Environmental sciences  	Epidemiology	Medical toxicology
+Transcriptomics	Tropical medicine	Animal study
+Biochemistry	Medicine	Pharmacology
+Immunology	Microbiology	Genetics
+Transcriptomics	Functinal genomics	Parasitology
+"Infectious disease"	"Ecology"	"Entomology"
+Genetics	Molecular biology	Evolutionary biology
+Environmental sciences    Infectious disease    Zoology
+Bioinformatics	Tropical medicine	Microbiology
+Bioinformatics	Molecular biology	Genetics
+Genetics	Genomics	Microbiology
+Genomics	Microbiology	Parasitology
+Environmental sciences 	Ecology 	Entomology
+Animal study    Genetics    Genomics
+Gene expression	Transcriptomics	Microbial ecology
+Gene expression     Transcriptomics     RNA
+Genetics   Parasitology    Sequence analysis
+Animal study   Genetics   Molecular biology
+Genomics	Microbiology	Parasitology
+Genomics	Molecular biology	Parasitology
+Cell biology   Transcriptomics    Parasitology
+Genomics\tBioinformatics\tMolecular biology
+Bioinformatics	RNA	Genetics
+Infectious disease	Population genetics	Parasitology
+Proteomics	Research and development	Immunology
+Genomics    Parasitology    Infectious disease
+Genomics	Sequence analysis	Annotation
+Genomics  	Microbiology  	Parasitology
+Proteomics
+Microbiology
+Genetics
+Environmental sciences	Public health and epidemiology	Microbiology
+Genomics   Transcriptomics   Parasitology
+Environmental sciences	Public health and epidemiology	Microbiology
+Genomics   Bioinformatics   Molecular biology
+Biochemistry	Data mining	Environmental sciences
+Genomics   Parasitology   African studies
+Genomics   	Microbiology   	Sequence analysis
+Genomics	Molecular biology	Parasitology
+Bioinformatics	Node	Carbohydrates	Node	Transcriptomics	Node
+Comparative genomics  	Transcriptomics  	Biology
+Infectious disease	Tropical medicine	Transcriptomics
+Environmental sciences   Ecology   Parasitology
+Proteomics  	Data mining  	Gene expression
+Genetics	Reproductive health	Biology
+Transcriptomics    Biology         Genetics
+Transcriptomics	Zoology	Microbiology
+Clone library   DNA   Genetics
+Infectious disease   Computational biology   Transcriptomics
+Genetics	Microbiology	Infectious disease
+Bioinformatics	Microbiology	Parasitology
+Genetics	Evolutionary biology	Medical biotechnology
+Transcriptomics	Host-Pathogen interactions	Microbiology
+Genomics	Microbiology	Biodiversity
+Transcriptomics	Human genetics	Infectious disease
+Genomics 	Annotation 	Sequence analysis
+Environmental sciences    Public health and epidemiology    Zoology
+Genomics   Genetics    Sequence analysis
+Animal study   Genomics   Transcriptomics
+Bioinformatics	Molecular biology	Metabolomics
+Infectious disease	Public health and epidemiology	Microbiology
+Transcriptomics    Cell biology    Parasitology
+Genetics	Parasitology	Genomics
+Transcriptomics       Genetics        Parasitology
+Genomics	Parasitology	Biology
+Genetics	Parasitology	Molecular biology
+Animal study\tInfectious disease\tTranscriptomics
+Transcriptomics	Animal study	Molecular biology
+Plant biology	Microbial ecology	Genomics
+Genomics\tMicrobiology\tSequence analysis
+Genomics   DNA   Bioinformatics
+Genetics	Molecular biology	Molecular genetics
+Environmental sciences   Zoology   Public health and epidemiology
+Biochemistry	Molecular biology	Cell biology
+Bioinformatics\tBiology\tProteomics
+Virology  	Microbiology  	Cell biology
+Genomics    Bioinformatics    Molecular biology
+Genomics   Molecular biology   Bioinformatics
+Genomics	Genetics	Biology
+Genomics	Plant biology	Microbiology
+Proteomics      	Parasitology    	Cell biology
+Parasitology	Zoology	Comparative genomics
+Transcriptomics	I
+Comparative genomics	I
+Transcription factors and regulatory sites	I
+"Transcriptomics"	"Immunology"	"Parasitology"
+Transcriptomics	Plant biology	Data mining
+Genomics	Parasitology	Biology
+Genomics   Annotation   Parasitology
+Environmental sciences   Ecology   Zoology
+Biochemistry  	Cell biology  	Parasitology
+Comparative genomics	Transcriptomics	Infectious disease
+Genomics  	Genetics  	Parasitology
+Genomics\tBioinformatics\tBiology
+Transcriptomics   Proteomics   Parasitology
+Bioinformatics\tGenomics\tMolecular biology
+Transcriptomics   Developmental biology   Genetics
+Transcriptomics    Genetics    Parasitology
+Bioinformatics	Molecular biology	Genomics
+Genomics	Genetics	Parasitology
+Comparative genomics   	Gene regulation	Genomics
+Insect study	Sample collections	Environmental sciences
+Environmental sciences    Data acquisition    Infectious disease
+RNA, Transcriptomics, Genetics
+Gene expression, Genetics, Molecular biology
+Environmental sciences    Microbiology    Public health and epidemiology
+Genomics    Molecular biology    Microbiology
+Environmental sciences   Ecology   Zoology
+Infectious disease	Public health and epidemiology	Medicine
+Genomics	Annotation	"Microbiology"
+Transcriptomics    Parasitology    Gene expression
+Transcriptomics	RNA	Genetics
+Transcriptomics    	Microbiology    	Parasitology
+Public health and epidemiology	Tropical medicine	Parasitology
+Environmental sciences	Mapping	Genomics
+Bioinformatics	Proteins	Sequence analysis
+Transcriptomics   Genetics   Molecular biology
+Transcriptomics	Parasitology	Comparative genomics
+Transcriptomics   Genetics   Infectious disease
+Transcriptomics   Gene transcripts   Genetics
+Genomics    DNA    Computational biology
+Environmental sciences	Zoology	Sample collections
+Genetics   Computational biology   Microbiology
+Bioinformatics	Molecular biology	Genomics
+Transcriptomics    Microbiology    Antimicrobial Resistance
+Environmental sciences   	Microbiology	Genomics
+Toxicology   Environmental sciences   Infectious disease
+Genomics	Informatics	Parasitology
+Infectious disease	Data integration and warehousing	Transcriptomics
+Genomics\tMolecular biology\tParasitology
+"Infectious disease, Entomology, Public health and epidemiology"
+Genomics   	Molecular biology    	Parasitology
+Genomics	Molecular biology	Biology
+Infectious disease	Population genetics	Molecular biology
+Bioinformatics	Molecular biology	Genetics
+Entomology	Zoology	Environmental sciences
+Genomics   	Biology     	Parasitology
+Genomics	Microbiology	Bioinformatics
+Genomics\tMolecular biology\tParasitology
+Bioinformatics	Molecular biology	Genetics
+Genetics	Genomics	Molecular biology
+Bioinformatics	Molecular genetics	Parasitology
+Environmental sciences	Public health and epidemiology	Microbiology
+Genetics	Population genetics	Tropical medicine
+Parasitology	Zoology	Public health and epidemiology
+Transcriptomics	Molecular biology	Microbiology
+Genetics	Sequence analysis	Genomics
+Transcriptomics   Genetics    Biology
+Genetics	Genomics	Parasitology
+Genomics	Microbiology	Infectious disease
+Environmental sciences	Zoology	Public health and epidemiology
+Environmental sciences   Ecology   Zoology
+Genetics	Environmental sciences	Microbiology
+Genomics	Annotation	Biology
+"Antimicrobial Resistance"   "Genetics"   "Microbiology"
+Environmental sciences   Microbiology   Public health and epidemiology
+Infectious disease	Population genetics	Microbial ecology
+Genomics	Sequence analysis	Data submission, annotation, and curation
+Genomics   Parasitology   Infectious disease
+Environmental sciences   Entomology   Zoology
+Transcriptomics    Bioinformatics    Genetics
+Parasitology	Zoology	Proteomics
+Bioinformatics	Molecular biology	Genetics
+Parasitology	RNA	Transcriptomics
+Transcriptomics  	Zoology  	Parasitology
+Gene expression, Genetics, Molecular biology
+Genomics	Sequences analysis	Microbiology
+Developmental biology   Transcriptomics	Embryology
+Population genetics   Zoology   Infectious disease
+Genetics	Microbiology	"Infectious disease"
+Genetics	Molecular biology	Immunology
+Genomics	Genetic engineering	Molecular biology
+Genetics	Genomics	Microbiology
+Genomics  	Data submission, annotation, and curation  	Molecular biology
+Animal study	Biology	Infectious disease
+Environmental sciences   Ecology   Genetics
+Proteomics   Computational biology    Microbiology
+Genetics	Genomics	Sequence analysis
+Transcriptomics	Human genetics	Molecular biology
+Transcriptomics	Animal study	Infectious disease
+Environmental sciences   Genetics   Infectious disease
+Genomics	Parasitology	Molecular biology
+Environmental sciences     Public health and epidemiology     Zoology
+Ecology	Zoology	Environmental sciences
+Proteomics, Biochemistry, Immunology
+Entomology	Parasitology	Zoology
+Biochemistry	Molecular biology	Proteomics
+Parasitology	Zoology	Infectious disease
+Bioinformatics	Molecular biology	Proteomics
+Genomics	Microbiology	Molecular biology
+Genetics	Genomics	Microbiology
+Genomics	Genetics	Parasitology
+Genomics	Annotation	Molecular biology
+Genomics   	Biology   	Microbiology
+Genomics	Proteomics	Microbiology
+Genomics	Molecular biology	Parasitology
+Genomics   Genome analysis   Molecular biology
+Genomics	Molecular biology	Biology
+Genomics	Human genetics	Microbiology
+Environmental sciences  	Infectious disease	Microbiology
+Transcriptomics\tBioinformatics\tCell biology
+Population genetics    Population genomics    Infectious disease
+Genomics	Annotation	Biology
+Infectious disease	Population genetics	Public health and epidemiology
+Genomics	Cell biology	Biology
+Environmental sciences    Public health and epidemiology    Zoology
+Genomics   	Biology   	Infectious disease
+Public health and epidemiology	zoology	parasitology
+Gene expression, Genetics, Transcriptomics
+Bioinformatics	Molecular biology	Genetics
+Genetics	Gene expression	Biology
+Infectious disease\tParasitology\tInsect study
+Proteomics  	Biology	Immunology
+Proteomics   Bioinformatics   Parasitology
+DNA
+Microbiology
+Parasitology
+Proteomics    Quantitative genetics    Parasitology
+Environmental sciences    Ecology    Public health and epidemiology
+Genomics	Annotation	Biology
+Anatomy	Cell biology	Entomology
+Cell biology    Proteomics    Parasitology
+Bioinformatics   Computational biology    Genetics
+Genetics	Genomics	Biology
+Microbiology	Molecular biology	Biodiversity
+Cell biology	Genomics	Parasitology
+Bioinformatics	Data integration and warehousing	Genomics
+Genomics  	Bioinformatics  	Microbiology
+Genetics	Molecular biology	Sequence analysis
+Transcriptomics   Genetics   Entomology
+Infectious disease	Public health and epidemiology	Entomology
+Microbiology	Molecular biology	Infectious disease
+Animal study	RNA	Transcriptomics
+Genomics   	Infectious disease	Pathology
+Genetics	Taxonomy	Biology
+Parasitology	Zoology	Proteomics
+Environmental sciences    Epidemiology    Public health and epidemiology
+Proteomics     Molecular biology     Parasitology
+Proteomics	Parasitology	Microbiology
+Genetics    Transcriptomics    Molecular biology
+Genetics    Genomics    Mouse clinic
+Environmental sciences	Microbiology	Infectious disease
+Parasitology	Molecular biology	Genomics
+Genetics	Computational biology	Molecular biology
+Genomics	Population genetics	Molecular biology
+Genomics	Biology	Parasitology
+Genetics	Molecular biology	Sequence analysis
+Transcriptomics    Parasitology    Infectious disease
+Genomics	Genetics	Molecular biology
+"Animal study"	"Genomics"	"Infectious disease"
+Genetics	Genomics	Parasitology
+Genomics	Taxonomy	Microbiology
+Environmental sciences   Microbiology   Infectious disease
+Infectious disease	Population genetics	Public health and epidemiology
+Transcriptomics    Genetics    Biology
+Transcriptomics	Animal study	Genetics
+Animal study   Genetics   Microbiology
+Transcriptomics    Genetics    Infectious disease
+Bioinformatics	Molecular biology	Genomics
+Environmental sciences  	Data mining  	Geography  
+Genomics\tParasitology\tSequence assembly
+Transcriptomics	Zoology	Microbiology
+Environmental sciences	Zoology	Public health and epidemiology
+Transcriptomics   Genetics   Environmental sciences
+Bioinformatics	Genetics	Microbiology
+Genomics  	Molecular biology  	Parasitology
+Genetics	Molecular biology	Parasitology
+Cell biology    RNA    Infectious disease
+Infectious disease	Population genetics	Ecology
+Biochemistry	Protein targeting and localisation	Molecular biology
+Public health and epidemiology   Environmental sciences   Zoology
+Transcriptomics   Gene expression   Genetics
+Comparative genomics	Sequence analysis	Genetics
+Genomics	Copy number variation	Sequence analysis
+Bioinformatics	Microbiology	Pathology
+Environmental sciences   Ecology   Infectious disease
+Genetics    Genomics    Infectious disease
+Animal study   Biomarkers      Genetics
+Transcriptomics   Developmental biology   Genetics
+Genomics   Biomarkers   Parasitology
+Genomics\tMicrobiology\tSequence analysis
+Biochemistry	Molecular biology	Genetics
+Genomics   Molecular biology   Bioinformatics
+Biochemistry	Biotechnology	Proteomics
+Genetics \t Insect study \t Infectious disease
+Genomics	Parasitology	Evolutionary biology
+Genomics	Biology	Sequence analysis
+Genetics\tInfectious disease\tGenomics
+Genetics	Microbiology	Genomics
+Environmental sciences  	Microbiology  	Parasitology
+Genomics	Taxonomy	Microbiology
+Environmental sciences   Microbiology   Parasitology
+Genomics	Microbiology	Sequence analysis
+Population genetics
+Genetics
+Environmental sciences
+Genomics   	Biology   	Parasitology
+Environmental sciences	Population genetics	Entomology
+Environmental sciences	Zoology	Microbiology
+Environmental sciences  	Microbiology	Entomology
+Environmental sciences   Infectious disease   Population genetics
+Environmental sciences   Microbiology   Infectious disease
+Bioinformatics   Computational biology    Transcriptomics
+Genomics	Parasitology	Biology
+Genomics	Medicine	Infectious disease
+Transcriptomics	Zoology	Microbiology
+Genomics 	Genetics 	Microbiology
+Infectious disease	Population genetics	Parasitology
+Transcriptomics   	Biology   	Genetics
+Transcriptomics	Computational biology	Microbiology
+Infectious disease	Microbial ecology	Medical informatics
+Transcriptomics   RNA    Genetics
+Transcriptomics   Parasitology   Drug development
+Genomics	Genetics	Microbiology
+Genomics	Parasitology	Sequence analysis
+Cell biology	Computational biology	Genetics
+Transcriptomics  	Proteomics  	Infectious disease
+Bioinformatics	Molecular biology	Parasitology
+Genetic variation	Genomics	Parasitology
+Proteomics	Cell biology	Parasitology
+Genomics	Parasitology	Biology
+Genomics\tBioinformatics\tBiology
+Parasitology	Zoology	Public health and epidemiology
+Bioinformatics	Molecular biology	Parasitology
+Transcriptomics\tInfectious disease\tAnimal study
+Infectious disease	Zoology	Environmental sciences
+Environmental sciences    Parasitology    Infectious disease
+Infectious disease	Public health and epidemiology	Medicine
+Genomics 	Biology	Microbiology
+Genomics    DNA    Genome Sequence
+Genomics	Genetics	Biology
+Genomics     Parasitology     Genetics
+Genetics	Molecular biology	Genomics
+Microbiology	Medicine	Infectious disease
+Transcriptomics	Data submission, annotation, and curation	Developmental biology
+Environmental sciences	Ecology	Infectious disease
+Ecology	Population genetics	Biology
+Environmental sciences  	Entomology  	Parasitology
+Virology	RNA	Molecular biology
+Comparative genomics   Sequence analysis    Genome assembly
+Transcriptomics	Cell biology	Genomics
+Genetics	Microbiology	Developmental biology
+Transcriptomics	RNA	Parasitology
+Genomics   Genetics   Parasitology
+Environmental sciences   Microbiology   Zoology
+Genomics\tMicrobiology\tSequence analysis
+Genomics	Microbiology	Biology
+Environmental sciences	Zoology	Public health and epidemiology
+Parasitology	Zoology	Ecology
+Environmental sciences   Data integration and warehousing   Parasitology
+Comparative genomics  	Genomics  	Parasitology
+Environmental sciences    Microbiology    Public health and epidemiology
+Environmental sciences   Microbiology   Zoology
+Genomics   Molecular biology   Parasitology
+Genetics	Experimental evolution	Evolutionary biology
+Environmental sciences  	Public health and epidemiology  	Zoology
+Bioinformatics	Molecular biology	Genetics
+Genetics   Genomics   Parasitology
+Genomics   DNA   Genetics
+Bioinformatics	Taxonomy	Proteomics
+Population genetics\tEcology\tGenomics
+"Immunology"	"Infectious disease"	"Transcriptomics"
+Genomics	Developmental biology	Microbiology
+Transcriptomics    Carbohydrates    Molecular biology
+Genomics  	Molecular biology  	Sequence analysis
+Genomics	Genetic variation	Molecular biology
+Infectious disease	Population genetics	Parasitology
+Parasitology	Microbiology	Proteomics
+Environmental sciences   Zoology   Microbiology
+Environmental sciences	Microbiology	Infectious disease
+Transcriptomics    Genetics    Bioinformatics
+Gene expression, Genetics, Infectious disease
+Infectious disease   Parasitology   Proteomics
+Environmental sciences\tInfectious disease\tParasitology
+Mosquito surveillance, Environmental sciences, Infectious disease
+Transcriptomics	Genomics	Molecular biology
+Genetics	Molecular biology	Parasitology
+Public health and epidemiology
+Environmental sciences
+Infectious disease
+Environmental sciences    Zoology    Microbiology
+Genomics  	Biology	Microbiology
+Public health and epidemiology	tabular	data acquisition	tabulardata governance
+Genomics\tBiology\tBioinformatics
+Genomics  	Biology  	Sequence analysis
+Genetics	Population genetics	Infectious disease
+Genomics	Molecular biology	Microbiology
+Genomics\tMicrobiology\tParasitology
+Bioinformatics	RNA	Immunology
+Microbiology	Molecular biology	Genetics
+Transcriptomics   Microbiology   Plant biology
+Infectious disease	Population genetics	Public health and epidemiology
+Genomics   Computational biology   Molecular biology
+Genomics   	Parasitology   	Proteomics
+Genomics	Sequence analysis	Data submission, annotation, and curation
+Genomics	Genetics	Sequence analysis
+Genetics	Genomics	Ecology
+Proteomics   	Cell biology   	Microbiology
+Microbiology   Proteomics   Infectious disease
+Bioinformatics	Genomics	Cell biology
+Infectious disease	Tropical medicine	Entomology
+Developmental biology   Transcriptomics   Genetics
+Bioinformatics	Molecular biology	Genomics
+Genetics	Molecular biology	Genomics
+Cell biology	Tropical medicine	Proteomics
+Genetics	Immunology	Evolutionary biology
+Plant biology   Transcriptomics   RNA
+Bioinformatics	Genetics	Transcriptomics
+Environmental sciences   Genetics   Zoology
+Transcriptomics\tMolecular biology\tGender medicine
+Bioinformatics	Genomics	Molecular biology
+Genetics    Genomics    Molecular biology
+Zoology	Transcriptomics	Biology
+Genomics	Annotation	Genome sequencing
+Public health and epidemiology   	Data acquisition   	Environmental sciences
+Transcriptomics	Genetics	Molecular biology
+Genomics  	Biology  	Microbiology
+Environmental sciences  	Microbiology  	Public health and epidemiology
+Genomics	Population genetics	Parasitology
+Environmental sciences  	Data acquisition  	Entomology
+Cell biology    Immunology    Microbiology
+Parasitology	Microbiology	Proteomics
+Transcriptomics    DNA    Carbohydrates
+Genomics\tBioinformatics\tBiology
+Transcriptomics     Computational biology     Genetics
+Bioinformatics	Computational biology	Genomics
+Parasitology	Molecular biology	Proteomics
+Cell biology    Computational biology    Genetics
+Genomics        Molecular biology        Sequence analysis
+Bioinformatics	Genetics	Transcriptomics
+Genomics  	Sequence analysis  	Genetics
+Infectious disease	Population genetics	Environmental sciences
+Animal study	Molecular biology	Transcriptomics
+Transcriptomics	Cell biology	Molecular biology
+Transcriptomics	Tropical medicine	Parasitology
+Genomics   	Biology   	Genetics
+Environmental sciences   Public health and epidemiology   Zoology
+Genomics    Molecular biology    Microbiology
+Transcriptomics   Genetics   Genomics
+Bioinformatics	Genomics	Microbiology
+Genetics   Genomics   Molecular biology
+Transcriptomics
+Microbiology
+Infectious disease
+Proteomics	Population genetics	Parasitology
+Cell biology     Bioinformatics    Proteomics
+Microbiology	RNA	Parasitology
+Biochemistry     Computational biology     Infectious disease
+Environmental sciences    Public health and epidemiology    Zoology
+Transcriptomics	RNA	Biology
+Proteomics	Population genetics	Microbiology
+"Allergy, clinical immunology and immunotherapeutics"
+Genomics	Molecular biology	Biology
+Bioinformatics	Population genomics	Pathology
+Genetics	Genomics	Sequence analysis
+Infectious disease	Veterinary medicine	Environmental sciences
+Genetic variation    Transcriptomics    Infectious disease
+Animal study	Transcriptomics	Biology
+Genomics  	Biology  	Parasitology
+Transcriptomics	Parasitology	Infectious disease
+Genomics	Ecology	Microbiology
+Genetics    Transcriptomics    Zoology
+Genomics	Molecular biology	Biology
+Comparative genomics	Transcriptomics	Infectious disease
+Parasitology	Zoology	Environmental sciences
+Environmental sciences	Population genetics	Ecology
+"Infectious disease"    "Genomics"  "Parasitology"
+"Molecular biology"	"Genetics"	"Parasitology"
+Proteomics\tBioinformatics\tParasitology
+Animal study 	Biology 	Infectious disease
+Transcriptomics  	Cell biology  	Parasitology
+Genomics  	Molecular biology  	Sequence analysis
+Genetics	Computational biology	Molecular biology
+Microbiology Molecular biology Experimental evolution
+Genomics	Microbiology	Parasitology
+Parasitology   Proteomics   Molecular biology
+Transcriptomics	Data submission, annotation, and curation	Genetics
+Cell biology\tTranscriptomics\tBiology
+Infectious disease	Population genetics	Parasitology
+Genetics   Genomics   Molecular biology
+Genomics  Annotation  Parasitology
+Transcriptomics
+Anatomy
+Biology
+Bioinformatics	Molecular biology	Microbiology
+Genomics	Genetics	Microbiology
+Parasitology    Epidemiology    Infectious disease
+Genomics	Genetics	Microbiology
+Animal study   Computational biology   Transcriptomics
+Environmental sciences	Microbiology	Parasitology
+Entomology	Infectious disease	Environmental sciences
+Genetics	Genomics	Biology
+Genomics	Molecular biology	Parasitology
+Biochemistry	Microbiology	Proteomics
+Environmental sciences   Epidemiology   Virology
+"Infectious disease"	"Environmental sciences"	"Public health and epidemiology"
+Transcriptomics   Microbiology    Plant biology
+Animal study  	Biology	Genetics
+Environmental sciences    Ecology    Genetics
+Genomics  	Parasitology  	Sequence analysis
+Structural biology\tRNA\tFungal diseases
+Infectious disease	Tropical medicine	Entomology
+Ecology	Medical informatics	Zoology
+Transcriptomics    RNA    Parasitology
+Parasitology	Molecular biology	Infectious disease
+Genetics	Genomics	Microbiology
+Biochemistry	Microbiology	Proteomics
+Genomics	Annotation	Biology
+Transcriptomics	RNA	Microbiology
+Infectious disease	Molecular biology	Proteomics
+Transcriptomics    Genetics    Parasitology
+Genomics	Genetics	Molecular biology
+Genetics	Medical informatics	Microbiology
+Public health and epidemiology	Zoology	Ecology
+Environmental sciences   Veterinary medicine   Infectious disease
+Environmental sciences       Entomology        Public health and epidemiology
+Environmental sciences\tVector-borne diseases\tPublic health and epidemiology
+Biochemistry	Molecular biology	Proteomics
+Genomics   Molecular biology   Marine biology
+Genomics	Annotation	Biology
+Genomics\tBioinformatics\tMolecular biology
+Gene expression, Transcriptomics, Environmental sciences
+Environmental sciences    Microbiology    Zoology
+Environmental sciences	Public health and epidemiology	Microbiology
+Infectious disease	Ecology	Genomics
+Epigenetics	Epigenomics	Biochemistry
+Agricultural science   Genomics   Microbiology
+Bioinformatics	Genetics	Genomics
+Genomics   Annotation   Microbiology
+Infectious disease	Population genetics	Vector biology
+Environmental sciences  	Ecology  	Infectious disease
+Genomics	Environmental sciences	Microbiology
+Genomics    DNA    Microbiology
+Transcriptomics	Computational biology	Genetics
+Biochemistry	Molecular biology	Cell biology
+Infectious disease	Zoology	Ecology
+Genetics	Microbiology	Drug development
+Biochemistry   Computational biology   Proteomics
+Bioinformatics	Comparative genomics	Proteomics
+Transcriptomics	Reproductive health	Zoology
+Transcriptomics  	Vaccinology  	Infectious disease
+Genetics	Genomics	Molecular biology
+Proteomics
+Infectious disease
+Human genetics
+Transcriptomics   Molecular biology   Parasitology
+Environmental sciences  	Infectious disease	    Zoology
+Genomics	Genetics	Biology
+Genomics   Biological science   Microbiology
+Proteomics
+Microbiology
+Immunology
+Genomics	Sequence analysis	Biology
+Environmental sciences	Public health and epidemiology	Infectious disease
+Environmental sciences  	Ecology  	Infectious disease
+Infectious disease	Virology	Ecology
+Bioinformatics   Genomics   Infectious disease
+Genomics   	Biology   	Microbiology
+Genetics	Genomics	Microbial ecology
+Genomics	Microbiology	Sequence analysis
+Veterinary medicine   Zoology   Genome sequencing
+Cell culture collection     Transcriptomics     Immunology
+Genomics	Data submission, annotation, and curation	Sequence analysis
+Gene expression
+Transcriptomics
+Infectious disease
+Transcriptomics\tParasitology\tGene expression
+Transcriptomics    Physiology    Molecular biology
+Transcriptomics   Proteomics    Parasitology
+Genetics   Bioinformatics   Parasitology
+Proteomics        Biological Sciences        Infectious Disease
+Genetics	Zoology	Environmental sciences
+Genomics	Genetics	Sequence analysis
+Transcriptomics	Nucleic acids	Microbiology
+Genomics	Population genetics	Bioinformatics
+Parasitology      	Cell biology      	Proteomics
+Genetics	Genomics	Transcriptomics
+Genomics 	Transcriptomics 	Molecular biology
+Genomics	Molecular biology	Sequence analysis
+Environmental sciences     Infectious disease     Public health and epidemiology
+Genetics	Microbiology	Genomics
+Genetics	High-throughput sequencing	Molecular biology
+Cell biology   Bioinformatics   Proteomics
+Genetics    Transcriptomics    Parasitology
+Genomics\tMicrobiology\tSequence analysis
+Environmental sciences   Data acquisition   Infectious disease
+Genetics	Model organisms	Sequence analysis
+Transcriptomics   Genetics    Microbiology
+Sequence analysis   Clone library   Genetics
+Parasitology	Molecular biology	Genetics
+Environmental sciences   Vectorborne diseases   Infectious disease
+Genomics   	Biology   	Sequence analysis
+Entomology	Medical informatics	Infectious disease
+Transcriptomics     Genetics     Biology
+Transcriptomics    Parasitology    Biology
+Genetics	Cell biology	Biology
+Genomics   Molecular biology   Microbiology
+Bioinformatics	Genomics	Sequence analysis
+Genetics\tGenomics\tParasitology
+Genomics\tGenetics\tParasitology
+Genomics  	Biology	Genetics
+Agricultural science  	Environmental sciences  	Toxicology
+Public health and epidemiology  	Environmental sciences  	Microbiology
+Genomics	Genomics	Parasitology
+Proteomics    Parasitology    Infectious disease
+Genomics	Genetics	Microbial ecology
+Parasitology	Zoology	Public health and epidemiology
+Infectious disease	Zoology	Mapping
+Biodiversity	Population genetics	Parasitology
+Genomics	Genetics	Plant biology
+Infectious disease
+Microbiology
+Human biology
+Environmental sciences   Infectious disease   Zoology
+Comparative genomics  	Genomics	Comparative genomics
+Transcriptomics   Parasitology   Biology
+Bioinformatics  	Genetics  	Sequence analysis
+Public health and epidemiology	Natural language processing	Genomics
+Genetics	Microbiology	Immunology
+Genomics	Biology	Plant biology
+Genomics	Phytophthora infestans	Genome sequencing
+Transcriptomics   Molecular biology   Infectious Disease
+Entomology	Infectious disease	Agricultural science
+Environmental sciences
+Infectious disease
+Vector-borne diseases
+Environmental sciences     Ecology     Infectious disease
+Genomics	Sequence analysis	Annotation
+Genetics	Parasitology	Sequence analysis
+Genomics   	Microbiology   	Sequence analysis
+Transcriptomics	Developmental biology	Genetics
+Genomics  	Genetic variation  	Molecular biology
+Genomics	Microbiology	Molecular biology
+Genomics	Annotation	Microbiology
+Transcriptomics	RNA	Parasitology
+Genomics	Proteomics	Microbial ecology
+Genomics\tMolecular biology\tParasitology
+Parasitology   Zoology   Comparative genomics
+Genomics	RNA	Animal study
+Genomics  	Biology  	Microbiology
+Proteomics 	Microbiology	Genomics
+Genomics	Molecular biology	Biology
+Animal study  	Bioinformatics	Transcriptomics
+Genetics	Computational biology	Sequence analysis
+Parasitology	Zoology	Medical informatics
+Genetics	Bioinformatics	Microbiology
+Animal study  	Infectious disease  	Transcriptomics
+Genomics	Sequence analysis	Annotation
+Genomics	Microbiology	Biology
+Genomics   Molecular biology   Plant biology
+Environmental sciences   Vector-borne diseases   Zoology
+Sequence analysis   RNA   Genomics
+Proteomics  	Cell biology  	Parasitology
+Entomology	Mosquitoes	Epidemiology
+Biochemistry	Microbiology	Proteomics
+Genomics   Computational biology    Parasitology
+Genomics  	Immunology  	Infectious disease
+Genomics    Microbiology    Parasitology
+Genetics	Genomics	Biology
+Genomics	Microbiology	Infectious disease
+Transcriptomics     Microbiology     Plant biology
+Transcription factors and regulatory sites	RNA	Microbiology
+Environmental sciences    Microbiology    Zoology
+Genomics	Molecular biology	Biology
+Bioinformatics	Genetics	Molecular biology
+Infectious disease	Population genomics	Public health and epidemiology
+Functional genomics	Population genetics	Transcriptomics
+Genetics	Sequence analysis	Genomics
+Infectious disease	Molecular biology	Transcriptomics
+Genomics 	Genetics 	Parasitology
+Infectious disease	Molecular biology	Environmental sciences
+Genomics   	Biology   	Parasitology
+Genetics	Gene expression	Molecular biology
+Parasitology	Taxonomy	Transcriptomics
+Genetics	Microbiology	Transcriptomics
+Genomics	Microbiology	Parasitology
+Population genetics   Genetics   Infectious disease
+Genetics	Taxonomy	Cell biology
+Genomics   	Microbiology   	Pathology
+Genomics	Annotation	Animal study
+Genomics    Molecular biology    Parasitology
+Bioinformatics	Molecular biology	Genetics
+Genetics	Population genetics	Parasitology
+Genomics   DNA   Microbiology
+Transcriptomics    Developmental biology    Genetics
+Animal study  	Biology	Genetics
+Developmental biology   Embryology   Genetics
+Transcriptomics	RNA	Molecular biology
+"Infectious disease"	"Parasitology"	"Public health and epidemiology"
+Transcriptomics     Genetics     Infectious disease
+Genomics	Sequence analysis	DNA
+Transcriptomics	Carbohydrates	Fungi
+Genetics	Molecular biology	Biotechnology
+Parasitology	Microbiology	Molecular biology
+Genomics	Sequence analysis	Parasitology
+Proteomics    Clinical research and trials    Microbiology
+Infectious disease	Tropical medicine	Public health and epidemiology
+Biochemistry	Proteomics	Parasitology
+Genomics	Population genetics	Biology
+Genomics	Microbiology	Bioinformatics
+Genomics	Tropical medicine	Parasitology
+Transcriptomics \t Infectious disease \t RNA
+Genomics   DNA   Genome Sequence
+Transcriptomics\tMicrobiology\tRNA
+Transcriptomics   Genetics   Resistance
+Proteomics	Drug metabolism	Microbiology
+Parasitology	Zoology	Environmental sciences
+Genomics\tParasitology\tSequence analysis
+Population genetics\tInfectious disease\tGenomics
+Genomics	Genetics	Parasitology
+Transcriptomics	
+Microbiology	
+Parasitology
+Biochemistry\tProteomics\tCell biology
+Genomics	Biology	Parasitology
+Genetics	Genomics	Molecular biology
+Biochemistry	Microbiology	Proteomics
+Environmental sciences	Immunology	Infectious disease
+Bioinformatics	Metabolomics	Molecular interactions, pathways and networks
+Infectious disease	Microbiology	Genetics
+Proteomics   Molecular biology   Infectious disease
+Transcriptomics   Microbiology   Infectious disease
+Entomology	Environmental sciences	Genetics
+Genomics	Annotation	Biology
+Entomology	Tropical medicine	Molecular biology
+Infectious disease   Parasitology   Public health and epidemiology
+Genomics	Molecular biology	Biology
+Environmental sciences   Geography   Infectious disease
+Infectious disease	Microbiology	Haematology
+Genomics   	Agricultural science   	Biology
+Biology    Genetics    Genomics
+Data submission, annotation, and curation	Data integration and warehousing	Sequence analysis
+Transcriptomics	Parasitology	Microbiology
+Environmental sciences    Public health and epidemiology    Infectious disease
+Biology	Genomics	Microbiology
+Immunology  	"ChIP-Seq and epigenomics  	Infectious disease"
+Proteomics    Molecular biology    Parasitology
+Genetics\tGenomics\tPlant biology
+Microbiology	Molecular biology	Animal study
+Bioinformatics	Microbiology	Genomics
+Transcriptomics	Cell biology	Genomics
+Ribosome Profiling   Transcriptomics   Parasitology
+Environmental sciences  	Vector biology  	Medical biotechnology
+Environmental sciences	Microbiology	Public health and epidemiology
+Parasitology	Zoology	Transcriptomics
+Transcriptomics     Cell biology     Genetics
+Genomics	Molecular biology	Biology
+Genomics	Molecular biology	Microbiology
+Genetics	Drug development	Parasitology
+Genomics  	Parasitology  	Sequence analysis
+Transcriptomics	Parasitology	Microbiology
+Bioinformatics    Transcriptomics    RNA splicing
+Infectious disease	Microbiology	Zoology
+Cell biology   Transcriptomics   Zoology
+Bioinformatics	Genomics	Parasitology
+Bioinformatics   Transcriptomics   Genetics
+Environmental sciences	Ecology	"Infectious disease"
+Transcriptomics   Computational biology   Genetics
+Bioinformatics    Computational biology    Structural biology
+Environmental sciences  	Infectious disease	Microbiology
+Transcriptomics   Zoology   Infectious disease
+"Functional, regulatory and non-coding RNA"   "Genomics"   "Parasitology"
+Genetics	Molecular biology	Biodiversity
+Genomics	Computational biology	Biology
+Biotechnology	Microbiology	Genomics
+Genomics\tParasitology\tSequence analysis
+Infectious disease	Population genetics	Virology
+Developmental biology   Transcriptomics   Zoology
+Infectious disease	-
+Genetics	-
+Virology
+"Genomics"	"Immunology"	"Transcriptomics"
+Gene expression, RNA, Genetics
+Bioinformatics	Molecular biology	Genetics
+Genetics    Computational biology    Drug discovery
+Biology	Molecular biology	Genetics
+Genomics	Sequence analysis	Data submission, annotation, and curation
+Parasitology	Zoology	Infectious disease
+Environmental sciences	Population genomics	Parasitology
+Genetics	Molecular biology	Infectious disease
+Genetics	Transcriptomics	Genomics
+Genetics	Population genomics	Sequence analysis
+Genomics\tMicrobiology\tSequence analysis
+RNA, Infectious disease, Drug development
+Bioinformatics	Genetics	Sequence analysis
+Genetics	Genomics	Parasitology
+Bioinformatics  	Biology  	Transcriptomics
+Genomics	Annotation	Biology
+Developmental biology   Transcriptomics   Genetics
+Genetics	Immunology	Pathology
+Genetics   Genomics   Infectious disease
+Infectious disease    Transcriptomics    Immunology
+Transcriptomics    RNA    Parasitology
+Genetics	Gene regulation	Molecular biology
+Environmental sciences	Parasitology	Microbiology
+Entomology	Zoology	Infectious disease
+Infectious disease	Medical informatics	Ecology
+Environmental sciences	Zoology	Biology
+Genetics	"DNA binding sites","DNA mutation","DNA polymorphism"
+Bioinformatics	Data integration and warehousing	Data governance
+Genomics
+Sequence analysis
+Annotation
+Infectious disease	Microbiology	Parasitology
+"Infectious disease	Taxonomy	Parasitology"
+Microbiology	Molecular biology	Environmental sciences
+Transcriptomics\tMicrobiology\tRNA
+Bioinformatics    Molecular biology    Genetics
+Genomics	Microbiology	Outbreak investigation
+Infectious disease	Molecular biology	Genetics
+Bioinformatics	Microbiology	Genetics
+Genomics   Bioinformatics   Genetics
+Genetics	Cytogenetics	Molecular genetics
+Transcriptomics   Microbiology   Molecular biology
+Genomics	Proteomics	Biology
+Environmental sciences  	Microbiology  	Zoology
+Infectious disease	Public health and epidemiology	Parasitology
+Transcriptomics, Infectious disease, Animal study
+Environmental sciences    Entomology    Public health and epidemiology
+Genomics   Molecular biology   DNA
+Public health and epidemiology	Human biology	Microbial ecology
+Genomics	Sequence analysis	Data mining
+Transcriptomics	RNA	Parasitology
+Transcriptomics	nucleic acids	Biology
+Genomics  	Data submission, annotation, and curation  	Parasitology
+Genomics	Parasitology	Microbial ecology
+Genomics   Genes and genomes   Microbiology
+Public health and epidemiology	Taxonomy	Infectious disease
+Genetics   Bioinformatics   Developmental biology
+Genetics	Genomics	Microbiology
+Genetics	Genomics	Parasitology
+Genetics	Parasitology	Sequence analysis
+Animal study   Genomics   RNA
+Genomics   Transcriptomics   Parasitology
+Environmental sciences  	Genomics  	Data submission, annotation, and curation
+Biochemistry	Proteomics	Genetics
+Environmental sciences    Vector biology    Entomology
+Environmental sciences     Infectious disease     Zoology
+Genomics   	Biology   	Parasitology
+Transcriptomics  	Molecular biology	Genomics
+Genomics	Parasitology	Biology
+Genomics  	Biology	Microbial ecology
+Copy number variation  	Data management  	Genetics
+Proteomics   Parasitology   Extracellular vesicles
+Genetics   Bioinformatics   Genomics
+Genetics	Population genetics	Genomics
+Genomics	Annotation	Biology
+Transcriptomics	Animal study	Molecular biology
+Transcriptomics	Data submission, annotation, and curation	Molecular biology
+Genetics	Genomics	Sequence analysis
+Environmental sciences     Public health and epidemiology     Zoology
+Genomics	Microbiology	Sequence analysis
+Environmental sciences   Parasitology   Infectious disease
+Transcriptomics	Zoology	Molecular biology
+Parasitology  	Proteomics  	Genetics
+Environmental sciences   Ecology   Zoology
+Infectious disease	Tropical medicine	Biology
+Genetic engineering	Genetic variation	Genomics
+Transcriptomics	Zoology	Parasitology
+Public health and epidemiology    Sample collections    Zoology
+Environmental sciences  	Immunology	Zoology
+Genomics   Computational biology   Bioinformatics
+Infectious disease	Microbial ecology	Phenomics
+Public health and epidemiology	Tropical medicine	Parasitology
+Public health and epidemiology	Environmental sciences	Microbiology
+Genomics  	Genetics  	Microbiology
+Genomics	Molecular biology	Sequence analysis
+Genetics	Molecular biology	Parasitology
+Genomics   Molecular biology   Parasitology
+Genomics    Sequence analysis    Annotation
+Infectious disease	Population genomics	Proteomics
+Parasitology	Molecular biology	Proteomics
+Developmental biology   RNA    Blood fed
+Genomics    Parasitology    Sequence analysis
+Genetics	Drug metabolism	Microbiology
+Genomics	Annotation	Infectious disease
+Transcriptomics
+Genetics
+Environmental sciences
+Genetics	Genomics	Medical informatics
+Genetics	Molecular biology	Genomics
+Genomics	Plants	Microbiology
+Genomics   Bioinformatics   Parasitology
+Transcriptomics    RNA    Phylogenetics
+Proteomics  	Microbiology  	Parasitology
+Public health and epidemiology  	Data acquisition  	Data integration and warehousing
+Cell biology   Genomics   Biochemistry
+Transcriptomics	Zoology	Parasitology
+Population genetics   Population genomics   Parasitology
+Antimicrobial Resistance	Transcription factors and regulatory sites	Genetics
+Ecology	Zoology	Parasitology
+Transcriptomics  	Animal study  	Biology
+Environmental sciences	Public health and epidemiology	Medical toxicology
+Genomics	Genome annotation	Biology
+Parasitology  	Microbiology  	Proteomics
+Genetics	Parasitology	Microbiology
+Infectious disease	Public health and epidemiology	Mosquito-borne diseases
+Comparative genomics	Transcriptomics	Microbiology
+Transcriptomics    Microbiology    Parasitology
+Transcriptomics    RNA    Parasitology
+Environmental sciences	Zoology	Public health and epidemiology
+Genetics	Molecular biology	Transcriptomics
+Genomics  	Evolutionary biology  	Parasitology
+Infectious disease	Molecular biology	Genetics
+Virology   Transcriptomics   Animal study
+Genomics	Genetics	Sequence analysis
+Genomics	Microbiology	Biology
+Genomics	Genetics	Parasitology
+Genomics	Microbiology	Genetics
+Transcriptomics	Temperature response	Genetics
+Genomics    Parasitology    Genetics
+Genomics    Microbiology    Bioinformatics
+Transcriptomics	Laboratory animal science	Parasitology
+Gene expression, Genetics, Microbiology
+Genomics	Parasitology	Sequence analysis
+Genetics	Genomics	Microbiology
+Transcriptomics   Genetics   Zoology
+Microbiology	Environmental sciences	Animal study
+Genetics	Computational biology	Genomics
+Genomics	Annotation	Microbiology
+Genomics  	Genetics  	Parasitology
+Animal study   Genomics   Infectious disease
+Transcriptomics  	Parasitology  	Microbiology
+Computational biology	Molecular biology	Genetics
+Environmental sciences   Ecology   Infectious disease
+Environmental sciences  	Ecology  	Entomology
+Transcriptomics   Computational biology   Infectious disease
+Public health and epidemiology   Infectious disease   Environmental sciences
+Genomics	Genetics	Parasitology
+Proteomics    Microbiology    Parasitology
+Genomics	Genetics	Microbiology
+Bioinformatics	Biology	Genomics
+Genomics	Molecular biology	Microbiology
+Infectious disease    	Gene expression    	Biology
+Genetics	Molecular biology	Transcriptomics
+Genomics	Molecular biology	Parasitology
+Transcriptomics	RNA	Gene expression
+Transcriptomics     Genetics     Molecular biology
+Genomics    Molecular biology    Microbiology
+Environmental sciences    Veterinary medicine    Infectious disease
+Genetics   Genomics   Parasitology
+Environmental sciences  	Ecology  	Microbiology
+Epigenetics	Cell biology	Biochemistry
+Biochemistry	Proteomics	Parasitology
+Genomics	Microbiology	Molecular biology
+Genomics   Bioinformatics   Molecular biology
+Public health and epidemiology
+Environmental sciences
+Infectious disease
+Genetics	Molecular biology	Microbiology
+Anatomy	Laboratory animal science	Microbiology
+Genomics   Bioinformatics   Molecular biology
+Environmental sciences   Genetics   Zoology
+Genomics    Molecular biology    Bioinformatics
+Cell biology   Computational biology   Proteomics
+Genetics    Microbiology    Infectious disease
+Transcriptomics	Tropical medicine	Infectious disease
+Environmental sciences	I
+Infectious disease	I
+Vector-borne diseases	I
+Bioinformatics	Microbiology	Infectious disease
+Environmental sciences    Microbiology    Public health and epidemiology
+Environmental sciences	Public health and epidemiology	Infectious disease
+Transcriptomics	Tropical medicine	Parasitology
+Bioinformatics	Molecular biology	Parasitology
+Environmental sciences	Parasitology	Entomology
+Genetics	Genomics	Infectious disease
+Parasitology	Zoology	Immunology
+Genomics	Microbiology	Parasitology
+Microbiology	Medical biotechnology	Genetics
+Transcriptomics\tParasitology\tMolecular biology
+Environmental sciences   	Entomology  	Genomics
+Genomics   Bioinformatics   Genetics
+Genetics	Developmental biology	Reproductive health
+Transcriptomics	Parasitology	Molecular biology
+Genomics    DNA    Genetic variation
+Genomics    Molecular biology    Bioinformatics
+Genomics\tMicrobiology\tSequence analysis
+Environmental sciences   Infectious disease   Zoology
+Infectious disease 	Microbiology	Molecular biology
+Infectious disease	Population genetics	Vector biology
+Genomics	Personalised medicine	Parasitology
+Proteomics	Molecular interactions, pathways and networks	Molecular biology
+Genetics	Gene expression	Genomics
+Infectious disease	Public health and epidemiology	Microbiology
+Genetics   Molecular biology   Microbiology
+Genetics    Microbiology    Sequencing
+Transcriptomics   Immunology   Microbiology
+Public health and epidemiology, Environmental sciences, Infectious disease
+Transcriptomics   Zoology   Infectious disease
+Environmental sciences    Public health and epidemiology    Parasitology
+Genetics	Computational biology	Sequence analysis
+Genomics	Annotation	Microbiology
+Genomics   Molecular biology   Parasitology
+Genomics	Molecular biology	Sequence analysis
+Transcriptomics   RNA   Parasitology
+Infectious disease	Irbase	Mapping
+Bioinformatics	Molecular biology	Genetics
+Genomics   Genetics   Microbiology
+Genetics	Microbiology	Molecular biology
+Environmental sciences   Data architecture, analysis and design     Infectious disease
+Genetics	Molecular biology	Genomics
+Parasitology	Zoology	Environmental sciences
+Genetics	Genomics	Ecology
+Genomics   Computational biology   Molecular biology
+Genetics	Genomics	Sequence analysis
+Cell biology     Genetics     Molecular biology
+Genomics\tAgricultural science\tAnimal study
+Genomics   	Biology   	Sequence analysis
+Transcriptomics	Tropical medicine	Nutritional science
+Transcriptomics   Infection   Respiratory medicine
+Parasitology	Medical informatics	Infectious disease
+Transcriptomics    Microbiology   Parasitology
+Infectious disease	Population genetics	Toxicology
+Genetics	Microbiology	Infectious disease
+Environmental sciences   Population genetics   Infectious disease
+Genomics\tMolecular biology\tMicrobiology
+Transcriptomics  	Bioinformatics  	Cell biology
+Bioinformatics	Genetics	Phenomics
+Infectious disease	Zoology	Parasitology
+Genomics	Annotation	Microbiology
+Infectious disease   Entomology    Genetics
+Infectious disease	Population genetics	Ecology
+Parasitology	Zoology	"Infectious disease"
+Parasitology   	Animal study   	Genetics
+Microbiology	Molecular biology	Genomics
+Genetics	Genomic imprinting	Genomics
+Transcriptomics    Genetics    Developmental biology
+Public health and epidemiology	Zoology	Infectious disease
+Infectious disease	Zoology	Genomics
+Proteomics   Genetics   Parasitology
+Genetics	Genomics	Biology
+Cell biology	Immunology	Infectious disease
+Proteomics  	Microbiology	   Parasitology
+Genomics	Parasitology	Sequence analysis
+Entomology   Veterinary medicine   Infectious disease
+Environmental sciences  	Public health and epidemiology	Microbiology
+Genomics   Data submission, annotation, and curation   Parasitology
+Transcriptomics\tGenetics\tMicrobiology
+Transcriptomics    	Biology    	Genetics
+Genomics	Genetic engineering	Molecular biology
+Genomics  	Biology  	Microbiology
+Genomics	Biology	Parasitology
+Genomics	Proteomics	Microbiology
+Genomics   Biomolecular simulation   Genetics
+Infectious disease	Molecular biology	Transcriptomics
+Bioinformatics	Tropical medicine	Molecular biology
+Transcriptomics  	Genetics  	Biology
+Genomics  	Biosciences  	Microbiology
+Genetics	Genomics	Microbiology
+Genomics   	Biology    	Bioinformatics
+Environmental sciences  	Public health and epidemiology	Microbiology
+Genomics	Molecular biology	Parasitology
+Public health and epidemiology     Computational biology     Data acquisition
+Genomics 	Proteomics 	Parasitology
+Genetics	Gene expression	Developmental biology
+Genetics    Ecology    Transcriptomics
+Genetics	Population genetics	Environmental sciences
+Genetics	Gene expression	Biology
+Genetics	Population genetics	Parasitology
+Transcriptomics   Biology   Genetics
+Bioinformatics	Molecular biology	Genomics
+Transcriptomics	Plant biology	Infectious disease
+Genomics   Microbiology   Bioinformatics
+Genomics   Microbiology   Parasitology
+Bioinformatics	Phylogenetics	Microbiology
+Animal study   Genetics   Transcriptomics
+Parasitology	Zoology	Infectious disease
+Genomics   	Microbiology   	Sequence analysis
+Animal study   	Infectious disease  	Transcriptomics
+Epigenetics	Transcriptomics	Parasitology
+Parasitology	Zoology	"Infectious disease"
+Proteomics	Tropical medicine	Microbiology
+Genomics  	Microbiology	Parasitology
+Genomics  	Biology  	Microbiology
+Transcriptomics   Genetics   Infectious disease
+Transcriptomics	Cell biology	Microbiology
+Genomics	Epigenetics	Evolutionary biology
+Genomics    Molecular biology    Microbiology
+Infectious disease	Impact of insecticide resistance on disease control	Genomics
+Genomics\tMicrobiology\tInfectious disease
+Genomics	Cell biology	Biology
+Genomics\tBioinformatics\tMicrobiology
+Entomology	Zoology	Genetics
+Genomics	Sequence analysis	Parasitology
+"Bioinformatics"	"Genomics"	"Transcriptomics"
+Genetics	Population genetics	Transcriptomics
+Gene expression, Genetics, Molecular biology
+Environmental sciences	Zoology	Public health and epidemiology
+Environmental sciences   Microbiology   Public health and epidemiology
+Infectious disease	Tropical medicine	Microbiology
+Environmental sciences	Phylogeny	Microbial ecology
+Transcriptomics    DNA    Infectious disease
+Entomology	Agricultural science	Public health and epidemiology
+Genomics	Plant biology	DNA
+Genomics	Parasitology	Molecular biology
+Genomics	Sequence analysis	Parasitology
+Genomics   Molecular biology   Microbiology
+Infectious disease	Environmental sciences	Microbiology
+Gene expression   Transcriptomics    Infectious disease
+Bioinformatics	Microbiology	Molecular biology
+Transcriptomics	Animal study	Biology
+Genomics    Molecular biology    Microbiology
+Genomics	Proteomics	Parasitology
+Genetics    Genomics    Sequence analysis
+Genomics    Sequencing    Annotation
+Ribosome Profiling   Transcription factors and regulatory sites   Transcriptomics
+RNA, Genomics, Parasitology
+Genomics	Microbiology	Sequence analysis
+Infectious disease   Epidemiology   Genetics  
+Genomics   Bioinformatics   Biology
+Transcription factors and regulatory sites	Transcriptomics	Gene expression
+Genomics	Parasitology	Microbiology
+Proteomics   Mitochondria   Cell biology
+Transcriptomics     RNA     Cellular biology
+Parasitology   Computational biology   Molecular biology
+Comparative genomics	Taxonomy	Microbiology
+Infectious disease   Parasitology    Single cell transcriptomics
+Transcriptomics\tGenomics\tParasitology
+Anatomy\tReproductive health\tAnimal study
+Genomics    Molecular biology     Parasitology
+Transcriptomics    Gene expression    Microbiology
+Environmental sciences     Vector Biology     Infectious disease
+Biochemistry   Biotechnology    Proteomics
+Genetics	Microbial ecology	Microbiology
+Environmental sciences     Entomology      Geography
+Genomics	Genetics	Sequence analysis
+Parasitology	Microbiology	Genomics
+Molecular biology	Molecular interactions, pathways and networks	Data architecture, analysis and design
+"Infectious disease"	"Vector biology"	"Public health and epidemiology"
+Genomics	Population genomics	Parasitology
+Genomics   Bioinformatics   Biology
+Bioinformatics	Gene regulation	Genomics
+Genomics  	Molecular biology  	Sequence analysis
+Infectious disease	Public health and epidemiology	Medical toxicology
+Environmental sciences   Veterinary medicine   Infectious disease
+Genomics   Molecular biology   Zoology
+Animal study	Zoology	Genetics
+Epidemiology	Population genetics	Parasitology
+Epigenetics	Evolutionary biology	Molecular biology
+Transcriptomics     Anatomy     Biology
+Genomics	Genetics	Infectious disease
+Genomics    Annotation    Parasitology
+Proteomics    	Genomics    	Parasitology
+Proteomics	Drug development	Antimicrobial Resistance
+Genomics	Genetics	Parasitology
+Genomics   	Biology   	Sequence analysis
+Transcriptomics	Gene expression	Biology
+Genetics	Population genetics	Infectious disease
+Transcriptomics  	RNA  	Replication
+Bioinformatics	Microbiology	Proteomics
+Genomics	Sequence analysis	Parasitology
+Environmental sciences    Zoology    Microbiology
+Biochemistry	Databases	Cell biology
+Transcriptomics	Tropical medicine	Microbiology
+Genetics   Genomics   Toxicology
+Antimicrobial Resistance   Molecular biology   Genomics
+Environmental sciences	Population genetics	Public health and epidemiology
+Parasitology	Microbiology	Genetics
+Bioinformatics	Molecular biology	Genomics
+Environmental sciences  	Epidemiology	Genetics
+Infectious disease	Tropical medicine	Medical biotechnology
+Bioinformatics	Molecular biology	Parasitology
+Genomics 	Genetic variation	Genetics
+Transcriptomics    Genetics    Insecticide Resistance
+Parasitology   Proteomics   Infectious disease
+Transcriptomics   Mouse clinic   Infectious disease
+Genetics\tGenomics\tInfectious disease
+Transcriptomics    Infectious disease    Molecular biology
+Genomics	Database management	Computational biology
+Genomics    Microbiology    Molecular biology
+Environmental sciences  	Ecology	Microbiology
