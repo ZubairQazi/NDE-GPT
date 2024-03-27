@@ -10,8 +10,8 @@ import string
 import sys
 import time
 from typing import Any
+from tqdm import tqdm
 
-import backoff
 import httpx
 import openai
 import pandas as pd
@@ -42,16 +42,16 @@ dataset = pd.read_csv(dataset_path, lineterminator="\n")
 logging.info(f"Loaded dataset with {len(dataset)} rows.")
 
 output_path = input("Enter output file path with file extension (empty for default): ")
-if output_path == "":
+if output_path == "" or not os.path.isdir(os.path.dirname(output_path)):
     random_name = "".join(random.choices(string.ascii_lowercase + string.digits, k=8))
-    output_path = f"outputs/{random_name}.csv"
+    output_path = os.path.join("outputs", f"{random_name}.csv")
 logging.warning(f"Using '{output_path}'. This may overwrite previous results.")
 
 backup_path = input("Enter backup file path with file extension (empty for default): ")
 if backup_path == "":
     base_name = os.path.basename(dataset_path)
     file_name_without_extension = os.path.splitext(base_name)[0]
-    backup_path = f"outputs/backups/{file_name_without_extension}_backup.txt"
+    backup_path = os.path.join("outputs", "backups", f"{file_name_without_extension}_backup.txt")
 logging.info(f"Using '{backup_path}' as backup file. Append mode will be used.")
 
 # Get the number of lines in the backup file if it exists. If the file is empty set to default starting row (0)
@@ -61,11 +61,11 @@ if os.path.exists(backup_path):
         output = f.readlines()[1:]
         num_lines = len(output) + 1
         if num_lines > 2:
-            starting_index = num_lines - 2
+            starting_index = num_lines - 1
         else:
             num_lines = 0
         logging.info(
-            f"Backup file '{backup_path}' already exists and contains {num_lines} lines. Starting from row {num_lines-2}."
+            f"Backup file '{backup_path}' already exists and contains {num_lines - 1} responses. Starting from row {starting_index}."
         )
 else:
     # Check if backup_path directory exists, create it if it doesn't
@@ -76,15 +76,18 @@ else:
         f.write(f"RESULTS FOR: {dataset_path}\n")
     num_lines = 0
 
-client = AsyncOpenAI(api_key=openai_api_key)
 
+
+MAX_TOKENS_PER_MINUTE = 160000
+MAX_REQUESTS_PER_MINUTE = 3500
+MAX_CONTEXT_LENGTH = 16385
 
 # Originally sourced from https://gist.github.com/neubig/80de662fb3e225c18172ec218be4917a
 @retry(
     wait=wait_random_exponential(multiplier=2, min=3, max=60),
-    stop=stop_after_attempt(6),
+    stop=stop_after_attempt(3),
 )
-async def get_response(message, model="gpt-3.5-turbo-0125", max_tokens=25):
+async def get_response(message, model, client, max_tokens=248):
     try:
         response = await client.chat.completions.create(
             model=model,
@@ -94,12 +97,17 @@ async def get_response(message, model="gpt-3.5-turbo-0125", max_tokens=25):
         )
         return response.choices[0].message.content
     except openai.RateLimitError as e:
-        print(f"Rate limit exceeded: {e}. Retrying...")
+        print(f"Rate limit exceeded. Retrying...")
         raise
+    except openai.BadRequestError as e:
+        error_code = e.response.json()['error']['code']
+        print(f"Bad request --> Error code: {e.status_code} - {error_code}. Returning empty string...")
+        return ""
 
 
 async def dispatch_openai_requests(
     messages_list: list[list[dict[str, Any]]],
+    encoding: tiktoken.Encoding,
     model: str = "gpt-3.5-turbo-0125",
 ) -> list[str]:
     """Dispatches requests to OpenAI API asynchronously.
@@ -113,14 +121,11 @@ async def dispatch_openai_requests(
         List of responses from OpenAI API.
     """
 
-    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+    client = AsyncOpenAI(api_key=openai_api_key)
 
     total_tokens = 0
     total_requests = 0
     start_time = time.time()
-
-    max_tokens_per_minute = 80000
-    max_requests_per_minute = 3500
 
     response_aggregate, responses = [], []
     for i, message in enumerate(messages_list):
@@ -128,8 +133,8 @@ async def dispatch_openai_requests(
         tokens = encoding.encode(message[0]["content"])
         num_tokens = len(tokens)
         if (
-            total_tokens + num_tokens > max_tokens_per_minute
-            or total_requests >= max_requests_per_minute
+            total_tokens + num_tokens > MAX_TOKENS_PER_MINUTE
+            or total_requests >= MAX_REQUESTS_PER_MINUTE
         ):
             sleep_time = 60 - (time.time() - start_time)
             if sleep_time > 0:
@@ -144,8 +149,11 @@ async def dispatch_openai_requests(
         total_tokens += num_tokens
         total_requests += 1
 
-        response = await get_response(message)
-        responses.append(response)
+        response = await get_response(message, model, client)
+        if not response:
+            logging.warning(f"Empty response received for prompt at index {i}.")
+            response = "NO RESPONSE RECEIVED"
+        responses.append(response.replace("\n", "\t"))
         response_aggregate.append(response)
 
         # Save every 10 responses
@@ -153,7 +161,7 @@ async def dispatch_openai_requests(
             logging.info(f"Saving responses {i + num_lines-9} to {i + num_lines}...")
             with open(backup_path, "a") as f:
                 for resp in responses:
-                    f.write(resp.replace("\n", "\t") + "\n")
+                    f.write(resp + "\n")
             responses = []  # Clear the list of responses
 
     # Save any remaining responses
@@ -163,7 +171,7 @@ async def dispatch_openai_requests(
                 f"Saving remaining responses {i + num_lines-len(responses)} to {i + num_lines}..."
             )
             for response in responses:
-                f.write(response.replace("\n", "\t") + "\n")
+                f.write(response + "\n")
 
     return response_aggregate
 
@@ -198,16 +206,45 @@ try:
     dataset[text_column] = dataset[text_column].fillna("").astype(str)
     dataset[identifier_column] = dataset[identifier_column].fillna("").astype(str)
 
+    encoding_model = tiktoken.encoding_for_model("gpt-3.5-turbo-0125")
+    # Encode the template to get the length
+    template_without_placeholders = template.replace("<title>", "").replace("<abstract>", "").replace("<num_terms>", "")
+    template_tokens = encoding_model.encode(template_without_placeholders)
+    template_length = len(template_tokens)
+
     logging.info("Building prompts from dataset...")
     prompts = []
-    for idx, row in dataset.iloc[starting_index:].iterrows():
+    for idx, row in tqdm(dataset.iloc[starting_index:].iterrows(), total=dataset.shape[0] - starting_index):
 
         text = row[text_column] if row[text_column] != "" else "No Description"
         title = row[identifier_column] if row[identifier_column] != "" else "No Title"
 
-        prompt = template.replace("<title>", title)
-        prompt = prompt.replace("<abstract>", text)
-        prompt = prompt.replace("<num_terms>", "3")
+        text_tokens = encoding_model.encode(text)
+        title_tokens = encoding_model.encode(title)
+        total_length = template_length + len(text_tokens) + len(title_tokens)
+
+        while total_length > MAX_CONTEXT_LENGTH:
+            # Calculate how many tokens we need to remove from the text
+            excess_tokens = total_length - MAX_CONTEXT_LENGTH
+            logging.warning(f"Prompt at index {idx} exceeds the maximum length of {MAX_CONTEXT_LENGTH} tokens. Truncating text by {excess_tokens} tokens to fit...")
+            # Truncate the text to fit the context length
+            text_tokens = text_tokens[:len(text_tokens) - excess_tokens]
+            # Convert tokens back to string
+            text = encoding_model.decode(text_tokens)
+            # Reconstruct the prompt with the truncated text
+            if not text:
+                text = 'No Description'
+            prompt = template.replace("<abstract>", text)
+            prompt = prompt.replace("<title>", title)
+            prompt = prompt.replace("<num_terms>", "3")
+            # Recalculate the total length
+            total_length = len(encoding_model.encode(prompt))
+
+        # If the total length is within the limit, construct the prompt normally
+        if total_length <= MAX_CONTEXT_LENGTH:
+            prompt = template.replace("<abstract>", text)
+            prompt = prompt.replace("<title>", title)
+            prompt = prompt.replace("<num_terms>", "3")
 
         prompts.append([{"role": "user", "content": prompt}])
 
@@ -215,6 +252,7 @@ try:
     predictions = asyncio.run(
         dispatch_openai_requests(
             messages_list=prompts,
+            encoding=encoding_model
         )
     )
 
@@ -242,11 +280,7 @@ try:
     output_df.to_csv(output_path, lineterminator="\n", index=False)
 
 except SystemExit:
-    print("Caught system exit. Saving results and gracefully exiting.")
-    with open(output_path, "wb") as f:
-        pickle.dump(predictions, f)
-
+    print("Caught system exit. Gracefully exiting.")
+    
 except Exception:
-    print("Caught an exception. Saving results and gracefully exiting.")
-    with open(output_path, "wb") as f:
-        pickle.dump(predictions, f)
+    print("Caught an exception. Gracefully exiting.")
