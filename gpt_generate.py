@@ -1,26 +1,18 @@
-import ast
 import asyncio
-import csv
 import json
 import logging
 import os
-import pickle
 import random
 import string
 import sys
 import time
 from typing import Any
 from tqdm import tqdm
+import csv
 
-import httpx
 import openai
 import pandas as pd
 import tiktoken
-from bs4 import BeautifulSoup
-from langchain.callbacks import get_openai_callback
-from langchain.chat_models import ChatOpenAI
-from langchain.llms import OpenAI
-from langchain.schema.messages import HumanMessage, SystemMessage
 from openai import AsyncOpenAI
 from tenacity import (
     retry,
@@ -38,6 +30,7 @@ with open("config.json", "r") as config_file:
 openai_api_key = config["api_keys"]["openai"]
 
 dataset_path = input("Enter dataset path (CSV): ")
+
 dataset = pd.read_csv(dataset_path, lineterminator="\n")
 logging.info(f"Loaded dataset with {len(dataset)} rows.")
 
@@ -58,27 +51,28 @@ logging.info(f"Using '{backup_path}' as backup file. Append mode will be used.")
 output, starting_index = [], 0
 if os.path.exists(backup_path):
     with open(backup_path, "r") as f:
-        output = f.readlines()[1:]
-        num_lines = len(output) + 1
-        if num_lines > 2:
-            starting_index = num_lines - 1
-        else:
-            num_lines = 0
+        reader = csv.reader(f)
+        # Skip the first row which contains the header
+        next(reader, None)
+        output = list(reader)
+        num_responses = len(output)
+        starting_index = max(0, num_responses)
         logging.info(
-            f"Backup file '{backup_path}' already exists and contains {num_lines - 1} responses. Starting from row {starting_index}."
+            f"Backup file '{backup_path}' already exists and contains {starting_index} responses. Starting from row index {starting_index}."
         )
 else:
-    # Check if backup_path directory exists, create it if it doesn't
     backup_dir = os.path.dirname(backup_path)
     if not os.path.exists(backup_dir):
         os.makedirs(backup_dir)
-    with open(backup_path, "a") as f:
-        f.write(f"RESULTS FOR: {dataset_path}\n")
-    num_lines = 0
 
+    # Create the CSV file with a header
+    with open(backup_path, 'a', newline='') as f:
+        writer = csv.writer(f)
+        if os.stat(backup_path).st_size == 0:  # Check if the file is empty
+            writer.writerow(['id', 'response'])  # Write the header
+    num_responses = 0
 
-
-MAX_TOKENS_PER_MINUTE = 160000
+MAX_TOKENS_PER_MINUTE = 1000000
 MAX_REQUESTS_PER_MINUTE = 3500
 MAX_CONTEXT_LENGTH = 16385
 
@@ -97,7 +91,7 @@ async def get_response(message, model, client, max_tokens=248):
         )
         return response.choices[0].message.content
     except openai.RateLimitError as e:
-        print(f"Rate limit exceeded. Retrying...")
+        print(f"Rate limit exceeded: {e} \n Retrying...")
         raise
     except openai.BadRequestError as e:
         error_code = e.response.json()['error']['code']
@@ -128,10 +122,12 @@ async def dispatch_openai_requests(
     start_time = time.time()
 
     response_aggregate, responses = [], []
-    for i, message in enumerate(messages_list):
+    for i, (id, message) in enumerate(messages_list):
 
         tokens = encoding.encode(message[0]["content"])
         num_tokens = len(tokens)
+
+        # Check if rate limit has been reached
         if (
             total_tokens + num_tokens > MAX_TOKENS_PER_MINUTE
             or total_requests >= MAX_REQUESTS_PER_MINUTE
@@ -153,25 +149,26 @@ async def dispatch_openai_requests(
         if not response:
             logging.warning(f"Empty response received for prompt at index {i}.")
             response = "NO RESPONSE RECEIVED"
-        responses.append(response.replace("\n", "\t"))
-        response_aggregate.append(response)
+        responses.append([id, response.replace("\n", "\t").replace("\\n", "\t")])
+        response_aggregate.append([id, response])
 
         # Save every 10 responses
         if (i + 1) % 10 == 0:
-            logging.info(f"Saving responses {i + num_lines-9} to {i + num_lines}...")
-            with open(backup_path, "a") as f:
-                for resp in responses:
-                    f.write(resp + "\n")
-            responses = []  # Clear the list of responses
+            logging.info(f"Saving responses for indices {i + num_responses-9} to {i + num_responses}...")
+            with open(backup_path, 'a', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerows(responses)
+            responses = []
 
     # Save any remaining responses
     if responses:
-        with open(backup_path, "a") as f:
-            logging.info(
-                f"Saving remaining responses {i + num_lines-len(responses)} to {i + num_lines}..."
+        logging.info(
+                f"Saving remaining responses for indices {i + num_responses-len(responses)} to {i + num_responses}..."
             )
-            for response in responses:
-                f.write(response + "\n")
+        with open(backup_path, 'a', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerows(responses)
+        responses = []
 
     return response_aggregate
 
@@ -179,16 +176,20 @@ async def dispatch_openai_requests(
 try:
     ## Build prompts and feed to GPT
 
-    if "Name" in dataset.columns and "Description" in dataset.columns:
+    if "Name" in dataset.columns and "Description" in dataset.columns and '_id' in dataset.columns:
         text_column = "Description"
-        identifier_column = "Name"
+        title_column = "Name"
+        identifier_column = "_id"
 
     else:
         text_column = input(
             f"Enter the column corresponding to text data ({', '.join(dataset.columns)}): "
         )
+        title_column = input(
+            f"Enter the column corresponding to a title ({', '.join(dataset.columns)}): "
+        )
         identifier_column = input(
-            f"Enter the column corresponding to an identifier/title ({', '.join(dataset.columns)}): "
+            f"Enter the column corresponding to an ID ({', '.join(dataset.columns)}): "
         )
         if text_column not in dataset.columns:
             logging.error(f"Text column {text_column} not found in dataset.")
@@ -201,9 +202,11 @@ try:
         full_edam_topics = edam_file.readlines()
     full_edam_topics = [topic.strip() for topic in full_edam_topics]
     formatted_topics = "\n".join(full_edam_topics)
-    template = template.replace("<topics>", formatted_topics)
+    if "<topics>" in template:
+        template = template.replace("<topics>", formatted_topics)
 
     dataset[text_column] = dataset[text_column].fillna("").astype(str)
+    dataset[title_column] = dataset[title_column].fillna("").astype(str)
     dataset[identifier_column] = dataset[identifier_column].fillna("").astype(str)
 
     encoding_model = tiktoken.encoding_for_model("gpt-3.5-turbo-0125")
@@ -217,7 +220,8 @@ try:
     for idx, row in tqdm(dataset.iloc[starting_index:].iterrows(), total=dataset.shape[0] - starting_index):
 
         text = row[text_column] if row[text_column] != "" else "No Description"
-        title = row[identifier_column] if row[identifier_column] != "" else "No Title"
+        title = row[title_column] if row[title_column] != "" else "No Title"
+        id = row[identifier_column] if row[identifier_column] != "" else "No ID"
 
         text_tokens = encoding_model.encode(text)
         title_tokens = encoding_model.encode(title)
@@ -246,7 +250,7 @@ try:
             prompt = prompt.replace("<title>", title)
             prompt = prompt.replace("<num_terms>", "3")
 
-        prompts.append([{"role": "user", "content": prompt}])
+        prompts.append((id, [{"role": "user", "content": prompt}]))
 
     logging.info("Querying GPT...")
     predictions = asyncio.run(
@@ -261,26 +265,27 @@ try:
 
     # Strip extra starting/ending quotes from predictions output
     predictions = [
-        response.strip('"') if response.count('"') == 2 else response
-        for response in predictions
+        [id, response.strip('"') if response.count('"') == 2 else response]
+        for id, response in predictions
     ]
 
     # Save results to a CSV file
     output_df = pd.DataFrame(
         zip(
             dataset[identifier_column],
+            dataset[title_column],
             dataset[text_column],
             ["gpt-3.5-turbo"] * len(dataset),
-            predictions,
+            [response for _, response in predictions],
         ),
-        columns=[identifier_column, text_column, "Model", "Predictions"],
+        columns=[identifier_column, title_column, text_column, "Model", "Predictions"],
     )
 
     logging.info(f"Saving {len(output_df)} results to '{output_path}'...")
     output_df.to_csv(output_path, lineterminator="\n", index=False)
 
 except SystemExit:
-    print("Caught system exit. Gracefully exiting.")
+    logging.info("Caught system exit. Gracefully exiting.")
     
-except Exception:
-    print("Caught an exception. Gracefully exiting.")
+except Exception as e:
+    logging.error(f"Caught an exception: {e}.")
