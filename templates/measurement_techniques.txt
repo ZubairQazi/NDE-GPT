@@ -1,0 +1,5 @@
+A title and abstract associated with a scientific dataset are quoted below:
+
+"<title>": "<abstract>"
+
+Provide a list of all the techniques used to generate the above dataset. Just provide the names of the techniques. Explanations of the techniques are not needed.
