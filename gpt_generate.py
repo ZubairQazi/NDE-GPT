@@ -28,6 +28,8 @@ with open("config.json", "r") as config_file:
     config = json.load(config_file)
 
 openai_api_key = config["api_keys"]["openai"]
+openai_org_id = config["project_org_ids"]["openai_org"]
+openai_project_id = config["project_org_ids"]["openai_project"]
 
 dataset_path = input("Enter dataset path (CSV): ")
 
@@ -115,7 +117,7 @@ async def dispatch_openai_requests(
         List of responses from OpenAI API.
     """
 
-    client = AsyncOpenAI(api_key=openai_api_key)
+    client = AsyncOpenAI(api_key=openai_api_key, organization=openai_org_id, project=openai_project_id)
 
     total_tokens = 0
     total_requests = 0
@@ -196,7 +198,7 @@ try:
             sys.exit()
 
     logging.info("Loading and constructing templates...")
-    with open("templates/prompt_template.txt", "r") as template_file:
+    with open("templates/measurement_techniques.txt", "r") as template_file:
         template = template_file.read()
     with open("EDAM/edam_topics.txt", "r") as edam_file:
         full_edam_topics = edam_file.readlines()
