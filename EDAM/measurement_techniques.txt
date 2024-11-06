@@ -1,0 +1,35 @@
+Bioimaging
+ChIP-on-chip
+ChIP-seq
+Chromosome conformation capture
+Cryogenic electron microscopy
+Cytometry
+Echography
+Electrocardiography
+Electroencephalography
+Electron microscopy
+Exome sequencing
+Genome resequencing
+Genotyping experiment
+Imaging
+Immunoprecipitation experiment
+Light microscopy
+MRI
+Medical imaging
+Metagenomic sequencing
+Methylated DNA immunoprecipitation
+Microarray experiment
+NMR
+Neutron diffraction
+PCR experiment
+Protein interaction experiment
+Proteomics experiment
+RNA immunoprecipitation
+RNA-Seq
+RNAi experiment
+Sequencing
+Simulation experiment
+Single-Cell Sequencing
+Tomography
+Whole genome sequencing
+X-ray diffraction
